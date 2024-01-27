@@ -1,0 +1,27 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 7d1d6894-9284-4e7c-94a6-f57399e2c179)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "HV-" (shape input) (at 63.5 53.34 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 181cbd94-4a87-4b47-b838-65e33e6ec051)
+  )
+  (hierarchical_label "GND[0..15]" (shape output) (at 86.36 53.34 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 2ccf99de-837c-4af4-9738-c046a032a4be)
+  )
+  (hierarchical_label "+12V[0..15]" (shape output) (at 86.36 50.8 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 44dbd846-cdc9-496e-aeb7-632844821703)
+  )
+  (hierarchical_label "HV+" (shape input) (at 63.5 50.8 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid a2e7754e-ac15-4703-96cd-3e88655463af)
+  )
+)

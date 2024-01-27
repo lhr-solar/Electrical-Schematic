@@ -1,0 +1,27 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 43113d02-f9d8-463a-9785-3eaea06f03b5)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "CAN_H" (shape bidirectional) (at 76.2 72.39 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 1722c619-ba6f-4c66-8e19-4918d2f66ec7)
+  )
+  (hierarchical_label "HV+" (shape input) (at 76.2 63.5 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 6b81c23c-3575-4f42-acb8-5bdc86461ff2)
+  )
+  (hierarchical_label "HV-" (shape input) (at 76.2 66.04 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 70291847-b098-40c3-bd1a-9559c62bf726)
+  )
+  (hierarchical_label "CAN_L" (shape bidirectional) (at 76.2 74.93 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid a4488f6b-ffe3-432e-b4e1-58751c874a25)
+  )
+)

@@ -1,0 +1,27 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 99718652-5b10-4cd4-951e-87449c9ecde2)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "CAN_H" (shape bidirectional) (at 88.9 63.5 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 6a20b6ee-edfb-45f8-a2bd-10709cc1737d)
+  )
+  (hierarchical_label "+12V" (shape input) (at 88.9 69.85 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 8fde0ceb-a897-4ed1-a01d-e14a771c8b44)
+  )
+  (hierarchical_label "GND" (shape input) (at 88.9 72.39 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid ae55e309-d806-4138-946f-abbf40cfe427)
+  )
+  (hierarchical_label "CAN_L" (shape bidirectional) (at 88.9 66.04 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid b1c84da3-6bf7-4b59-a66c-4842959b8c25)
+  )
+)
