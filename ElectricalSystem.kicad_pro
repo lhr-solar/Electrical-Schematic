@@ -407,6 +407,10 @@
     [
       "6a795712-db28-46d0-9cff-06cae1d2a272",
       "SolarArray_C"
+    ],
+    [
+      "ccca1b7e-7cae-45c5-8054-44bad046e5b3",
+      "BlackbodyA"
     ]
   ],
   "text_variables": {}
