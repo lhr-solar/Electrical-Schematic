@@ -1,0 +1,128 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "a969dc67-4f4e-4342-91e8-dc6fdef44822")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "+Sens_HV-"
+		(shape output)
+		(at 121.92 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0fc34484-2ed3-44b0-890b-4b3f4fb6b5a9")
+	)
+	(hierarchical_label "-Sens_HV+"
+		(shape output)
+		(at 121.92 80.645 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4cae2388-e01e-4e39-9872-4eed55a684ff")
+	)
+	(hierarchical_label "Drive_HV-"
+		(shape output)
+		(at 121.92 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "62782aa0-7e1c-4a14-9e36-d5375e4bd793")
+	)
+	(hierarchical_label "GND_HV+"
+		(shape output)
+		(at 121.92 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "91fea468-30fb-4635-a6f6-e0956b4a034e")
+	)
+	(hierarchical_label "GND_Strobe"
+		(shape output)
+		(at 121.92 120.015 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a5f51414-a0bf-4d48-bb46-4b7f98925ab5")
+	)
+	(hierarchical_label "GND_HV-"
+		(shape output)
+		(at 121.92 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b8334daf-4b87-4db9-a62a-2f77ecbc134a")
+	)
+	(hierarchical_label "Drive_HV+"
+		(shape output)
+		(at 121.92 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dca2c662-5544-4517-accb-2351f639240d")
+	)
+	(hierarchical_label "-Sens_HV-"
+		(shape output)
+		(at 121.92 103.505 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e432b860-5f92-4b15-8114-73abb08631f4")
+	)
+	(hierarchical_label "+12V_Strobe"
+		(shape output)
+		(at 121.92 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eb6925c7-5b5e-426a-adf7-942eaea0468c")
+	)
+	(hierarchical_label "+Sens_HV+"
+		(shape output)
+		(at 121.92 71.755 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f23ce333-5aaa-4f00-86c3-b4038e9027b7")
+	)
+)

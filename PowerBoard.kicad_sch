@@ -1,0 +1,80 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "d9629fa3-27cd-44cb-bcd2-f4d7e4a9ca60")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "GND_DCDC"
+		(shape input)
+		(at 153.67 92.075 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0abab228-b4b7-4e4e-9fc1-0347a2f680f8")
+	)
+	(hierarchical_label "GND_Supp"
+		(shape input)
+		(at 153.67 100.965 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "297e0e44-b4ac-43e4-8c5d-c1d06df8cd84")
+	)
+	(hierarchical_label "+12V_LV"
+		(shape output)
+		(at 129.54 88.265 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "420a7d0e-4283-4da4-ad7a-3e0e64564503")
+	)
+	(hierarchical_label "+12V_Supp"
+		(shape input)
+		(at 153.67 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "97eb530f-9258-4f3a-822e-356cec7599dd")
+	)
+	(hierarchical_label "GND_LV"
+		(shape output)
+		(at 129.54 93.345 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a37ef51d-0301-4c5a-a149-5cc561464f41")
+	)
+	(hierarchical_label "+12V_DCDC"
+		(shape input)
+		(at 153.67 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ce6d663b-ef1c-418d-9709-252268872e61")
+	)
+)

@@ -1,0 +1,104 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "a7ffcdb5-11e3-44dd-8e79-9d6f396a13d9")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "+12V_OutBus"
+		(shape output)
+		(at 127.635 79.375 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0eab09ba-decf-4555-a68d-55700b5c825c")
+	)
+	(hierarchical_label "GND_OutBus"
+		(shape output)
+		(at 127.635 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1aa82ee4-da7c-4406-9d65-84fa2a2ab3e9")
+	)
+	(hierarchical_label "+12V_In"
+		(shape input)
+		(at 106.68 79.375 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1cb431d6-385a-4093-aba6-ce0d2bb9b4f4")
+	)
+	(hierarchical_label "-CarCAN"
+		(shape bidirectional)
+		(at 127.635 104.775 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2bae713e-50ff-48ac-a407-223694c5dad4")
+	)
+	(hierarchical_label "+CarCAN"
+		(shape bidirectional)
+		(at 127.635 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "55aeb90b-936a-45e5-a780-e278306c1e77")
+	)
+	(hierarchical_label "GND_In"
+		(shape input)
+		(at 107.315 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "81daa5ae-7b10-4193-ae51-38211a1cbaa9")
+	)
+	(hierarchical_label "GND_CarCAN"
+		(shape output)
+		(at 127.635 109.855 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c5fd5b7a-c4d1-4ef7-9196-dc888beb6065")
+	)
+	(hierarchical_label "+5V_CarCAN"
+		(shape output)
+		(at 127.635 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c6ca7ad5-18e1-44d9-b228-75b0ea2d4211")
+	)
+)

@@ -1,0 +1,86 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "a75b9d60-efe3-42a6-8800-d99f3a66afe7")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "+3.3V_Accel"
+		(shape output)
+		(at 108.585 78.105 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "183e8477-738f-46e2-83ea-337c9df379aa")
+	)
+	(hierarchical_label "+3.3V_Brake"
+		(shape output)
+		(at 108.585 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "7e6cdf8e-3b7e-4657-9ad7-65fde9816980")
+	)
+	(hierarchical_label "GND_Accel"
+		(shape output)
+		(at 108.585 92.075 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "d41c8e06-a38f-43a5-835a-bc6ef13a4c95")
+	)
+	(hierarchical_label "GND_Brake"
+		(shape output)
+		(at 108.585 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "d5df2785-e539-4ae2-9d62-15617a9c2fa5")
+	)
+	(hierarchical_label "Sens_Accel"
+		(shape input)
+		(at 108.585 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "df48f17f-bf00-49cb-96c6-a55a6c021ed5")
+	)
+	(hierarchical_label "Sens_Brake"
+		(shape input)
+		(at 108.585 106.045 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "f9f0f647-db80-4116-b5b1-8de2ec1bbe16")
+	)
+)

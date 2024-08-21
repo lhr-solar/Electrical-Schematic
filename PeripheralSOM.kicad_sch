@@ -2,12 +2,12 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "8deca6d2-cc84-43e9-9504-21144e8c2103")
+	(uuid "39af5c6b-cfa2-430d-b863-1faefcda7c76")
 	(paper "A4")
 	(lib_symbols)
-	(hierarchical_label "+ICAN"
+	(hierarchical_label "GND_PCAN"
 		(shape input)
-		(at 102.87 80.645 0)
+		(at 136.525 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15,11 +15,11 @@
 			)
 			(justify left)
 		)
-		(uuid "1748318f-462f-4596-855e-7d8020161dee")
+		(uuid "37ce90fc-dc6c-4882-adc3-8acc94a42306")
 	)
-	(hierarchical_label "+12V_ICAN"
+	(hierarchical_label "+PCAN"
 		(shape input)
-		(at 102.87 76.835 0)
+		(at 136.525 88.265 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -27,11 +27,11 @@
 			)
 			(justify left)
 		)
-		(uuid "36114e82-a0b5-4ea8-8d2e-6208e22c3524")
+		(uuid "3ffb737d-471e-4604-8f5f-7ac4b2606c04")
 	)
-	(hierarchical_label "GND_ICAN"
+	(hierarchical_label "+12V_PCAN"
 		(shape input)
-		(at 102.87 88.265 0)
+		(at 136.525 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -39,11 +39,11 @@
 			)
 			(justify left)
 		)
-		(uuid "666a6be4-c583-4375-8ce1-59bc17ffcf27")
+		(uuid "46b8f66f-ebbc-4529-9532-e5434ac26d30")
 	)
-	(hierarchical_label "-ICAN"
+	(hierarchical_label "-PCAN"
 		(shape input)
-		(at 102.87 84.455 0)
+		(at 136.525 92.075 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -51,6 +51,6 @@
 			)
 			(justify left)
 		)
-		(uuid "cc3c59a9-7bfb-41c8-9a27-d84c2f090a98")
+		(uuid "b391c109-0c4e-415a-8dc0-bfa16021556e")
 	)
 )
