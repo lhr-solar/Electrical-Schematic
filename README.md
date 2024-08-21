@@ -19,4 +19,4 @@ Electrical System Architecture for the 2024-2026 LHR Solar Vehicle
 - Add battery breakout boards and scrutineering boards 
 - Add High Voltage
 
-![Electrical-Schematic](ElectricalSchem2024.pdf)
+![Electrical-Schematic](ElectricalSchematic.png)
