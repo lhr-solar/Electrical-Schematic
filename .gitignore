@@ -27,3 +27,11 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+# Mac Specific
+.DS_Store
+
+# Draw.io
+*.bkp
+*.xml.bkp
+*.dtmp
