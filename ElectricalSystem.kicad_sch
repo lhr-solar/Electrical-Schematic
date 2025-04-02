@@ -3135,7 +3135,7 @@
 		)
 		(uuid "94b8e017-dfea-4fc8-ace7-e295b6f49f22")
 	)
-	(text "- Controls Daughter Board\n- Lighting Boards\n- Fans\n- Battery boards\n- DAcq\n- Array"
+	(text "- Controls Daughter Board\n- Lighting Boards\n- Fans\n- Battery boards\n- Telemetry sensors/leader\n- Array\n- VCU"
 		(exclude_from_sim no)
 		(at 338.836 25.146 0)
 		(effects
@@ -3245,6 +3245,7 @@
 	)
 	(label "12V_Out1"
 		(at 16.51 161.29 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3255,6 +3256,7 @@
 	)
 	(label "GND_Out11"
 		(at 43.815 186.69 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3265,6 +3267,7 @@
 	)
 	(label "12V_Out5"
 		(at 16.51 171.45 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3275,6 +3278,7 @@
 	)
 	(label "GND_Out2"
 		(at 43.815 163.83 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3318,6 +3322,7 @@
 	)
 	(label "12V_Out7"
 		(at 16.51 176.53 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3394,6 +3399,7 @@
 	)
 	(label "GND_Out12"
 		(at 43.815 189.23 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3404,6 +3410,7 @@
 	)
 	(label "GND_Out3"
 		(at 43.815 166.37 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3414,6 +3421,7 @@
 	)
 	(label "GND_Out4"
 		(at 43.815 168.91 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3435,6 +3443,7 @@
 	)
 	(label "12V_Out3"
 		(at 16.51 166.37 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3456,6 +3465,7 @@
 	)
 	(label "GND_Out6"
 		(at 43.815 173.99 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3488,6 +3498,7 @@
 	)
 	(label "12V_Out8"
 		(at 16.51 179.07 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3498,6 +3509,7 @@
 	)
 	(label "12V_Out2"
 		(at 16.51 163.83 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3508,6 +3520,7 @@
 	)
 	(label "GND_Out7"
 		(at 43.815 176.53 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3529,6 +3542,7 @@
 	)
 	(label "12V_Out6"
 		(at 16.51 173.99 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3539,6 +3553,7 @@
 	)
 	(label "12V_Out10"
 		(at 15.24 184.15 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3549,6 +3564,7 @@
 	)
 	(label "12V_Out12"
 		(at 15.24 189.23 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3570,6 +3586,7 @@
 	)
 	(label "12V_Out11"
 		(at 15.24 186.69 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3591,6 +3608,7 @@
 	)
 	(label "GND_Out1"
 		(at 43.815 161.29 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3623,6 +3641,7 @@
 	)
 	(label "12V_Out9"
 		(at 16.51 181.61 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3633,6 +3652,7 @@
 	)
 	(label "GND_Out10"
 		(at 43.815 184.15 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3654,6 +3674,7 @@
 	)
 	(label "GND_Out8"
 		(at 43.815 179.07 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3675,6 +3696,7 @@
 	)
 	(label "GND_Out5"
 		(at 43.815 171.45 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3718,6 +3740,7 @@
 	)
 	(label "GND_Out9"
 		(at 43.815 181.61 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3728,6 +3751,7 @@
 	)
 	(label "12V_Out4"
 		(at 16.51 168.91 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

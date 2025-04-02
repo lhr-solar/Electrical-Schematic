@@ -16,6 +16,8 @@ _autosave-*
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
+~*.lck
+\#auto_saved_files#
 
 # Netlist files (exported from Eeschema)
 *.net
@@ -28,10 +30,11 @@ fp-info-cache
 *.xml
 *.csv
 
-# Mac Specific
+#Mac Specific
 .DS_Store
 
-# Draw.io
-*.bkp
-*.xml.bkp
-*.dtmp
+# JLCPCB Production Files
+Production/
+
+# Backups
+*-backups/*
