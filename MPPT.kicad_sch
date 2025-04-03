@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "e5e82218-883f-4144-b2c1-ca76f9a86505")
+	(uuid "e972ee54-1134-4063-a40d-61ebb59c3305")
 	(paper "A4")
 	(lib_symbols)
 	(hierarchical_label "GND_CarCAN"
