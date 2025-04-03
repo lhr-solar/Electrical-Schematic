@@ -1,0 +1,96 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "e5e82218-883f-4144-b2c1-ca76f9a86505")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "GND_CarCAN"
+		(shape input)
+		(at 132.08 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0d332318-0733-4613-9d62-4295c8cc4804")
+	)
+	(hierarchical_label "BATT+"
+		(shape output)
+		(at 132.08 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "284ef668-d209-4714-8016-b730314a1028")
+	)
+	(hierarchical_label "PV-"
+		(shape input)
+		(at 132.08 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "779c50e5-444e-48e3-8f1b-5e163ad2c5b9")
+	)
+	(hierarchical_label "-CarCAN"
+		(shape input)
+		(at 132.08 59.055 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "944e41fe-c7e3-49ea-a0d7-c6ed30976ac2")
+	)
+	(hierarchical_label "+CarCAN"
+		(shape input)
+		(at 132.08 55.245 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e2101cc7-8d55-4bb4-aba2-a0389dcb43db")
+	)
+	(hierarchical_label "BATT-"
+		(shape output)
+		(at 132.08 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e38f3649-a6b9-4109-be9a-7285e00f4124")
+	)
+	(hierarchical_label "PV+"
+		(shape input)
+		(at 132.08 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ea128ec0-6f5a-4345-a3b6-b3478de34519")
+	)
+	(hierarchical_label "+12V_CarCAN"
+		(shape input)
+		(at 132.08 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f7da5673-9be7-47a5-a6c1-1eaa3d6317f2")
+	)
+)

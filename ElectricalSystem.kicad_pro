@@ -490,6 +490,14 @@
       "PeripheralSOM5"
     ],
     [
+      "cb410cb7-3c99-464a-a4d3-9e42402a3364",
+      "VehicleControlUnit"
+    ],
+    [
+      "117ff900-6757-4606-89df-8809639c6d77",
+      "LeaderSOM3"
+    ],
+    [
       "81a8cc99-ddb0-40f7-be09-3b14735e0a85",
       "Pedal_Board"
     ],
@@ -568,6 +576,22 @@
     [
       "38a94e3d-afbb-4270-befc-f1e39bcd54bc",
       "PeripheralSOM11"
+    ],
+    [
+      "1cf2fa1e-ddfe-4b6a-b34e-c17a4700c7a2",
+      "Steering_Board"
+    ],
+    [
+      "8a497dca-e110-4cfa-bbca-83b8bbb7227c",
+      "MPPT_B"
+    ],
+    [
+      "e1481987-c679-4dde-b0ae-9b2348ca5d72",
+      "MPPT_C"
+    ],
+    [
+      "7ed6b0f7-dc10-4fce-80f0-ab0297a049bc",
+      "MPPT_A"
     ]
   ],
   "text_variables": {}
