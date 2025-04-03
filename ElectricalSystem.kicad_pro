@@ -482,7 +482,7 @@
       "Lighting_Daughter_Back"
     ],
     [
-      "8cf9c5e5-5e65-4c02-9dd1-fd23261b6807",
+      "12c127cf-95a0-4f51-9621-5b606f3d2c29",
       "BPS_Scrutineering1"
     ],
     [
@@ -506,7 +506,7 @@
       "PeripheralSOM7"
     ],
     [
-      "c24a0c1b-5662-4213-b83c-2652e91a1c0a",
+      "ba86bad2-6c72-4f94-92c2-0a6e93924cfa",
       "PrimaryBatteryPack1"
     ],
     [
@@ -556,6 +556,14 @@
     [
       "f671fe54-5f08-4289-9d9e-cd1342f38452",
       "PeripheralSOM8"
+    ],
+    [
+      "ee66a488-5bd3-4758-b20a-bbbd61769e90",
+      "Pump_Control_Board"
+    ],
+    [
+      "4f5b7b81-981a-4f69-8cc6-0686ba68f9a4",
+      "PeripheralSOM9"
     ]
   ],
   "text_variables": {}
