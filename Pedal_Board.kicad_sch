@@ -1,14 +1,13 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "a75b9d60-efe3-42a6-8800-d99f3a66afe7")
 	(paper "A4")
 	(lib_symbols)
 	(hierarchical_label "+3.3V_Accel"
 		(shape output)
 		(at 108.585 78.105 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21,7 +20,6 @@
 	(hierarchical_label "+3.3V_Brake"
 		(shape output)
 		(at 108.585 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -34,7 +32,6 @@
 	(hierarchical_label "GND_Accel"
 		(shape output)
 		(at 108.585 92.075 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47,7 +44,6 @@
 	(hierarchical_label "GND_Brake"
 		(shape output)
 		(at 108.585 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -60,7 +56,6 @@
 	(hierarchical_label "Sens_Accel"
 		(shape input)
 		(at 108.585 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -73,7 +68,6 @@
 	(hierarchical_label "Sens_Brake"
 		(shape input)
 		(at 108.585 106.045 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

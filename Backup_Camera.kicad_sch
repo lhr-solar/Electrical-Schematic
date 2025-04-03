@@ -2,18 +2,18 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "a75b9d60-efe3-42a6-8800-d99f3a66afe7")
+	(uuid "e8081873-6d94-4721-b9cb-8fe89454a229")
 	(paper "A4")
 	(lib_symbols)
-	(hierarchical_label "TemperatureTaps"
-		(shape input)
-		(at 157.48 92.71 0)
+	(hierarchical_label "USB"
+		(shape output)
+		(at 149.86 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "640df541-d786-4fcc-9478-ea2582acf5be")
+		(uuid "206f718b-7cc2-4168-8961-952ffa697721")
 	)
 )

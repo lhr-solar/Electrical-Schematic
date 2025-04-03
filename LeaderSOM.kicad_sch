@@ -1,14 +1,13 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "1b60900b-c94a-492b-beec-dc25c63497c7")
 	(paper "A4")
 	(lib_symbols)
-	(hierarchical_label "+5V_CarCAN"
+	(hierarchical_label "+12V_CarCAN"
 		(shape input)
 		(at 53.34 71.755 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20,7 +19,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 53.34 62.865 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -32,7 +30,6 @@
 	(hierarchical_label "GND_PCAN"
 		(shape output)
 		(at 53.34 95.885 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +41,6 @@
 	(hierarchical_label "+CarCAN"
 		(shape input)
 		(at 53.34 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -56,7 +52,6 @@
 	(hierarchical_label "-PCAN"
 		(shape output)
 		(at 53.34 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -68,7 +63,6 @@
 	(hierarchical_label "GND_CarCAN"
 		(shape input)
 		(at 53.34 75.565 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -80,7 +74,6 @@
 	(hierarchical_label "+12V"
 		(shape input)
 		(at 53.34 58.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -92,7 +85,6 @@
 	(hierarchical_label "-CarCAN"
 		(shape input)
 		(at 53.34 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -104,7 +96,6 @@
 	(hierarchical_label "+PCAN"
 		(shape output)
 		(at 53.34 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -116,7 +107,6 @@
 	(hierarchical_label "+12V_PCAN"
 		(shape output)
 		(at 53.34 92.075 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

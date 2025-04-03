@@ -1,14 +1,13 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "39af5c6b-cfa2-430d-b863-1faefcda7c76")
 	(paper "A4")
 	(lib_symbols)
 	(hierarchical_label "GND_PCAN"
 		(shape input)
 		(at 136.525 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20,7 +19,6 @@
 	(hierarchical_label "+PCAN"
 		(shape input)
 		(at 136.525 88.265 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -32,7 +30,6 @@
 	(hierarchical_label "+12V_PCAN"
 		(shape input)
 		(at 136.525 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +41,6 @@
 	(hierarchical_label "-PCAN"
 		(shape input)
 		(at 136.525 92.075 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

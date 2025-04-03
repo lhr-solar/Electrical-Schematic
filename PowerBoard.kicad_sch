@@ -1,14 +1,13 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "d9629fa3-27cd-44cb-bcd2-f4d7e4a9ca60")
 	(paper "A4")
 	(lib_symbols)
 	(hierarchical_label "GND_DCDC"
 		(shape input)
 		(at 153.67 92.075 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20,7 +19,6 @@
 	(hierarchical_label "GND_Supp"
 		(shape input)
 		(at 153.67 100.965 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -32,7 +30,6 @@
 	(hierarchical_label "+12V_LV"
 		(shape output)
 		(at 129.54 88.265 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +41,6 @@
 	(hierarchical_label "+12V_Supp"
 		(shape input)
 		(at 153.67 97.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -56,7 +52,6 @@
 	(hierarchical_label "GND_LV"
 		(shape output)
 		(at 129.54 93.345 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -68,7 +63,6 @@
 	(hierarchical_label "+12V_DCDC"
 		(shape input)
 		(at 153.67 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

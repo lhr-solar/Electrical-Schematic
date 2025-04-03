@@ -1,14 +1,13 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "a7ffcdb5-11e3-44dd-8e79-9d6f396a13d9")
 	(paper "A4")
 	(lib_symbols)
 	(hierarchical_label "+12V_OutBus"
 		(shape output)
 		(at 127.635 79.375 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20,7 +19,6 @@
 	(hierarchical_label "GND_OutBus"
 		(shape output)
 		(at 127.635 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -32,7 +30,6 @@
 	(hierarchical_label "+12V_In"
 		(shape input)
 		(at 106.68 79.375 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +41,6 @@
 	(hierarchical_label "-CarCAN"
 		(shape bidirectional)
 		(at 127.635 104.775 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -56,7 +52,6 @@
 	(hierarchical_label "+CarCAN"
 		(shape bidirectional)
 		(at 127.635 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -68,7 +63,6 @@
 	(hierarchical_label "GND_In"
 		(shape input)
 		(at 107.315 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -80,7 +74,6 @@
 	(hierarchical_label "GND_CarCAN"
 		(shape output)
 		(at 127.635 109.855 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -92,7 +85,6 @@
 	(hierarchical_label "+5V_CarCAN"
 		(shape output)
 		(at 127.635 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
