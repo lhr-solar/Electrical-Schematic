@@ -38,28 +38,6 @@
 		)
 		(uuid "1cb431d6-385a-4093-aba6-ce0d2bb9b4f4")
 	)
-	(hierarchical_label "-CarCAN"
-		(shape bidirectional)
-		(at 127.635 104.775 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2bae713e-50ff-48ac-a407-223694c5dad4")
-	)
-	(hierarchical_label "+CarCAN"
-		(shape bidirectional)
-		(at 127.635 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "55aeb90b-936a-45e5-a780-e278306c1e77")
-	)
 	(hierarchical_label "GND_In"
 		(shape input)
 		(at 107.315 86.36 0)
@@ -70,27 +48,5 @@
 			(justify left)
 		)
 		(uuid "81daa5ae-7b10-4193-ae51-38211a1cbaa9")
-	)
-	(hierarchical_label "GND_CarCAN"
-		(shape output)
-		(at 127.635 109.855 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c5fd5b7a-c4d1-4ef7-9196-dc888beb6065")
-	)
-	(hierarchical_label "+5V_CarCAN"
-		(shape output)
-		(at 127.635 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c6ca7ad5-18e1-44d9-b228-75b0ea2d4211")
 	)
 )

@@ -564,6 +564,14 @@
     [
       "4f5b7b81-981a-4f69-8cc6-0686ba68f9a4",
       "PeripheralSOM9"
+    ],
+    [
+      "5b5d75d6-13f9-453a-8330-4ab8ab9e9ca4",
+      "PeripheralSOM10"
+    ],
+    [
+      "38a94e3d-afbb-4270-befc-f1e39bcd54bc",
+      "PeripheralSOM11"
     ]
   ],
   "text_variables": {}

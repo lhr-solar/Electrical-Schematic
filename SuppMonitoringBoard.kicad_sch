@@ -5,17 +5,6 @@
 	(uuid "5d89a65e-61fa-4465-8a59-59a620659c87")
 	(paper "A4")
 	(lib_symbols)
-	(hierarchical_label "GND_CarCAN"
-		(shape input)
-		(at 114.935 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0871625b-201f-4a25-8d53-f67d364b2006")
-	)
 	(hierarchical_label "+12V_Supp"
 		(shape input)
 		(at 147.955 80.01 0)
@@ -37,38 +26,5 @@
 			(justify left)
 		)
 		(uuid "8ec3ccc2-2bc6-4875-bf27-6fcf167e639c")
-	)
-	(hierarchical_label "+5V_CarCAN"
-		(shape input)
-		(at 114.935 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a16decc9-daa1-481e-8b3a-e9ac91d8502e")
-	)
-	(hierarchical_label "CarCAN+"
-		(shape bidirectional)
-		(at 114.935 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c1a4b9f5-0c6c-4dae-8be6-792c744324eb")
-	)
-	(hierarchical_label "CarCAN-"
-		(shape bidirectional)
-		(at 114.935 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f36b6f71-eead-452a-a55a-421ac9a8ec69")
 	)
 )

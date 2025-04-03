@@ -5,6 +5,17 @@
 	(uuid "b7cd426c-3948-4873-8fe9-54a8da35ef1c")
 	(paper "A4")
 	(lib_symbols)
+	(hierarchical_label "LV_PWR"
+		(shape input)
+		(at 158.75 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "20894035-63c0-4533-8899-f70eff28d04f")
+	)
 	(hierarchical_label "HDMI"
 		(shape input)
 		(at 158.75 106.68 0)
