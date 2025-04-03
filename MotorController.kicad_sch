@@ -5,6 +5,17 @@
 	(uuid "8deca6d2-cc84-43e9-9504-21144e8c2103")
 	(paper "A4")
 	(lib_symbols)
+	(hierarchical_label "DC-"
+		(shape input)
+		(at 102.87 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "03939a40-fd35-4054-a9f2-d9e93bb5bfa1")
+	)
 	(hierarchical_label "+ICAN"
 		(shape input)
 		(at 102.87 80.645 0)
@@ -38,6 +49,28 @@
 		)
 		(uuid "666a6be4-c583-4375-8ce1-59bc17ffcf27")
 	)
+	(hierarchical_label "DC+"
+		(shape input)
+		(at 102.87 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6b9b9e68-2056-4691-b11d-a447aa05e3d5")
+	)
+	(hierarchical_label "PhaseB"
+		(shape output)
+		(at 102.87 104.775 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ac9ce4d9-670e-4781-a9e2-e46e615212a0")
+	)
 	(hierarchical_label "-ICAN"
 		(shape input)
 		(at 102.87 84.455 0)
@@ -48,5 +81,27 @@
 			(justify left)
 		)
 		(uuid "cc3c59a9-7bfb-41c8-9a27-d84c2f090a98")
+	)
+	(hierarchical_label "PhaseA"
+		(shape output)
+		(at 102.87 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ccbfb2ce-bc6f-4b95-b509-c283f6106fd0")
+	)
+	(hierarchical_label "PhaseC"
+		(shape output)
+		(at 102.87 108.585 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f55043d6-8f20-4638-9c2d-40d446ef4d2c")
 	)
 )
