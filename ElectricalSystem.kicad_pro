@@ -490,14 +490,6 @@
       "PeripheralSOM5"
     ],
     [
-      "0cfac603-f68d-466c-9af3-e664b0698c51",
-      "Contactor_Driver"
-    ],
-    [
-      "07ae6526-e9bf-416c-9fff-4f27ff368d9d",
-      "PeripheralSOM6"
-    ],
-    [
       "81a8cc99-ddb0-40f7-be09-3b14735e0a85",
       "Pedal_Board"
     ],
@@ -568,6 +560,10 @@
     [
       "5b5d75d6-13f9-453a-8330-4ab8ab9e9ca4",
       "PeripheralSOM10"
+    ],
+    [
+      "4c6962b8-687d-4f05-9367-aaf65fd06fba",
+      "MotorControllerInterface"
     ],
     [
       "38a94e3d-afbb-4270-befc-f1e39bcd54bc",
