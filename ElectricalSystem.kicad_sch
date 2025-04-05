@@ -1293,6 +1293,19 @@
 		)
 		(uuid "c86e688c-53f9-4680-bc9f-48376e5f33c4")
 	)
+	(text "add array contactor and 2 fan conns"
+		(exclude_from_sim no)
+		(at 183.388 117.348 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "c8742320-cb41-4270-bc1f-8139fbae9fa9")
+	)
 	(text "Lighting"
 		(exclude_from_sim no)
 		(at 413.512 23.876 0)
@@ -1356,6 +1369,19 @@
 			)
 		)
 		(uuid "e866e90d-d09c-4f1f-8e07-6271ddc92cfb")
+	)
+	(text "combine volttemp (1-8)"
+		(exclude_from_sim no)
+		(at 237.236 58.928 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "e970f6eb-f7f3-4b88-a1bc-b4069ceb11fe")
 	)
 	(text "CarCAN"
 		(exclude_from_sim no)
@@ -9664,13 +9690,23 @@
 			)
 		)
 		(pin "BRK_Canopy" output
-			(at 400.685 93.345 180)
+			(at 400.685 92.71 180)
 			(uuid "c5090cd4-3155-42aa-9b43-4fcc2cd9d2d1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "BPS_Strobe" output
+			(at 431.8 92.71 0)
+			(uuid "10d640ff-d495-46a9-9131-3266e2447be0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
