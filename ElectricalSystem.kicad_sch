@@ -833,8 +833,8 @@
 		(uuid 037b2f16-31d9-4be1-8b92-0b21f98bc5ba)
 	)
 	(rectangle
-		(start 212.09 124.46)
-		(end 267.97 180.34)
+		(start 210.82 184.15)
+		(end 266.7 240.03)
 		(stroke
 			(width 0.508)
 			(type dash)
@@ -929,7 +929,7 @@
 		(stroke
 			(width 0.508)
 			(type dash)
-			(color 254 137 0 1)
+			(color 49 121 70 1)
 		)
 		(fill
 			(type none)
@@ -951,7 +951,7 @@
 	)
 	(rectangle
 		(start 132.08 18.415)
-		(end 267.97 121.285)
+		(end 267.97 151.13)
 		(stroke
 			(width 0.508)
 			(type dash)
@@ -1031,7 +1031,7 @@
 				(size 5.08 5.08)
 				(thickness 0.508)
 				(bold yes)
-				(color 254 137 0 1)
+				(color 49 121 70 1)
 			)
 		)
 		(uuid "2d75e6fc-c17d-45ea-a8e4-b853aa3cea29")
@@ -1170,7 +1170,7 @@
 	)
 	(text "Cooling"
 		(exclude_from_sim no)
-		(at 228.473 130.683 0)
+		(at 227.203 190.373 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -1191,6 +1191,18 @@
 			)
 		)
 		(uuid "6e0ad51b-34e5-4c4d-9890-1766aa1d0520")
+	)
+	(text "Array Contactor"
+		(exclude_from_sim no)
+		(at 184.658 120.142 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.127)
+				(color 0 3 255 1)
+			)
+		)
+		(uuid "6ef80c90-b824-4a95-94e5-86844ddb6cb3")
 	)
 	(text "Determine how many USB/whether using USB hub on canopy"
 		(exclude_from_sim no)
@@ -1291,6 +1303,18 @@
 		)
 		(uuid "a6336992-f5b4-43af-9f72-ceaddead6ed0")
 	)
+	(text "Radiator Fans"
+		(exclude_from_sim no)
+		(at 236.728 228.346 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.127)
+				(color 0 3 255 1)
+			)
+		)
+		(uuid "ba5d0cd9-bb64-4caf-a28c-d35cc966b6fa")
+	)
 	(text "Driver Controls"
 		(exclude_from_sim no)
 		(at 305.562 21.844 0)
@@ -1328,19 +1352,6 @@
 			)
 		)
 		(uuid "c86e688c-53f9-4680-bc9f-48376e5f33c4")
-	)
-	(text "add array contactor and 2 fan conns"
-		(exclude_from_sim no)
-		(at 183.388 117.348 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "c8742320-cb41-4270-bc1f-8139fbae9fa9")
 	)
 	(text "Lighting"
 		(exclude_from_sim no)
@@ -1380,6 +1391,31 @@
 			)
 		)
 		(uuid "d797225b-b4af-4511-8c70-31397d89b496")
+	)
+	(text "Ventilation Fans"
+		(exclude_from_sim no)
+		(at 175.768 113.792 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.127)
+				(color 0 3 255 1)
+			)
+		)
+		(uuid "dc196028-8179-4a18-8d1d-2282707bf1f3")
+	)
+	(text "add shunt?"
+		(exclude_from_sim no)
+		(at 233.68 331.978 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "e7bc801a-f162-4101-ba6b-e149f2752494")
 	)
 	(text "TODO:\n"
 		(exclude_from_sim no)
@@ -1430,6 +1466,19 @@
 			)
 		)
 		(uuid "fa41ea51-4571-4f2e-877a-2960cf56e9c9")
+	)
+	(text "this strobe is over CAN now.."
+		(exclude_from_sim no)
+		(at 147.828 107.188 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "fa65d407-91e1-4a44-bfcd-43b63181341e")
 	)
 	(junction
 		(at 185.42 280.67)
@@ -1925,7 +1974,7 @@
 		(uuid "7c473044-5f83-4e33-84bd-8089d6733620")
 	)
 	(bus_entry
-		(at 257.81 154.94)
+		(at 256.54 214.63)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -2069,7 +2118,7 @@
 		(uuid "9cb0348f-585d-44ae-96cb-bee0baf360e8")
 	)
 	(bus_entry
-		(at 257.81 151.13)
+		(at 256.54 210.82)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -2159,7 +2208,7 @@
 		(uuid "c59e9755-f8d4-4453-8e98-27ba4a64004d")
 	)
 	(bus_entry
-		(at 257.81 143.51)
+		(at 256.54 203.2)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -2447,7 +2496,7 @@
 		(uuid "fe1e84d0-a865-4dc9-9039-7b19cfab3a5c")
 	)
 	(bus_entry
-		(at 257.81 147.32)
+		(at 256.54 207.01)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -2478,7 +2527,7 @@
 	)
 	(bus
 		(pts
-			(xy 260.35 146.05) (xy 260.35 149.86)
+			(xy 259.08 205.74) (xy 259.08 209.55)
 		)
 		(stroke
 			(width 0)
@@ -2488,7 +2537,7 @@
 	)
 	(bus
 		(pts
-			(xy 260.35 157.48) (xy 260.35 160.02)
+			(xy 259.08 217.17) (xy 259.08 219.71)
 		)
 		(stroke
 			(width 0)
@@ -2652,6 +2701,16 @@
 		)
 		(uuid "0f5fbc54-ad60-4d6d-bf0d-6595a816d499")
 	)
+	(wire
+		(pts
+			(xy 203.2 118.11) (xy 215.9 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fb6a1e3-0fd3-4ee3-b5cc-cbc09a8b9b47")
+	)
 	(bus
 		(pts
 			(xy 285.75 290.83) (xy 285.75 294.64)
@@ -2744,6 +2803,16 @@
 		)
 		(uuid "18886a8d-0b75-45c9-8e43-681e1aad30b8")
 	)
+	(wire
+		(pts
+			(xy 203.2 120.65) (xy 215.9 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18b19099-1697-4600-a83b-37354f94c929")
+	)
 	(bus
 		(pts
 			(xy 381 52.705) (xy 381 56.515)
@@ -2756,7 +2825,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 110.49) (xy 215.265 110.49)
+			(xy 203.2 109.22) (xy 215.9 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2911,7 +2980,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 170.18) (xy 226.06 170.18)
+			(xy 214.63 229.87) (xy 224.79 229.87)
 		)
 		(stroke
 			(width 0)
@@ -2921,7 +2990,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 154.94) (xy 257.81 154.94)
+			(xy 255.27 214.63) (xy 256.54 214.63)
 		)
 		(stroke
 			(width 0)
@@ -3076,7 +3145,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 147.32) (xy 257.81 147.32)
+			(xy 255.27 207.01) (xy 256.54 207.01)
 		)
 		(stroke
 			(width 0)
@@ -3156,7 +3225,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 104.14) (xy 215.265 104.14)
+			(xy 203.2 104.14) (xy 215.9 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3248,7 +3317,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 170.18) (xy 265.43 170.18)
+			(xy 255.27 229.87) (xy 264.16 229.87)
 		)
 		(stroke
 			(width 0)
@@ -3330,7 +3399,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 167.64) (xy 265.43 167.64)
+			(xy 255.27 227.33) (xy 264.16 227.33)
 		)
 		(stroke
 			(width 0)
@@ -3513,16 +3582,6 @@
 			(color 194 0 0 1)
 		)
 		(uuid "4cc22f77-3513-496e-8b2d-9878d1b75119")
-	)
-	(wire
-		(pts
-			(xy 203.2 90.17) (xy 215.265 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ce9d49c-b1ad-4a06-9f94-6ee53117ff1c")
 	)
 	(bus
 		(pts
@@ -3710,6 +3769,36 @@
 		)
 		(uuid "5ad47afe-6628-4298-9202-8f2c3d37a497")
 	)
+	(wire
+		(pts
+			(xy 203.2 90.17) (xy 215.9 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b6c5f9e-75ce-4b21-bf02-c960ec29715f")
+	)
+	(wire
+		(pts
+			(xy 203.2 123.19) (xy 215.9 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bd5e8f4-9924-4089-ab8c-20570b157c1d")
+	)
+	(wire
+		(pts
+			(xy 151.13 111.76) (xy 162.56 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f87dc1d-7539-4528-b990-e9e40d4ee9e5")
+	)
 	(bus
 		(pts
 			(xy 159.385 74.295) (xy 159.385 78.105)
@@ -3722,7 +3811,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 86.995) (xy 215.265 86.995)
+			(xy 203.2 87.63) (xy 215.9 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3732,7 +3821,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 165.1) (xy 265.43 165.1)
+			(xy 255.27 224.79) (xy 264.16 224.79)
 		)
 		(stroke
 			(width 0)
@@ -3823,6 +3912,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 115.57) (xy 162.56 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "690823a7-953a-4f63-a9dc-6175f2f1bf5b")
+	)
+	(wire
+		(pts
 			(xy 278.13 39.37) (xy 288.29 39.37)
 		)
 		(stroke
@@ -3897,7 +3996,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 151.13) (xy 257.81 151.13)
+			(xy 255.27 210.82) (xy 256.54 210.82)
 		)
 		(stroke
 			(width 0)
@@ -4043,7 +4142,7 @@
 	)
 	(bus
 		(pts
-			(xy 260.35 149.86) (xy 260.35 153.67)
+			(xy 259.08 209.55) (xy 259.08 213.36)
 		)
 		(stroke
 			(width 0)
@@ -4155,7 +4254,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 162.56) (xy 265.43 162.56)
+			(xy 255.27 222.25) (xy 264.16 222.25)
 		)
 		(stroke
 			(width 0)
@@ -4215,7 +4314,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 166.37) (xy 226.06 166.37)
+			(xy 214.63 226.06) (xy 224.79 226.06)
 		)
 		(stroke
 			(width 0)
@@ -4312,6 +4411,16 @@
 			(type default)
 		)
 		(uuid "901d96db-d057-4e02-9a93-a2a810ebbf64")
+	)
+	(wire
+		(pts
+			(xy 203.2 115.57) (xy 215.9 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "905e2b6e-fbc6-4bea-ab41-d394de627875")
 	)
 	(bus
 		(pts
@@ -4492,7 +4601,7 @@
 	)
 	(bus
 		(pts
-			(xy 260.35 153.67) (xy 260.35 157.48)
+			(xy 259.08 213.36) (xy 259.08 217.17)
 		)
 		(stroke
 			(width 0)
@@ -4633,7 +4742,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 107.315) (xy 215.265 107.315)
+			(xy 203.2 106.68) (xy 215.9 106.68)
 		)
 		(stroke
 			(width 0)
@@ -5304,7 +5413,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 93.345) (xy 215.265 93.345)
+			(xy 203.2 92.71) (xy 215.9 92.71)
 		)
 		(stroke
 			(width 0)
@@ -5365,7 +5474,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 100.965) (xy 215.265 100.965)
+			(xy 203.2 101.6) (xy 215.9 101.6)
 		)
 		(stroke
 			(width 0)
@@ -5457,7 +5566,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 143.51) (xy 257.81 143.51)
+			(xy 255.27 203.2) (xy 256.54 203.2)
 		)
 		(stroke
 			(width 0)
@@ -5560,7 +5669,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 96.52) (xy 215.265 96.52)
+			(xy 203.2 95.25) (xy 215.9 95.25)
 		)
 		(stroke
 			(width 0)
@@ -5643,7 +5752,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 162.56) (xy 226.06 162.56)
+			(xy 214.63 222.25) (xy 224.79 222.25)
 		)
 		(stroke
 			(width 0)
@@ -5837,7 +5946,7 @@
 		(uuid "fea98733-bf43-46c3-947f-6e4fda67c2c7")
 	)
 	(label "Temp2"
-		(at 265.43 167.64 180)
+		(at 264.16 227.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5845,6 +5954,16 @@
 			(justify right bottom)
 		)
 		(uuid "007c7fab-aa74-4b4d-8de6-83dd8b8d5740")
+	)
+	(label "VentFan1"
+		(at 151.13 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "032fc6ba-f257-4f55-aa06-3b0e0660fbc2")
 	)
 	(label "PCAN_Motor"
 		(at 106.68 201.93 180)
@@ -5867,7 +5986,7 @@
 		(uuid "0f765204-3fc6-4868-b0d8-ad386fedf582")
 	)
 	(label "Drive_HV-"
-		(at 215.265 107.315 180)
+		(at 215.9 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5886,8 +6005,8 @@
 		)
 		(uuid "17df0814-449e-47b5-98b1-c5d25ad068c6")
 	)
-	(label "Fan1"
-		(at 215.9 166.37 0)
+	(label "RadFan1"
+		(at 214.63 226.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5907,7 +6026,7 @@
 		(uuid "1d7d70e0-3185-403e-99a1-4a25517eb06d")
 	)
 	(label "-Sens_HV-"
-		(at 215.265 104.14 180)
+		(at 215.9 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5976,6 +6095,16 @@
 		)
 		(uuid "3c77ff1a-1bcd-4eb0-8b69-07ef7ed5cad4")
 	)
+	(label "Drive_ARR"
+		(at 215.9 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3d13812d-d53b-47f4-9d32-ae3973a79652")
+	)
 	(label "Fan2"
 		(at 161.29 223.52 180)
 		(effects
@@ -5985,6 +6114,16 @@
 			(justify right bottom)
 		)
 		(uuid "3d49c229-97ed-419a-b2f8-c2b3fef200c0")
+	)
+	(label "GND_ARR"
+		(at 215.9 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3e5de3e0-c74e-4171-b5d4-37a4954d818c")
 	)
 	(label "HV-"
 		(at 171.45 300.99 180)
@@ -6047,7 +6186,7 @@
 		(uuid "46c72d6c-8ecb-4662-952e-0737fd5e5dd8")
 	)
 	(label "Pump"
-		(at 215.9 162.56 0)
+		(at 214.63 222.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6057,7 +6196,7 @@
 		(uuid "4c852cec-4a78-4adf-8018-425db158fbea")
 	)
 	(label "GND_HV+"
-		(at 215.265 96.52 180)
+		(at 215.9 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6087,7 +6226,7 @@
 		(uuid "51252e7e-2361-4156-86d6-4b77dde69c93")
 	)
 	(label "+Sens_HV+"
-		(at 215.265 86.995 180)
+		(at 215.9 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6206,6 +6345,16 @@
 		)
 		(uuid "70de6f09-941c-4941-a914-67f577c4a6ca")
 	)
+	(label "-Sens_ARR"
+		(at 215.9 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "73958134-160d-473a-9fdb-402df902e48c")
+	)
 	(label "GND_Out6"
 		(at 50.165 315.595 180)
 		(effects
@@ -6237,7 +6386,7 @@
 		(uuid "7782a205-08c7-4345-b414-75b077a155e2")
 	)
 	(label "+Sens_HV-"
-		(at 215.265 100.965 180)
+		(at 215.9 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6247,7 +6396,7 @@
 		(uuid "7a071cce-19f7-4ca8-9b74-80a516d558c4")
 	)
 	(label "-Sens_HV+"
-		(at 215.265 90.17 180)
+		(at 215.9 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6287,7 +6436,7 @@
 		(uuid "83ed33c3-7be6-4810-95f4-d5acf3f06d4b")
 	)
 	(label "Temp1"
-		(at 265.43 165.1 180)
+		(at 264.16 224.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6387,7 +6536,7 @@
 		(uuid "91caed35-014b-4604-b87b-5c7620a3c287")
 	)
 	(label "Flow1"
-		(at 265.43 162.56 180)
+		(at 264.16 222.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6457,7 +6606,7 @@
 		(uuid "b670141b-20d9-4c12-a060-414688ac6f16")
 	)
 	(label "CarCAN"
-		(at 260.35 153.67 0)
+		(at 259.08 213.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6567,7 +6716,7 @@
 		(uuid "c9317145-301f-438e-a6c3-8ebc727dfba6")
 	)
 	(label "Temp3"
-		(at 265.43 170.18 180)
+		(at 264.16 229.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6597,7 +6746,7 @@
 		(uuid "d9fcde0d-71ca-4442-bea3-b9d08f4b8628")
 	)
 	(label "Drive_HV+"
-		(at 215.265 93.345 180)
+		(at 215.9 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6637,7 +6786,7 @@
 		(uuid "de9c90f7-858f-463e-9346-7b6c3d396a22")
 	)
 	(label "GND_HV-"
-		(at 215.265 110.49 180)
+		(at 215.9 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6656,8 +6805,8 @@
 		)
 		(uuid "eb72f265-affa-4f43-b23a-0c0ac4f1efb7")
 	)
-	(label "Fan2"
-		(at 215.9 170.18 0)
+	(label "RadFan2"
+		(at 214.63 229.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6665,6 +6814,16 @@
 			(justify left bottom)
 		)
 		(uuid "ebcea112-0cad-488f-844e-660d16dc6d71")
+	)
+	(label "VentFan2"
+		(at 151.13 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "edcb4dd7-4ddb-487d-ad84-0deb27a95903")
 	)
 	(label "Brake_Pot"
 		(at 334.01 72.39 0)
@@ -6715,6 +6874,16 @@
 			(justify right bottom)
 		)
 		(uuid "fdad6d62-5ff3-4a81-8721-bbc4129690f0")
+	)
+	(label "+Sens_ARR"
+		(at 215.9 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fe4f6948-382b-4b3e-a982-68b37326612d")
 	)
 	(symbol
 		(lib_id "Device:LED")
@@ -7703,7 +7872,7 @@
 	)
 	(sheet
 		(at 162.56 85.09)
-		(size 40.64 27.94)
+		(size 40.64 41.91)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7717,7 +7886,7 @@
 		)
 		(uuid "2ebde621-0a6b-4f7e-ba8d-6a6dfc042725")
 		(property "Sheetname" "BPS_Daughter"
-			(at 162.56 115.189 0)
+			(at 162.306 129.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7736,7 +7905,7 @@
 			)
 		)
 		(pin "GND_HV+" output
-			(at 203.2 96.52 0)
+			(at 203.2 95.25 0)
 			(uuid "57742edd-555a-45db-89c4-2865110de06f")
 			(effects
 				(font
@@ -7746,7 +7915,7 @@
 			)
 		)
 		(pin "Drive_HV+" output
-			(at 203.2 93.345 0)
+			(at 203.2 92.71 0)
 			(uuid "89cf25c4-c36e-4fb0-a12f-4156453d3e04")
 			(effects
 				(font
@@ -7756,7 +7925,7 @@
 			)
 		)
 		(pin "Drive_HV-" output
-			(at 203.2 107.315 0)
+			(at 203.2 106.68 0)
 			(uuid "ab93a3e9-77c2-4636-b36f-45a854d4007e")
 			(effects
 				(font
@@ -7766,7 +7935,7 @@
 			)
 		)
 		(pin "GND_HV-" output
-			(at 203.2 110.49 0)
+			(at 203.2 109.22 0)
 			(uuid "1aea7662-86d2-4abf-bb25-4124ea45c1ff")
 			(effects
 				(font
@@ -7806,7 +7975,7 @@
 			)
 		)
 		(pin "+Sens_HV-" output
-			(at 203.2 90.17 0)
+			(at 203.2 101.6 0)
 			(uuid "65b11321-1f28-4f3c-9b04-f13b1d62da9a")
 			(effects
 				(font
@@ -7816,7 +7985,7 @@
 			)
 		)
 		(pin "+Sens_HV+" output
-			(at 203.2 86.995 0)
+			(at 203.2 87.63 0)
 			(uuid "18b70ff3-12c7-4be9-9f7b-e2308d8022b1")
 			(effects
 				(font
@@ -7826,13 +7995,73 @@
 			)
 		)
 		(pin "-Sens_HV+" output
-			(at 203.2 100.965 0)
+			(at 203.2 90.17 0)
 			(uuid "a4899044-29b8-4203-9dcd-6623ad62251a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "+Sens_ARR" output
+			(at 203.2 115.57 0)
+			(uuid "2cb1f9c5-c6f4-430d-85f1-97bfaf37464b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "-Sens_ARR" output
+			(at 203.2 118.11 0)
+			(uuid "7be941df-70b6-48c4-b0f9-8428da76bc74")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Drive_ARR" output
+			(at 203.2 120.65 0)
+			(uuid "91003d8d-2917-4612-aebc-f259e4e61053")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND_ARR" output
+			(at 203.2 123.19 0)
+			(uuid "c66a3a8c-e30d-4ff8-925f-c3a4a78c733f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Fan1" output
+			(at 162.56 111.76 180)
+			(uuid "3545db88-476f-4515-882e-48747e9a346f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Fan2" output
+			(at 162.56 115.57 180)
+			(uuid "8b3e151f-f5ea-4344-9107-8b50722ac22e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -8113,7 +8342,7 @@
 		)
 	)
 	(sheet
-		(at 226.06 140.97)
+		(at 224.79 200.66)
 		(size 30.48 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8129,7 +8358,7 @@
 		)
 		(uuid "4f5b7b81-981a-4f69-8cc6-0686ba68f9a4")
 		(property "Sheetname" "PeripheralSOM9"
-			(at 226.06 140.2584 0)
+			(at 224.79 199.9484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8138,7 +8367,7 @@
 			)
 		)
 		(property "Sheetfile" "PeripheralSOM.kicad_sch"
-			(at 226.06 157.4296 0)
+			(at 224.79 217.1196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8148,7 +8377,7 @@
 			)
 		)
 		(pin "+12V_PCAN" input
-			(at 256.54 143.51 0)
+			(at 255.27 203.2 0)
 			(uuid "d61fe701-6cdc-48ff-ba9a-b9e54c000499")
 			(effects
 				(font
@@ -8158,7 +8387,7 @@
 			)
 		)
 		(pin "GND_PCAN" input
-			(at 256.54 154.94 0)
+			(at 255.27 214.63 0)
 			(uuid "f264e252-976d-4f50-b5e5-5e334a4287f3")
 			(effects
 				(font
@@ -8168,7 +8397,7 @@
 			)
 		)
 		(pin "+PCAN" input
-			(at 256.54 147.32 0)
+			(at 255.27 207.01 0)
 			(uuid "356102d2-deeb-42f3-b83f-19446277321b")
 			(effects
 				(font
@@ -8178,7 +8407,7 @@
 			)
 		)
 		(pin "-PCAN" input
-			(at 256.54 151.13 0)
+			(at 255.27 210.82 0)
 			(uuid "2688b0dc-6624-4d87-a05d-b9353d8255e6")
 			(effects
 				(font
@@ -9359,7 +9588,7 @@
 			)
 		)
 		(pin "+12V_Supp" output
-			(at 217.17 277.495 180)
+			(at 217.17 276.86 180)
 			(uuid "632afbb4-ac2f-4ad5-a8ee-3d805c6d923f")
 			(effects
 				(font
@@ -9369,7 +9598,7 @@
 			)
 		)
 		(pin "GND_Supp" output
-			(at 217.17 281.305 180)
+			(at 217.17 280.67 180)
 			(uuid "e181d08f-f270-4a04-90e4-9e1fd3b800ac")
 			(effects
 				(font
@@ -10249,7 +10478,7 @@
 		)
 	)
 	(sheet
-		(at 226.06 157.48)
+		(at 224.79 217.17)
 		(size 30.48 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10264,7 +10493,7 @@
 		)
 		(uuid "ee66a488-5bd3-4758-b20a-bbbd61769e90")
 		(property "Sheetname" "Pump_Control_Board"
-			(at 225.806 176.276 0)
+			(at 224.536 235.966 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10273,7 +10502,7 @@
 			)
 		)
 		(property "Sheetfile" "Pump_Control_Board.kicad_sch"
-			(at 226.06 179.6546 0)
+			(at 224.79 239.3446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10283,7 +10512,7 @@
 			)
 		)
 		(pin "Fan1" output
-			(at 226.06 166.37 180)
+			(at 224.79 226.06 180)
 			(uuid "920e2694-49fa-4dc3-b6d2-4945e0afac92")
 			(effects
 				(font
@@ -10293,7 +10522,7 @@
 			)
 		)
 		(pin "Fan2" output
-			(at 226.06 170.18 180)
+			(at 224.79 229.87 180)
 			(uuid "d912117c-06c2-4f58-9b09-a1a10404518d")
 			(effects
 				(font
@@ -10303,7 +10532,7 @@
 			)
 		)
 		(pin "Flow1" input
-			(at 256.54 162.56 0)
+			(at 255.27 222.25 0)
 			(uuid "bd0277f6-b9f5-49be-bfe8-4ea6e0d6e3b6")
 			(effects
 				(font
@@ -10313,7 +10542,7 @@
 			)
 		)
 		(pin "Pump" output
-			(at 226.06 162.56 180)
+			(at 224.79 222.25 180)
 			(uuid "a83e4d62-6ac3-4b19-ade5-ab308b838362")
 			(effects
 				(font
@@ -10323,7 +10552,7 @@
 			)
 		)
 		(pin "Temp1" input
-			(at 256.54 165.1 0)
+			(at 255.27 224.79 0)
 			(uuid "1f1b782f-b6e6-4081-ace3-856961000dd3")
 			(effects
 				(font
@@ -10333,7 +10562,7 @@
 			)
 		)
 		(pin "Temp2" input
-			(at 256.54 167.64 0)
+			(at 255.27 227.33 0)
 			(uuid "805f90ef-b51a-4c9f-affa-7052186a281a")
 			(effects
 				(font
@@ -10343,7 +10572,7 @@
 			)
 		)
 		(pin "Temp3" input
-			(at 256.54 170.18 0)
+			(at 255.27 229.87 0)
 			(uuid "379837c2-211d-477b-983b-b6c42169c1b4")
 			(effects
 				(font

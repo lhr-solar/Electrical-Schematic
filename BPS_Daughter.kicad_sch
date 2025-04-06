@@ -5,6 +5,17 @@
 	(uuid "a969dc67-4f4e-4342-91e8-dc6fdef44822")
 	(paper "A4")
 	(lib_symbols)
+	(hierarchical_label "Drive_ARR"
+		(shape output)
+		(at 121.92 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0f13995c-1be1-470b-8e5d-1b6590ae2a81")
+	)
 	(hierarchical_label "+Sens_HV-"
 		(shape output)
 		(at 121.92 95.25 0)
@@ -15,6 +26,17 @@
 			(justify left)
 		)
 		(uuid "0fc34484-2ed3-44b0-890b-4b3f4fb6b5a9")
+	)
+	(hierarchical_label "-Sens_ARR"
+		(shape output)
+		(at 121.92 135.255 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "367a45cc-6081-4bce-98c5-393ad19f5ccc")
 	)
 	(hierarchical_label "-Sens_HV+"
 		(shape output)
@@ -38,6 +60,17 @@
 		)
 		(uuid "62782aa0-7e1c-4a14-9e36-d5375e4bd793")
 	)
+	(hierarchical_label "+Sens_ARR"
+		(shape output)
+		(at 121.92 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "74eb2552-f188-4b83-85b0-bab230129e55")
+	)
 	(hierarchical_label "GND_HV+"
 		(shape output)
 		(at 121.92 85.09 0)
@@ -48,6 +81,17 @@
 			(justify left)
 		)
 		(uuid "91fea468-30fb-4635-a6f6-e0956b4a034e")
+	)
+	(hierarchical_label "Fan1"
+		(shape output)
+		(at 121.92 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "98cda7a0-4cd4-49b1-9163-f0972c5b27b7")
 	)
 	(hierarchical_label "GND_Strobe"
 		(shape output)
@@ -70,6 +114,17 @@
 			(justify left)
 		)
 		(uuid "b8334daf-4b87-4db9-a62a-2f77ecbc134a")
+	)
+	(hierarchical_label "GND_ARR"
+		(shape output)
+		(at 121.92 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dab81ca4-3c1a-41c7-8805-8304da7ba1d6")
 	)
 	(hierarchical_label "Drive_HV+"
 		(shape output)
@@ -103,6 +158,17 @@
 			(justify left)
 		)
 		(uuid "eb6925c7-5b5e-426a-adf7-942eaea0468c")
+	)
+	(hierarchical_label "Fan2"
+		(shape output)
+		(at 121.92 150.495 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f1b03823-4457-4d62-a3cd-1e2799aafd13")
 	)
 	(hierarchical_label "+Sens_HV+"
 		(shape output)
