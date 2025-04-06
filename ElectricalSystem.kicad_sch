@@ -683,6 +683,344 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Relay:Relay_SPST-NO"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "K1"
+				(at 11.43 1.2701 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Value" "HV+ Contactor"
+				(at -16.764 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 11.43 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Relay SPST, normally open, EN50005"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "1P1T 1-Form-A single pole throw NO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Relay?SPST*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Relay_SPST-NO_0_0"
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 2.54) (xy 6.985 3.175) (xy 7.62 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Relay_SPST-NO_0_1"
+				(rectangle
+					(start -15.24 5.08)
+					(end 10.16 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -8.255 1.905)
+					(end -1.905 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -1.905) (xy -2.54 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy -5.08 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -5.08) (xy -5.08 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 3.175 3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Relay_SPST-NO_1_1"
+				(pin input line
+					(at -11.43 7.62 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -11.43 -7.62 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 7.62 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_SPST"
 			(pin_names
 				(offset 0)
@@ -999,6 +1337,19 @@
 		)
 		(uuid "010f6374-c181-482c-b406-d6d8610a432e")
 	)
+	(text "add fuse -  bus bar?"
+		(exclude_from_sim no)
+		(at 151.13 305.816 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "030d3773-4206-464c-a1a2-fe1d5dd65e51")
+	)
 	(text "BPS"
 		(exclude_from_sim no)
 		(at 127.762 26.162 0)
@@ -1012,9 +1363,22 @@
 		)
 		(uuid "0808968a-8412-4de8-b283-5f9ef3900de2")
 	)
+	(text "bus bar?"
+		(exclude_from_sim no)
+		(at -25.4 197.612 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "121570c4-0a6e-4cb9-808a-e59bed1542dd")
+	)
 	(text "add blackbody A/C (temp/irradiance sensors)"
 		(exclude_from_sim no)
-		(at 309.626 249.682 0)
+		(at 332.994 243.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1024,6 +1388,19 @@
 			)
 		)
 		(uuid "28593206-2938-46ba-979e-d805bbae0bbe")
+	)
+	(text "do we need more inline fuses?"
+		(exclude_from_sim no)
+		(at 340.614 254.254 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 254 0 0 1)
+			)
+		)
+		(uuid "2b735b95-7ce1-4d0a-a52e-45c16ac3d7e3")
 	)
 	(text "Low-Voltage Low-Current (20 AWG)"
 		(exclude_from_sim no)
@@ -1180,6 +1557,19 @@
 		)
 		(uuid "522e0f69-b13f-414a-b81a-8f1589b8293c")
 	)
+	(text "Each MPPT internally fused to 8A"
+		(exclude_from_sim no)
+		(at 308.61 252.222 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 4 8 250 1)
+			)
+		)
+		(uuid "588fbe79-a440-4651-8fb9-5b948e70a2da")
+	)
 	(text "define what we mean by HV, HC...."
 		(exclude_from_sim no)
 		(at 565.15 13.97 0)
@@ -1192,6 +1582,19 @@
 			)
 		)
 		(uuid "58c88ad4-36ee-47a2-b66c-ebe8687f7884")
+	)
+	(text "motor fuse?"
+		(exclude_from_sim no)
+		(at 111.252 178.054 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "64bdb179-6dbd-4ac1-a7fc-5386443305bf")
 	)
 	(text "Cooling"
 		(exclude_from_sim no)
@@ -1290,9 +1693,9 @@
 		)
 		(uuid "95839e19-1d0e-4f70-92eb-00d17ef617a2")
 	)
-	(text "- Controls Daughter Board\n- Steering board\n- Fans\n- Battery boards (internal HV?)\n- Telemetry sensors/leader\n- Array (MPPTs, Blackbody sensors)\n- VCU + MotorCAN?\n- Explain purpose of each CAN\n- Diagram CAN loop topology"
+	(text "- Controls Daughter Board\n- Steering board\n- Battery boards (internal HV?)\n- Telemetry sensors/leader\n- Array (MPPTs, Blackbody sensors)\n- Explain purpose of each CAN\n- Diagram CAN loop topology"
 		(exclude_from_sim no)
-		(at 507.238 29.21 0)
+		(at 507.238 27.178 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1314,7 +1717,7 @@
 		)
 		(uuid "9f41de23-aef8-4bff-9ba2-e8ed1373a2f5")
 	)
-	(text "add contactors, internal battery architecture, bus bar connections"
+	(text "add contactors, internal battery architecture, bus bar connections, e-stops"
 		(exclude_from_sim no)
 		(at 63.754 45.212 0)
 		(effects
@@ -1366,7 +1769,7 @@
 	)
 	(text "Supp Enable switch on dashboard"
 		(exclude_from_sim no)
-		(at 206.502 267.716 0)
+		(at 206.502 269.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1426,6 +1829,19 @@
 			)
 		)
 		(uuid "d30e6b91-32e8-40ae-9a4b-b9bf866314cd")
+	)
+	(text "bus bar?"
+		(exclude_from_sim no)
+		(at -25.4 66.802 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "d78a5c1d-bd7a-40b8-b069-90a627aadc46")
 	)
 	(text "Array"
 		(exclude_from_sim no)
@@ -2892,6 +3308,16 @@
 		)
 		(uuid "0ce41345-cdbd-4c03-8fcf-e279192824a2")
 	)
+	(wire
+		(pts
+			(xy -27.94 214.63) (xy -25.4 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d320da4-cf8b-49ff-9a84-3acadba4c56c")
+	)
 	(bus
 		(pts
 			(xy 285.75 274.32) (xy 285.75 276.225)
@@ -3126,6 +3552,16 @@
 		)
 		(uuid "1aa177b0-9fc7-4637-a00c-adb567caadf3")
 	)
+	(wire
+		(pts
+			(xy -27.94 88.9) (xy -17.78 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b71adfa-0737-4cc3-8213-f717d206cf5b")
+	)
 	(bus
 		(pts
 			(xy 285.75 302.26) (xy 285.75 304.165)
@@ -3167,6 +3603,16 @@
 			(color 254 0 0 1)
 		)
 		(uuid "1ca6fba0-7c58-4e86-a416-108967ede013")
+	)
+	(wire
+		(pts
+			(xy -44.45 82.55) (xy -43.18 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1da7c04b-b01a-49b0-816d-39dc5257f9b3")
 	)
 	(bus
 		(pts
@@ -3270,6 +3716,16 @@
 			(color 194 0 0 1)
 		)
 		(uuid "20a8e338-ace6-42f3-a990-4cbae2e756da")
+	)
+	(wire
+		(pts
+			(xy -44.45 214.63) (xy -43.18 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20fce7d6-4042-4935-8ce3-ca47010fed1c")
 	)
 	(bus
 		(pts
@@ -3475,6 +3931,16 @@
 		)
 		(uuid "2d34fa03-6a5a-4e11-829b-2ace94ad7134")
 	)
+	(wire
+		(pts
+			(xy -44.45 203.2) (xy -44.45 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dafe1d3-7d7e-4f18-8025-8629e6a9dd21")
+	)
 	(bus
 		(pts
 			(xy 332.105 46.99) (xy 332.105 50.8)
@@ -3505,6 +3971,16 @@
 		)
 		(uuid "2ea68929-3d81-4783-898d-8ee1ba7a2de8")
 	)
+	(wire
+		(pts
+			(xy -44.45 34.29) (xy -44.45 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f140762-c16a-42d3-a480-2874dbb80762")
+	)
 	(bus
 		(pts
 			(xy 203.2 52.07) (xy 203.2 57.15)
@@ -3524,6 +4000,16 @@
 			(type default)
 		)
 		(uuid "2f1ac7b0-0a06-4e16-9738-d17b2ed7f8f9")
+	)
+	(wire
+		(pts
+			(xy -86.36 45.72) (xy -85.09 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "304b5fc4-068e-4d1b-a14a-8829d839965c")
 	)
 	(wire
 		(pts
@@ -3587,6 +4073,16 @@
 	)
 	(wire
 		(pts
+			(xy -90.17 176.53) (xy -88.9 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34cb9e61-c1da-468d-919b-fed29ccee302")
+	)
+	(wire
+		(pts
 			(xy 195.58 62.23) (xy 200.66 62.23)
 		)
 		(stroke
@@ -3625,6 +4121,16 @@
 			(type default)
 		)
 		(uuid "36733eed-3247-4037-82e3-5ceed476089f")
+	)
+	(wire
+		(pts
+			(xy -25.4 176.53) (xy -25.4 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38350ba7-fdec-49aa-b9f4-adadd02c7357")
 	)
 	(wire
 		(pts
@@ -3747,6 +4253,16 @@
 			(color 194 0 0 1)
 		)
 		(uuid "3d0d4a5a-011f-4631-bc3c-92e814ddb3ec")
+	)
+	(wire
+		(pts
+			(xy -44.45 176.53) (xy -43.18 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d1615fb-76b1-419d-a810-d127851514f4")
 	)
 	(wire
 		(pts
@@ -3902,6 +4418,16 @@
 		)
 		(uuid "46b51703-986f-4e7d-bd94-d59243883ed1")
 	)
+	(wire
+		(pts
+			(xy -44.45 71.12) (xy -44.45 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46cc5c34-7f05-49cd-a7e4-b32f685e45c1")
+	)
 	(bus
 		(pts
 			(xy 285.115 46.99) (xy 285.115 50.8)
@@ -3956,6 +4482,16 @@
 	)
 	(wire
 		(pts
+			(xy -54.61 52.07) (xy -43.18 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b794a9d-7162-4c03-99c1-3b654dc7ca3b")
+	)
+	(wire
+		(pts
 			(xy 377.825 50.165) (xy 378.46 50.165)
 		)
 		(stroke
@@ -4005,6 +4541,26 @@
 			(color 72 72 72 1)
 		)
 		(uuid "4ec8ad71-090c-4026-b260-63114b741037")
+	)
+	(wire
+		(pts
+			(xy -67.31 45.72) (xy -67.31 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ed56e71-5b3f-4dbd-b639-262bf3414cb6")
+	)
+	(wire
+		(pts
+			(xy -71.12 176.53) (xy -71.12 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f6fcdbc-a828-4b63-be06-d6ea52c4a642")
 	)
 	(wire
 		(pts
@@ -4171,6 +4727,16 @@
 		)
 		(uuid "5a112488-a1dd-46a8-959a-74f28ccfdc35")
 	)
+	(wire
+		(pts
+			(xy -54.61 88.9) (xy -43.18 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a38b521-8d47-4b5d-b6e3-0fe717bf5f11")
+	)
 	(bus
 		(pts
 			(xy 91.44 276.86) (xy 91.44 280.67)
@@ -4240,6 +4806,16 @@
 			(type default)
 		)
 		(uuid "60280ec2-579c-4509-99ee-54cb7e70f484")
+	)
+	(wire
+		(pts
+			(xy -27.94 45.72) (xy -25.4 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60f274da-d426-4e57-93d5-6abed6c17de6")
 	)
 	(wire
 		(pts
@@ -4467,6 +5043,16 @@
 		)
 		(uuid "72d6e926-1912-45fa-ae71-b1caf284e31c")
 	)
+	(wire
+		(pts
+			(xy -86.36 34.29) (xy -86.36 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73711082-5c8c-4593-bfdd-830d5d4ac889")
+	)
 	(bus
 		(pts
 			(xy 36.83 315.595) (xy 36.83 318.135)
@@ -4644,6 +5230,16 @@
 		)
 		(uuid "7f0fc57b-0bd1-40cb-874b-14e43183f097")
 	)
+	(wire
+		(pts
+			(xy -27.94 182.88) (xy -15.24 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fa00b86-3530-47b9-9839-49409cd228f2")
+	)
 	(bus
 		(pts
 			(xy 259.08 209.55) (xy 259.08 213.36)
@@ -4788,6 +5384,16 @@
 	)
 	(wire
 		(pts
+			(xy -69.85 45.72) (xy -67.31 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86faa070-6023-4419-b4b2-9f44843399a4")
+	)
+	(wire
+		(pts
 			(xy 255.27 222.25) (xy 264.16 222.25)
 		)
 		(stroke
@@ -4925,6 +5531,16 @@
 			(type default)
 		)
 		(uuid "8e247254-d4e5-4335-ae23-9b8c574c694f")
+	)
+	(wire
+		(pts
+			(xy -27.94 82.55) (xy -25.4 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f5f78cd-5659-417c-900d-bd2b3fecdff2")
 	)
 	(wire
 		(pts
@@ -5071,6 +5687,16 @@
 		)
 		(uuid "973f4ced-6a15-48a4-87cc-aeed09c4074d")
 	)
+	(wire
+		(pts
+			(xy -27.94 220.98) (xy -17.78 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97ac0b27-ce4f-43ee-8e2c-8ca5e26e5712")
+	)
 	(bus
 		(pts
 			(xy 146.685 100.965) (xy 146.685 102.87)
@@ -5121,6 +5747,16 @@
 			(type default)
 		)
 		(uuid "99fca536-0976-41e9-a796-451ea3a4a2a2")
+	)
+	(wire
+		(pts
+			(xy -73.66 182.88) (xy -60.96 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a45db3a-72b2-41b5-a587-35a63f55b708")
 	)
 	(wire
 		(pts
@@ -5344,6 +5980,26 @@
 			(color 254 137 0 1)
 		)
 		(uuid "a820a5bc-c01f-4465-b490-9f0aeec05e56")
+	)
+	(wire
+		(pts
+			(xy -73.66 176.53) (xy -71.12 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a837fdae-1313-4ed2-844a-ed40dafff961")
+	)
+	(wire
+		(pts
+			(xy -44.45 45.72) (xy -43.18 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a957f2b2-e51b-4385-bb83-65bc84fcc320")
 	)
 	(wire
 		(pts
@@ -5788,6 +6444,26 @@
 		)
 		(uuid "bd3ef800-4002-4538-90c4-d4479479103e")
 	)
+	(wire
+		(pts
+			(xy -96.52 52.07) (xy -85.09 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beb6de1c-f2db-437e-9d18-1d714d97ea0a")
+	)
+	(wire
+		(pts
+			(xy -90.17 162.56) (xy -90.17 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bec1eb9a-eda1-4d7a-9ffc-81054e4cf6aa")
+	)
 	(bus
 		(pts
 			(xy 161.29 43.815) (xy 161.29 47.625)
@@ -6087,6 +6763,16 @@
 		)
 		(uuid "d4854ffc-e324-4f95-ac5c-f017cc473fb1")
 	)
+	(wire
+		(pts
+			(xy -25.4 82.55) (xy -25.4 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d655233d-585b-485e-b357-b0b85be5ebb8")
+	)
 	(bus
 		(pts
 			(xy 285.115 58.42) (xy 285.115 60.96)
@@ -6120,6 +6806,16 @@
 	)
 	(wire
 		(pts
+			(xy -69.85 52.07) (xy -59.69 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8b9c8fb-d05c-4114-beb0-4437ec75b691")
+	)
+	(wire
+		(pts
 			(xy 190.5 116.84) (xy 203.2 116.84)
 		)
 		(stroke
@@ -6127,6 +6823,16 @@
 			(type default)
 		)
 		(uuid "da4eeb1d-d5c1-41d5-9201-0f9eb6f2953f")
+	)
+	(wire
+		(pts
+			(xy -102.87 182.88) (xy -88.9 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daa8dbf4-73c8-4c25-8e7e-0e7185a60d5a")
 	)
 	(bus
 		(pts
@@ -6335,6 +7041,26 @@
 	)
 	(wire
 		(pts
+			(xy -27.94 176.53) (xy -25.4 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6566f08-dcd0-42fb-83df-150c6b167497")
+	)
+	(wire
+		(pts
+			(xy -25.4 45.72) (xy -25.4 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e67cdcb9-4417-4f35-8d32-b60ba19f1749")
+	)
+	(wire
+		(pts
 			(xy 78.74 215.9) (xy 95.25 215.9)
 		)
 		(stroke
@@ -6376,6 +7102,16 @@
 	)
 	(wire
 		(pts
+			(xy -27.94 52.07) (xy -17.78 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e85461ff-da28-404d-8dfc-f9ac2bd7fd0a")
+	)
+	(wire
+		(pts
 			(xy 149.86 82.55) (xy 136.525 82.55)
 		)
 		(stroke
@@ -6405,6 +7141,16 @@
 		)
 		(uuid "ea3ce6f8-8260-4f80-8ded-062e6ab8e33f")
 	)
+	(wire
+		(pts
+			(xy -44.45 162.56) (xy -44.45 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ead287b0-9836-4d52-839b-7efae0b2e07c")
+	)
 	(bus
 		(pts
 			(xy 34.29 185.42) (xy 34.29 189.23)
@@ -6425,6 +7171,16 @@
 		)
 		(uuid "eb790cde-2eb0-4476-aaa1-ff6d7f50e006")
 	)
+	(wire
+		(pts
+			(xy -25.4 214.63) (xy -25.4 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec87f008-0e53-43b7-a4f1-6eb3b9035b7d")
+	)
 	(bus
 		(pts
 			(xy 483.235 45.72) (xy 483.235 49.53)
@@ -6434,6 +7190,16 @@
 			(type default)
 		)
 		(uuid "ed270bfd-fbb8-417b-b45e-3b3e36818e46")
+	)
+	(wire
+		(pts
+			(xy -57.15 182.88) (xy -43.18 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed641779-888b-4ff4-b4b8-4c1f5cfcb6ab")
 	)
 	(wire
 		(pts
@@ -6506,6 +7272,16 @@
 			(type default)
 		)
 		(uuid "f3325342-455a-41c6-ac62-30144e746448")
+	)
+	(wire
+		(pts
+			(xy -54.61 220.98) (xy -43.18 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f35fbafd-6081-4dc6-a7c0-5af83bdb260e")
 	)
 	(wire
 		(pts
@@ -6702,7 +7478,7 @@
 		(uuid "0825865a-fbd5-4e22-b028-b13ad38c29ed")
 	)
 	(label "-Sens_MPCHG"
-		(at 21.59 210.82 0)
+		(at 21.59 208.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6720,6 +7496,16 @@
 			(justify right bottom)
 		)
 		(uuid "0bff63f1-e003-4967-a968-f6e842b62b5f")
+	)
+	(label "Drive_APCHG"
+		(at -102.87 182.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d334c48-207e-4621-9a50-fa043cb81b15")
 	)
 	(label "GND_MTR"
 		(at 95.25 220.98 180)
@@ -6741,6 +7527,16 @@
 		)
 		(uuid "0f765204-3fc6-4868-b0d8-ad386fedf582")
 	)
+	(label "GND_MTR"
+		(at -17.78 220.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1015612b-2397-46b6-89d5-058dd4ac6a5e")
+	)
 	(label "Temp3"
 		(at 216.535 64.77 180)
 		(effects
@@ -6750,6 +7546,16 @@
 			(justify right bottom)
 		)
 		(uuid "108dbf2f-aeba-4c07-a2d5-13176869a332")
+	)
+	(label "-Sens_HV+"
+		(at -25.4 34.29 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "120efffc-1dfb-4268-853f-8dadd38a5973")
 	)
 	(label "+Sens_MTR"
 		(at 95.25 213.36 180)
@@ -6781,6 +7587,16 @@
 		)
 		(uuid "17df0814-449e-47b5-98b1-c5d25ad068c6")
 	)
+	(label "+Sens_HV-"
+		(at -44.45 71.12 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1878e1f6-2360-4ac8-8767-ab43da6c606a")
+	)
 	(label "RadFan1"
 		(at 214.63 226.06 0)
 		(effects
@@ -6790,6 +7606,16 @@
 			(justify left bottom)
 		)
 		(uuid "19b87bc3-bb54-40a0-85f0-75f62e6abff1")
+	)
+	(label "GND_MPCHG"
+		(at -15.24 182.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1d385d4f-676d-4e76-b778-a088f361d99f")
 	)
 	(label "Accel_Pot"
 		(at 334.01 64.77 0)
@@ -6841,6 +7667,16 @@
 		)
 		(uuid "259ab62c-6c2c-489b-9d49-9aca80fada8f")
 	)
+	(label "+Sens_HV+"
+		(at -44.45 34.29 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "27a4669e-0062-4f2f-b030-0b8d3ff6158f")
+	)
 	(label "12V_Out1"
 		(at 22.86 302.895 0)
 		(effects
@@ -6852,7 +7688,7 @@
 		(uuid "293fe3b8-b5b7-41ab-a6b5-115618d5e94d")
 	)
 	(label "+Sens_MPCHG"
-		(at 21.59 213.36 0)
+		(at 21.59 205.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6860,6 +7696,16 @@
 			(justify left bottom)
 		)
 		(uuid "2ce1ff54-bbd8-4668-8ec8-7e0850d4f55c")
+	)
+	(label "GND_ARR"
+		(at -59.69 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3004dd99-ed88-41e2-9a06-e33e67daf0b9")
 	)
 	(label "12V_Out3"
 		(at 24.13 175.26 0)
@@ -6900,6 +7746,16 @@
 			(justify right bottom)
 		)
 		(uuid "385df5ef-a199-4359-a609-1a6808934908")
+	)
+	(label "GND_APCHG"
+		(at -60.96 182.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3bba133b-5e3c-481b-ae68-8b95cd89c113")
 	)
 	(label "HV+"
 		(at 171.45 295.91 180)
@@ -7061,6 +7917,26 @@
 		)
 		(uuid "51252e7e-2361-4156-86d6-4b77dde69c93")
 	)
+	(label "+Sens_MTR"
+		(at -44.45 203.2 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "51c5b628-a20d-4114-a5c2-b74343ead4d9")
+	)
+	(label "+Sens_MPCHG"
+		(at -44.45 162.56 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5471333e-1cae-4359-8f32-e57521ad55a0")
+	)
 	(label "Drive_MTR"
 		(at 95.25 218.44 180)
 		(effects
@@ -7081,7 +7957,7 @@
 		)
 		(uuid "55c48758-c92b-4dae-a54f-deaf9be73531")
 	)
-	(label "GND_Out2"
+	(label "GND_Out4"
 		(at 280.67 163.83 0)
 		(effects
 			(font
@@ -7210,6 +8086,16 @@
 			(justify left bottom)
 		)
 		(uuid "70de6f09-941c-4941-a914-67f577c4a6ca")
+	)
+	(label "Drive_ARR"
+		(at -96.52 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7178373a-843f-48e2-b444-9d40520c27ed")
 	)
 	(label "-Sens_ARR"
 		(at 203.2 133.35 180)
@@ -7401,6 +8287,16 @@
 		)
 		(uuid "89c3d5a9-4a02-4dad-a536-ef2ae513c4a0")
 	)
+	(label "-Sens_MTR"
+		(at -25.4 203.2 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8b351a49-a92a-4761-a52b-ef39c5966c48")
+	)
 	(label "12V_Out12"
 		(at 21.59 330.835 0)
 		(effects
@@ -7430,6 +8326,26 @@
 			(justify left bottom)
 		)
 		(uuid "8c6f7d35-35c2-48e8-b03e-f396a47f0e77")
+	)
+	(label "GND_HV+"
+		(at -17.78 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8db5f2a6-4393-4d0e-becc-816a31a01b73")
+	)
+	(label "+Sens_ARR"
+		(at -86.36 34.29 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8ea81a2d-fca6-4b8d-b59c-b182739552e4")
 	)
 	(label "12V_Out11"
 		(at 21.59 328.295 0)
@@ -7551,6 +8467,26 @@
 		)
 		(uuid "b1af0b1b-e624-4306-ae9c-0b505e97e07a")
 	)
+	(label "GND_HV-"
+		(at -17.78 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b293c175-9a5c-443c-91d9-25bc20b1e03e")
+	)
+	(label "-Sens_APCHG"
+		(at -71.12 162.56 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b2f14987-894c-497b-b130-407521c98f81")
+	)
 	(label "PCAN_BPS"
 		(at 193.675 93.345 0)
 		(effects
@@ -7560,6 +8496,16 @@
 			(justify left bottom)
 		)
 		(uuid "b670141b-20d9-4c12-a060-414688ac6f16")
+	)
+	(label "Drive_HV-"
+		(at -54.61 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b70f9231-71e9-4af6-8fd8-5a23b4c93093")
 	)
 	(label "CarCAN"
 		(at 259.08 213.36 0)
@@ -7652,7 +8598,7 @@
 		(uuid "c6eb93a5-18b4-48d2-90db-743747ae1718")
 	)
 	(label "Drive_MPCHG"
-		(at 21.59 208.28 0)
+		(at 21.59 210.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7691,6 +8637,26 @@
 		)
 		(uuid "cacfd0e3-4342-4a5b-b31b-2e2c20f6336f")
 	)
+	(label "-Sens_ARR"
+		(at -67.31 34.29 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cc2ba17a-6a87-4d68-a311-9ca5a45d653e")
+	)
+	(label "Drive_MTR"
+		(at -54.61 220.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ccab4613-b18a-4c7e-8ca1-0c661d162804")
+	)
 	(label "Temp3"
 		(at 264.16 229.87 180)
 		(effects
@@ -7720,6 +8686,36 @@
 			(justify left bottom)
 		)
 		(uuid "d4c99e82-ce32-47c5-94b6-99ebc6e81f96")
+	)
+	(label "Drive_HV+"
+		(at -54.61 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d4fde442-b6e3-442c-934a-4eeaf09f8d60")
+	)
+	(label "Drive_MPCHG"
+		(at -57.15 182.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7c5fdbd-5258-4142-a84b-b59e8eacfd05")
+	)
+	(label "-Sens_MPCHG"
+		(at -25.4 162.56 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d95edf52-bfe1-448f-8472-6f205675302d")
 	)
 	(label "CarCAN"
 		(at 285.75 270.51 180)
@@ -7762,7 +8758,7 @@
 		(uuid "dcd74b72-591d-4c71-8ade-a8b817699f92")
 	)
 	(label "GND_MPCHG"
-		(at 21.59 205.74 0)
+		(at 21.59 213.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7851,7 +8847,7 @@
 		)
 		(uuid "f0786659-17b3-4dca-9ad3-94653a66fdbc")
 	)
-	(label "12V_Out2"
+	(label "12V_Out4"
 		(at 280.67 161.29 0)
 		(effects
 			(font
@@ -7891,6 +8887,16 @@
 		)
 		(uuid "f7f06982-6ab8-4e61-ab72-6db0b8696ec9")
 	)
+	(label "+Sens_APCHG"
+		(at -90.17 162.56 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f83eb4cd-00d5-4588-bfe6-b274abe29c91")
+	)
 	(label "Temp[1..8]"
 		(at 207.01 57.15 0)
 		(effects
@@ -7920,6 +8926,262 @@
 			(justify right bottom)
 		)
 		(uuid "fe4f6948-382b-4b3e-a982-68b37326612d")
+	)
+	(label "-Sens_HV-"
+		(at -25.4 71.12 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ffe499d5-3557-48c4-8d77-c87a8e02a111")
+	)
+	(symbol
+		(lib_id "Relay:Relay_SPST-NO")
+		(at -35.56 187.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "027bde88-9d2a-48cd-aa63-dfaad9c864a6")
+		(property "Reference" "K5"
+			(at -34.2899 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "Motor Precharge Contactor"
+			(at -35.56 199.644 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -36.83 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at -35.56 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Relay SPST, normally open, EN50005"
+			(at -35.56 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "D2"
+			(uuid "123e473a-2206-4fc1-915d-39043bc89b0e")
+		)
+		(pin "L1"
+			(uuid "6baeeac7-d98b-4250-9e8f-56760f5f5b50")
+		)
+		(pin "L2"
+			(uuid "408ecc78-db19-4f4e-92d4-53a32ed124bd")
+		)
+		(pin "D1"
+			(uuid "6f276998-c229-41fe-8b07-0ed0757c2adf")
+		)
+		(pin "S1"
+			(uuid "13412c17-2de6-42f2-87d4-70ce9fce0e25")
+		)
+		(pin "S2"
+			(uuid "34755c19-7cf1-4752-862a-8396b6edb750")
+		)
+		(instances
+			(project "ElectricalSystem"
+				(path "/7dc721ab-4b7a-42e7-8fa4-f406a2ddcd46"
+					(reference "K5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:Relay_SPST-NO")
+		(at -35.56 93.98 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "55fe68ed-9ca9-4f8d-a822-5565fba21220")
+		(property "Reference" "K2"
+			(at -34.2899 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "HV- Contactor"
+			(at -35.56 77.216 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -36.83 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at -35.56 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Relay SPST, normally open, EN50005"
+			(at -35.56 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "D2"
+			(uuid "3cfa2cab-5f0a-4d40-aae6-2060cac34596")
+		)
+		(pin "L1"
+			(uuid "4ebff26c-7b51-49bf-94d1-a9d18c3ce4e0")
+		)
+		(pin "L2"
+			(uuid "a3536c67-7f08-4372-af28-2b52acfc680a")
+		)
+		(pin "D1"
+			(uuid "45148c75-d559-4118-9a9c-298bc28c74f8")
+		)
+		(pin "S1"
+			(uuid "9662e294-709e-46d0-8288-11eab6332fbb")
+		)
+		(pin "S2"
+			(uuid "6e1e4c59-19a7-4c98-be29-8d9e178b76f7")
+		)
+		(instances
+			(project "ElectricalSystem"
+				(path "/7dc721ab-4b7a-42e7-8fa4-f406a2ddcd46"
+					(reference "K2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:Relay_SPST-NO")
+		(at -77.47 57.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a484760-00e7-46c0-b3f7-242efa803612")
+		(property "Reference" "K3"
+			(at -76.1999 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "Array Contactor"
+			(at -77.47 40.386 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -78.74 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at -77.47 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Relay SPST, normally open, EN50005"
+			(at -77.47 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "D2"
+			(uuid "13ae0628-af9c-40fe-86fc-2911714959ec")
+		)
+		(pin "L1"
+			(uuid "d12466fe-748a-4699-93e6-8c578172be32")
+		)
+		(pin "L2"
+			(uuid "02d04c95-7f3c-4e06-b5af-a4087db17920")
+		)
+		(pin "D1"
+			(uuid "aa1db70d-ac16-431a-bdda-ee76fa2571d6")
+		)
+		(pin "S1"
+			(uuid "29d93931-b682-49f6-8afb-5b09b142de28")
+		)
+		(pin "S2"
+			(uuid "21fae093-5039-4061-b8dc-434c4c91f1d0")
+		)
+		(instances
+			(project "ElectricalSystem"
+				(path "/7dc721ab-4b7a-42e7-8fa4-f406a2ddcd46"
+					(reference "K3")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:LED")
@@ -7999,7 +9261,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "93147cea-1b37-46f3-9179-7d2f95c4ce41")
 		(property "Reference" "SC2"
 			(at 340.36 300.3549 0)
@@ -8008,10 +9269,11 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "FrontRight_SubArray"
-			(at 340.36 302.8949 0)
+			(at 340.36 302.514 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8078,6 +9340,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "Supp_Enable"
@@ -8131,6 +9394,170 @@
 		)
 	)
 	(symbol
+		(lib_id "Relay:Relay_SPST-NO")
+		(at -35.56 57.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b8e3e3ba-0bbd-4bd6-a09b-b75917b6a5fa")
+		(property "Reference" "K1"
+			(at -34.2899 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "HV+ Contactor"
+			(at -35.56 40.386 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -36.83 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at -35.56 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Relay SPST, normally open, EN50005"
+			(at -35.56 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "D2"
+			(uuid "55b57bd5-bfa5-4455-abde-ef42ff445643")
+		)
+		(pin "L1"
+			(uuid "9b71ecbb-0530-4c54-bb2d-774f025129f3")
+		)
+		(pin "L2"
+			(uuid "7406c399-20d3-4f78-929b-1aacc07da34b")
+		)
+		(pin "D1"
+			(uuid "1d0557b0-4756-411b-8556-0b0c73d21184")
+		)
+		(pin "S1"
+			(uuid "c228557d-3723-4504-a041-dccc13684077")
+		)
+		(pin "S2"
+			(uuid "7a88f62f-d4e0-4bc9-8946-0f4045cd05c8")
+		)
+		(instances
+			(project ""
+				(path "/7dc721ab-4b7a-42e7-8fa4-f406a2ddcd46"
+					(reference "K1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:Relay_SPST-NO")
+		(at -35.56 226.06 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cfa980ba-c45b-4865-8867-7c94f3af50f1")
+		(property "Reference" "K6"
+			(at -34.2899 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "Motor Contactor"
+			(at -35.56 237.744 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -36.83 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at -35.56 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Relay SPST, normally open, EN50005"
+			(at -35.56 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "D2"
+			(uuid "f70b61e9-489c-4337-b780-725ddf8b3757")
+		)
+		(pin "L1"
+			(uuid "6fb96932-49c1-489f-b40c-6d40a04aadc3")
+		)
+		(pin "L2"
+			(uuid "c2ab5c14-9dc4-4cd1-9edc-c966774bd090")
+		)
+		(pin "D1"
+			(uuid "77c2d884-7c6e-495f-bac7-76f053d90a38")
+		)
+		(pin "S1"
+			(uuid "f3b33fd6-13d1-4f04-accf-86ff74e8fb3e")
+		)
+		(pin "S2"
+			(uuid "7b92fe06-4006-47de-ab7d-35c8b912b905")
+		)
+		(instances
+			(project "ElectricalSystem"
+				(path "/7dc721ab-4b7a-42e7-8fa4-f406a2ddcd46"
+					(reference "K6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Solar_Cells")
 		(at 336.55 274.32 0)
 		(unit 1)
@@ -8138,7 +9565,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d7081991-7629-47d5-a47d-d93fe7996246")
 		(property "Reference" "SC1"
 			(at 340.36 272.4149 0)
@@ -8147,10 +9573,11 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "Rear_SubArray"
-			(at 340.36 274.9549 0)
+			(at 340.36 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8201,6 +9628,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Relay:Relay_SPST-NO")
+		(at -81.28 187.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e3cc93a3-eb29-477b-99fc-2f8eb6f2a08b")
+		(property "Reference" "K4"
+			(at -80.0099 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "Array Precharge Contactor"
+			(at -81.28 199.644 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -82.55 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at -81.28 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Relay SPST, normally open, EN50005"
+			(at -81.28 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "D2"
+			(uuid "d953f87b-7b6a-44c2-a35f-00f222290c3a")
+		)
+		(pin "L1"
+			(uuid "b209179f-b005-4851-8792-0192a0d6894b")
+		)
+		(pin "L2"
+			(uuid "14488e0d-6b21-448a-b6c8-a89386806c27")
+		)
+		(pin "D1"
+			(uuid "02a1d068-d6e2-426a-bdc9-a09d34af96b0")
+		)
+		(pin "S1"
+			(uuid "7389fb91-b2a1-4877-85c7-840c8bb47470")
+		)
+		(pin "S2"
+			(uuid "b06af4e1-1de2-4ea8-8f2b-ab9d9fcafd05")
+		)
+		(instances
+			(project "ElectricalSystem"
+				(path "/7dc721ab-4b7a-42e7-8fa4-f406a2ddcd46"
+					(reference "K4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Motor:Motor_DC")
 		(at 176.53 179.07 0)
 		(unit 1)
@@ -8208,7 +9717,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e3cefd8c-bc5a-4805-a9d6-ee7274ef4b11")
 		(property "Reference" "M1"
 			(at 181.61 177.7999 0)
@@ -8217,10 +9725,11 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "Mitsuba M2096-III Motor"
-			(at 181.61 180.3399 0)
+			(at 180.594 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8281,7 +9790,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fde3c4f5-af77-439c-8e04-fbec4ab88f51")
 		(property "Reference" "SC3"
 			(at 340.36 328.2949 0)
@@ -8290,10 +9798,11 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "FrontLeft_SubArray"
-			(at 340.36 330.8349 0)
+			(at 340.36 330.454 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12078,7 +13587,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "ff83dcc0-7eec-4fbd-8d7e-f415462b13d7")
-		(property "Sheetname" "MotorController"
+		(property "Sheetname" "Prohelion WaveSculptor 22 Motor Controller"
 			(at 118.11 169.4684 0)
 			(effects
 				(font
