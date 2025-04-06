@@ -426,14 +426,6 @@
       "Root"
     ],
     [
-      "7b1fc082-e07a-4964-a52b-ce89fc9da3ee",
-      "PeripheralSOM2"
-    ],
-    [
-      "0e331b0d-278d-4307-969c-d115d919924a",
-      "Temp_Daughter"
-    ],
-    [
       "7ac3fc4b-8899-4aa2-9227-179058c1e13b",
       "PeripheralSOM3"
     ],
@@ -463,7 +455,7 @@
     ],
     [
       "80d99d14-da81-427c-848c-067e9af431f7",
-      "Voltage_Daughter"
+      "VoltTemp_Daughter (8x)"
     ],
     [
       "0ff96bcd-e44c-4e70-9066-ed3a641b9853",
@@ -592,6 +584,14 @@
     [
       "7ed6b0f7-dc10-4fce-80f0-ab0297a049bc",
       "MPPT_A"
+    ],
+    [
+      "e4e67a0a-9cea-4be3-b804-c43241168d97",
+      "Telemetry Daughter (Wireless Transceiver)"
+    ],
+    [
+      "487b1168-7f7c-499f-97f1-bc71c82a9c28",
+      "LeaderSOM4"
     ]
   ],
   "text_variables": {}

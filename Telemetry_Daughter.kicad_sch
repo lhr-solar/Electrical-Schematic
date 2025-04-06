@@ -1,0 +1,41 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a969dc67-4f4e-4342-91e8-dc6fdef44822")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "XBee_LTE"
+		(shape bidirectional)
+		(at 143.51 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "70f74fd9-a360-45e6-ab02-078bd3f4ed41")
+	)
+	(hierarchical_label "GPS"
+		(shape input)
+		(at 143.51 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "96084dbd-c5db-4c8d-88f4-d8b1d6a7518a")
+	)
+	(hierarchical_label "XBee_RF"
+		(shape bidirectional)
+		(at 143.51 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cdc88e4c-4fb1-4c7a-816b-31ffaee5fc77")
+	)
+)
