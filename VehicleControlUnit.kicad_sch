@@ -60,6 +60,28 @@
 		)
 		(uuid "6951a123-2dd4-456b-ad4c-072dfda1234c")
 	)
+	(hierarchical_label "MotorPreSPI"
+		(shape bidirectional)
+		(at 140.97 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6a5e5f8c-7cba-4071-8b55-7ea2e3891d2f")
+	)
+	(hierarchical_label "MotorPreReady"
+		(shape input)
+		(at 140.97 130.175 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8974f9dd-6133-4f09-a1d0-8c5e60186c7f")
+	)
 	(hierarchical_label "Drive_MTR"
 		(shape output)
 		(at 140.97 88.9 0)
