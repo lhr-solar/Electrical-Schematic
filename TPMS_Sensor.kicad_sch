@@ -1,0 +1,19 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a75b9d60-efe3-42a6-8800-d99f3a66afe7")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "TPMS_UHF"
+		(shape bidirectional)
+		(at 146.05 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3b93ec80-97a6-4a13-8dad-822c72e0daa0")
+	)
+)

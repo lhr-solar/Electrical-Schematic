@@ -670,6 +670,10 @@
       "Lighting_Daughter_Back"
     ],
     [
+      "a7c562d3-c61e-4cc0-9a4c-2c90be6de9f2",
+      "Dynamics_Board (4x)"
+    ],
+    [
       "6501682c-e98e-4704-a8d3-b0cb3ea39fab",
       "PeripheralSOM5"
     ],
@@ -784,6 +788,22 @@
     [
       "487b1168-7f7c-499f-97f1-bc71c82a9c28",
       "LeaderSOM4"
+    ],
+    [
+      "27b7ddd9-bce0-4b48-ac89-8a110568d6ab",
+      "PeripheralSOM12"
+    ],
+    [
+      "d0960c84-edfe-4d02-823d-14d83351ab34",
+      "Environment_Board (6x)"
+    ],
+    [
+      "46fed046-a968-4f00-9bda-68fbc86b7c03",
+      "PeripheralSOM13"
+    ],
+    [
+      "e7e65e35-23e1-4246-8983-39cf2b92ae9c",
+      "TPMS_Sensor (4x)"
     ]
   ],
   "text_variables": {}
