@@ -1857,7 +1857,7 @@
 		)
 		(uuid "284ba712-f5e7-4b18-a7d3-0f21c8a61eb8")
 	)
-	(text "add blackbody A/C (temp/irradiance sensors)"
+	(text "add blackbody A/C (temp/irradiance sensors)\n1 C per MPPT, 2 A per C"
 		(exclude_from_sim no)
 		(at 545.084 290.322 0)
 		(effects
@@ -15095,7 +15095,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "a7c562d3-c61e-4cc0-9a4c-2c90be6de9f2")
-		(property "Sheetname" "Dynamics_Board (4x)"
+		(property "Sheetname" "Dynamics_Board (3x)"
 			(at 521.716 191.516 0)
 			(effects
 				(font
@@ -15972,7 +15972,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "e7e65e35-23e1-4246-8983-39cf2b92ae9c")
-		(property "Sheetname" "TPMS_Sensor (4x)"
+		(property "Sheetname" "TPMS_Sensor (3x)"
 			(at 521.716 220.98 0)
 			(effects
 				(font
