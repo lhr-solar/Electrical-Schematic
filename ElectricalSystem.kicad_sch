@@ -2140,6 +2140,19 @@
 		)
 		(uuid "735b203e-ffec-4dd7-9f97-fd404af71931")
 	)
+	(text "fuse b/t array and mppt?"
+		(exclude_from_sim no)
+		(at 497.84 278.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 254 0 0 1)
+			)
+		)
+		(uuid "75daef61-7679-4474-a3f8-e581bb2d3dac")
+	)
 	(text "Determine how many USB/whether using USB hub on canopy"
 		(exclude_from_sim no)
 		(at 465.328 131.318 0)
@@ -2450,6 +2463,19 @@
 			)
 		)
 		(uuid "f4c16883-469e-44d0-8870-9d6329d66e8c")
+	)
+	(text "add physical fuses here?\nrating?"
+		(exclude_from_sim no)
+		(at 185.674 278.638 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "f51182a7-267c-458c-98f6-7c6b7a3be306")
 	)
 	(text "Custom Bus Bar (cross-section?)"
 		(exclude_from_sim no)
@@ -5622,7 +5648,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 209.55) (xy 261.62 209.55)
+			(xy 252.73 209.55) (xy 265.43 209.55)
 		)
 		(stroke
 			(width 0)
@@ -5916,7 +5942,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 214.63) (xy 261.62 214.63)
+			(xy 252.73 214.63) (xy 265.43 214.63)
 		)
 		(stroke
 			(width 0)
@@ -9340,8 +9366,8 @@
 		)
 		(uuid "3d13812d-d53b-47f4-9d32-ae3973a79652")
 	)
-	(label "Fan2"
-		(at 261.62 214.63 180)
+	(label "MocoFan2"
+		(at 265.43 214.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10230,8 +10256,8 @@
 		)
 		(uuid "bf0d2508-a9cf-4262-903c-17ea65581e63")
 	)
-	(label "Fan1"
-		(at 261.62 209.55 180)
+	(label "MocoFan1"
+		(at 265.43 209.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
