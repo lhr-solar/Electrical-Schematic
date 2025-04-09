@@ -614,6 +614,14 @@
       "Root"
     ],
     [
+      "0975ea08-3c9e-4fba-b8cb-edaae8941701",
+      "ActivePrechargeBoard_Array"
+    ],
+    [
+      "c3cb5be9-e134-4f5c-a4bc-97a3a2b2e6ce",
+      "ActivePrechargeBoard_Motor"
+    ],
+    [
       "7ac3fc4b-8899-4aa2-9227-179058c1e13b",
       "PeripheralSOM3"
     ],
@@ -662,10 +670,6 @@
       "Lighting_Daughter_Back"
     ],
     [
-      "12c127cf-95a0-4f51-9621-5b606f3d2c29",
-      "BPS_Scrutineering1"
-    ],
-    [
       "6501682c-e98e-4704-a8d3-b0cb3ea39fab",
       "PeripheralSOM5"
     ],
@@ -687,7 +691,7 @@
     ],
     [
       "ba86bad2-6c72-4f94-92c2-0a6e93924cfa",
-      "PrimaryBatteryPack1"
+      "MainBatteryPack"
     ],
     [
       "eeb4a50e-9258-40ef-9934-de9572fc23b9",

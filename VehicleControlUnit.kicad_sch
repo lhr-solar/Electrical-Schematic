@@ -27,17 +27,6 @@
 		)
 		(uuid "27e3746f-2714-4ab6-97eb-3e35dc866847")
 	)
-	(hierarchical_label "Drive_APCHG"
-		(shape output)
-		(at 140.97 129.54 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "34f3b953-1793-42ae-b2d9-f406d4e45723")
-	)
 	(hierarchical_label "+Sens_MPCHG"
 		(shape output)
 		(at 140.97 105.41 0)
@@ -48,28 +37,6 @@
 			(justify left)
 		)
 		(uuid "3a49d6d0-e50f-4965-bf1b-cab23836fde1")
-	)
-	(hierarchical_label "+Sens_APCHG"
-		(shape output)
-		(at 140.97 125.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "47d29659-664e-45fb-9c65-4de9a6156be0")
-	)
-	(hierarchical_label "-Sens_APCHG"
-		(shape output)
-		(at 140.97 133.985 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4d84eca0-6cf6-43ac-812b-b437d5d8be55")
 	)
 	(hierarchical_label "-Sens_MPCHG"
 		(shape output)
@@ -125,16 +92,5 @@
 			(justify left)
 		)
 		(uuid "da3358c1-7a67-46e1-a43e-1092767a2172")
-	)
-	(hierarchical_label "GND_APCHG"
-		(shape output)
-		(at 140.97 138.43 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e5c0915c-4146-4200-a34a-a394916db276")
 	)
 )

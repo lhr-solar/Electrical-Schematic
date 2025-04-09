@@ -5,6 +5,17 @@
 	(uuid "a969dc67-4f4e-4342-91e8-dc6fdef44822")
 	(paper "A4")
 	(lib_symbols)
+	(hierarchical_label "+Sens_APCHG"
+		(shape output)
+		(at 121.92 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0259f3be-e0ba-4ac5-80f7-6815f69da4d9")
+	)
 	(hierarchical_label "Drive_ARR"
 		(shape output)
 		(at 121.92 130.81 0)
@@ -104,6 +115,17 @@
 		)
 		(uuid "a5f51414-a0bf-4d48-bb46-4b7f98925ab5")
 	)
+	(hierarchical_label "ArrayPreReady"
+		(shape input)
+		(at 121.92 161.925 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ac9e6929-7443-4291-ad47-33e5855613ed")
+	)
 	(hierarchical_label "GND_HV-"
 		(shape output)
 		(at 121.92 107.95 0)
@@ -114,6 +136,50 @@
 			(justify left)
 		)
 		(uuid "b8334daf-4b87-4db9-a62a-2f77ecbc134a")
+	)
+	(hierarchical_label "ArrayPreSPI"
+		(shape input)
+		(at 121.92 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c6e9297e-77fb-453b-92b5-22b45a268a76")
+	)
+	(hierarchical_label "-Sens_APCHG"
+		(shape output)
+		(at 121.92 57.785 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c85329a0-80d3-413b-af9a-d7739714a4d3")
+	)
+	(hierarchical_label "Drive_APCHG"
+		(shape output)
+		(at 121.92 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ccd75dac-ca4e-4f81-94ff-0102d6ecbd14")
+	)
+	(hierarchical_label "GND_APCHG"
+		(shape output)
+		(at 121.92 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d3092136-f72b-4662-9ad8-a442b446066f")
 	)
 	(hierarchical_label "GND_ARR"
 		(shape output)
