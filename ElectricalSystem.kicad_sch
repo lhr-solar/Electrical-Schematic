@@ -1720,8 +1720,8 @@
 		(uuid 8173aac3-fdb6-49f0-b167-5ebb27f8ef54)
 	)
 	(rectangle
-		(start 657.606 61.976)
-		(end 738.886 132.588)
+		(start 650.24 61.976)
+		(end 745.49 124.46)
 		(stroke
 			(width 0.508)
 			(type default)
@@ -1769,9 +1769,9 @@
 		)
 		(uuid "00f6c55e-a586-43dc-befe-377619748b87")
 	)
-	(text "The main CAN bus is CarCAN, which is utilized for system-wide communication\n(EX....). There are four peripheral CAN (PCAN) buses: BPS (Battery Protection\nSystem), Controls, Telemetry, and Motor (between VCU and motor controller)."
+	(text "The main CAN bus is CarCAN, which is utilized for system-wide communication\nbetween leaderboards + critical safety/drive systems). There are four peripheral\nCAN (PCAN) buses: BPS (Battery Protection System), Controls, Telemetry, and\nMotor (between VCU and motor controller)."
 		(exclude_from_sim no)
-		(at 658.622 77.47 0)
+		(at 652.272 79.248 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1780,6 +1780,18 @@
 			(justify left)
 		)
 		(uuid "010f6374-c181-482c-b406-d6d8610a432e")
+	)
+	(text "Telemetry_Leader -> Env_1 -> Env_2 -> Env_3 -> Dyn_1 -> Dyn_2 -> Env_4\n-> Env_5 -> Env_6 -> Dyn_3 -> Dyn_4"
+		(exclude_from_sim no)
+		(at 652.272 113.792 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 132 0 1)
+			)
+			(justify left)
+		)
+		(uuid "01734e40-574d-4dcb-96ea-69a65a20ac47")
 	)
 	(text "rating?"
 		(exclude_from_sim no)
@@ -1819,6 +1831,18 @@
 			)
 		)
 		(uuid "083b618d-7a58-4bd1-84f8-fcdda39cfbb0")
+	)
+	(text "BPS_Leader -> VoltTemp (1-8) -> Amperes"
+		(exclude_from_sim no)
+		(at 652.272 97.028 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 132 1)
+			)
+			(justify left)
+		)
+		(uuid "0b133d9c-3f1c-4f2a-a9d2-2792e7a49355")
 	)
 	(text "value?"
 		(exclude_from_sim no)
@@ -1971,7 +1995,7 @@
 	)
 	(text "CAN Topology"
 		(exclude_from_sim no)
-		(at 671.322 71.12 0)
+		(at 664.972 71.628 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -2019,15 +2043,27 @@
 	)
 	(text "PCAN_Motor"
 		(exclude_from_sim no)
-		(at 667.512 113.538 0)
+		(at 661.162 118.364 0)
 		(effects
 			(font
 				(size 2.032 2.032)
 				(thickness 0.254)
-				(color 0 0 0 1)
+				(color 204 102 0 1)
 			)
 		)
 		(uuid "522e0f69-b13f-414a-b81a-8f1589b8293c")
+	)
+	(text "VCU -> Motor_Controller_Interface -> WaveSculptor22"
+		(exclude_from_sim no)
+		(at 652.526 121.158 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 204 102 0 1)
+			)
+			(justify left)
+		)
+		(uuid "56cd38ba-5595-46cc-89d8-addc295d683c")
 	)
 	(text "Each MPPT internally fused to 8A"
 		(exclude_from_sim no)
@@ -2131,7 +2167,7 @@
 	)
 	(text "Notes"
 		(exclude_from_sim no)
-		(at 664.972 66.294 0)
+		(at 658.622 66.294 0)
 		(effects
 			(font
 				(size 3.175 3.175)
@@ -2143,12 +2179,12 @@
 	)
 	(text "PCAN_Controls"
 		(exclude_from_sim no)
-		(at 669.544 100.33 0)
+		(at 663.194 100.838 0)
 		(effects
 			(font
 				(size 2.032 2.032)
 				(thickness 0.254)
-				(color 0 0 0 1)
+				(color 0 0 255 1)
 			)
 		)
 		(uuid "95839e19-1d0e-4f70-92eb-00d17ef617a2")
@@ -2180,12 +2216,12 @@
 	)
 	(text "PCAN_BPS"
 		(exclude_from_sim no)
-		(at 666.242 95.504 0)
+		(at 659.892 94.234 0)
 		(effects
 			(font
 				(size 2.032 2.032)
 				(thickness 0.254)
-				(color 0 0 0 1)
+				(color 132 0 132 1)
 			)
 		)
 		(uuid "9f41de23-aef8-4bff-9ba2-e8ed1373a2f5")
@@ -2203,9 +2239,22 @@
 		)
 		(uuid "a428777c-e33c-4c31-981e-f21942524764")
 	)
-	(text "how is TPMS implemented?"
+	(text "or CarCAN??"
 		(exclude_from_sim no)
-		(at 536.956 201.93 0)
+		(at 511.302 121.666 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 254 0 0 1)
+			)
+		)
+		(uuid "a56b7722-abce-4b6a-8e97-510a12b902f3")
+	)
+	(text "how is TPMS implemented? how transmit to leader?"
+		(exclude_from_sim no)
+		(at 537.718 201.676 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2227,20 +2276,6 @@
 			)
 		)
 		(uuid "ba5d0cd9-bb64-4caf-a28c-d35cc966b6fa")
-	)
-	(text "terminating ends, all nodes in order"
-		(exclude_from_sim no)
-		(at 658.876 89.916 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "bb0e93cf-496c-4175-9cb9-75701989d6a6")
 	)
 	(text "Driver Controls"
 		(exclude_from_sim no)
@@ -2307,15 +2342,27 @@
 	)
 	(text "PCAN_Telemetry"
 		(exclude_from_sim no)
-		(at 670.56 105.41 0)
+		(at 664.21 109.728 0)
 		(effects
 			(font
 				(size 2.032 2.032)
 				(thickness 0.254)
-				(color 0 0 0 1)
+				(color 0 132 0 1)
 			)
 		)
 		(uuid "d30e6b91-32e8-40ae-9a4b-b9bf866314cd")
+	)
+	(text "Controls_Leader (Dash) -> Driver_Display -> Steering -> Lighting_Front\n-> Lighting_Canopy -> Lighting_Back"
+		(exclude_from_sim no)
+		(at 652.272 104.648 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 255 1)
+			)
+			(justify left)
+		)
+		(uuid "d4ade167-0725-4f73-9491-a92d43f7620e")
 	)
 	(text "Array"
 		(exclude_from_sim no)
@@ -2394,7 +2441,7 @@
 	)
 	(text "CarCAN"
 		(exclude_from_sim no)
-		(at 663.956 84.328 0)
+		(at 657.606 85.852 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -2414,6 +2461,18 @@
 			)
 		)
 		(uuid "f560f2c5-1b32-4430-b882-1c1043a8e68b")
+	)
+	(text "Controls_Leader (Dash) -> Pedals -> Supplemental_Monitoring -> Telemetry_Leader\n-> VCU -> PDU -> Pump_Control -> MPPT_A -> MPPT_B -> MPPT_C -> BPS_Leader"
+		(exclude_from_sim no)
+		(at 652.272 89.408 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "f90d88ab-cd51-4430-93f8-4f2d63cfe232")
 	)
 	(text "Determine what dashboard LEDs and buttons will be connected"
 		(exclude_from_sim no)
@@ -9350,7 +9409,7 @@
 		)
 		(uuid "4df1f68c-24a7-4ed3-93ec-15cfd136b1ed")
 	)
-	(label "PCAN_Controls"
+	(label "CarCAN"
 		(at 525.78 57.785 0)
 		(effects
 			(font
