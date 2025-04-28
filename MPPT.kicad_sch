@@ -5,16 +5,16 @@
 	(uuid "ac210294-e55c-441e-aa27-65ee6d0edb30")
 	(paper "A4")
 	(lib_symbols)
-	(hierarchical_label "GND_CarCAN"
+	(hierarchical_label "GND"
 		(shape input)
-		(at 132.08 49.53 0)
+		(at 132.08 48.895 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "0d332318-0733-4613-9d62-4295c8cc4804")
+		(uuid "14d4e499-1756-4c2d-abec-cdbaba9c054f")
 	)
 	(hierarchical_label "BATT+"
 		(shape output)
@@ -49,6 +49,17 @@
 		)
 		(uuid "944e41fe-c7e3-49ea-a0d7-c6ed30976ac2")
 	)
+	(hierarchical_label "+12V"
+		(shape input)
+		(at 132.08 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9cb6317c-767d-437e-b1af-a7e517049978")
+	)
 	(hierarchical_label "+CarCAN"
 		(shape input)
 		(at 132.08 55.245 0)
@@ -81,16 +92,5 @@
 			(justify left)
 		)
 		(uuid "ea128ec0-6f5a-4345-a3b6-b3478de34519")
-	)
-	(hierarchical_label "+12V_CarCAN"
-		(shape input)
-		(at 132.08 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f7da5673-9be7-47a5-a6c1-1eaa3d6317f2")
 	)
 )

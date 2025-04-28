@@ -1,0 +1,48 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "78f9036c-c616-4271-bdbb-c4299aff7781")
+	(paper "A4")
+	(lib_symbols)
+	(rectangle
+		(start 17.78 17.78)
+		(end 245.11 124.46)
+		(stroke
+			(width 0.508)
+			(type dash)
+			(color 255 64 158 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid aa615085-0881-43ae-b3b8-a43a84f47897)
+	)
+	(text "Array"
+		(exclude_from_sim no)
+		(at 31.242 24.638 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 5.08 5.08)
+				(thickness 0.508)
+				(bold yes)
+				(color 255 64 158 1)
+			)
+		)
+		(uuid "58eb1cdc-7735-4dbf-b8a0-1759b0f104ca")
+	)
+	(text "add blackbody A/C (temp/irradiance sensors)\n1 C per MPPT, 2 A per C"
+		(exclude_from_sim no)
+		(at 143.764 70.612 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 254 0 0 1)
+			)
+		)
+		(uuid "9b9f2f98-fb55-4ebc-b501-d9c4f9b8197c")
+	)
+)

@@ -630,16 +630,16 @@
       "Amperes_Daughter_Shunt"
     ],
     [
-      "a2429884-d53c-4c60-aa6f-8eab55314264",
-      "Driver_Display"
+      "7360fd04-f67b-4100-8121-b3061f69d3e5",
+      "Backup_Camera"
     ],
     [
-      "d8c2d4c2-f34a-48c4-a8b7-a98a44fa26fc",
-      "Left_Side_Camera"
-    ],
-    [
-      "b692e76f-abad-46ff-a46c-e04e0c3670a9",
+      "fdd238b3-0743-48c5-8c21-1b6e421b50d1",
       "Controls_Daughter (Dashboard)"
+    ],
+    [
+      "38bfecff-6970-4d39-ad8e-2cf7b7addf33",
+      "Display_Screen"
     ],
     [
       "2ebde621-0a6b-4f7e-ba8d-6a6dfc042725",
@@ -654,28 +654,28 @@
       "VoltTemp_Daughter (8x)"
     ],
     [
-      "0ff96bcd-e44c-4e70-9066-ed3a641b9853",
+      "612fc007-7569-4f3d-a746-64df3bb413ab",
+      "Driver_Display"
+    ],
+    [
+      "95b070eb-af65-4a4d-95f4-dc3e9d8a2c79",
       "LeaderSOM2"
     ],
     [
-      "bdd41b9b-94e8-40e6-a844-40edf918782c",
-      "Lighting_Daughter_Front"
+      "673e7d3f-6462-42f6-9374-0fd082b7d7ec",
+      "Left_Side_Camera"
     ],
     [
-      "d940a1b5-dce1-4b84-bc59-e9e20d5591fe",
-      "PeripheralSOM4"
-    ],
-    [
-      "6dba5d6f-d21e-4bdb-a56d-778d20a76bec",
+      "5c0835e7-99da-4229-b7fa-94d33da2fd02",
       "Lighting_Daughter_Back"
     ],
     [
-      "a7c562d3-c61e-4cc0-9a4c-2c90be6de9f2",
+      "89a03baf-a9b8-4ed0-8c4c-98d3b8a010cf",
       "Dynamics_Board (3x)"
     ],
     [
-      "6501682c-e98e-4704-a8d3-b0cb3ea39fab",
-      "PeripheralSOM5"
+      "5b87ca21-8d94-4232-8b15-56827d035ff1",
+      "Lighting_Daughter_Canopy"
     ],
     [
       "cb410cb7-3c99-464a-a4d3-9e42402a3364",
@@ -686,12 +686,12 @@
       "LeaderSOM3"
     ],
     [
-      "81a8cc99-ddb0-40f7-be09-3b14735e0a85",
-      "Pedal_Board"
+      "9abbd496-e24c-4284-bab7-8a72793b5b5e",
+      "Lighting_Daughter_Front"
     ],
     [
-      "844cfe9c-2edc-4eed-870c-b6aaf6022071",
-      "PeripheralSOM7"
+      "5fb8f929-522f-4d90-bb6a-75a333b6ce81",
+      "Pedal_Board"
     ],
     [
       "ba86bad2-6c72-4f94-92c2-0a6e93924cfa",
@@ -726,24 +726,24 @@
       "LeaderSOM1"
     ],
     [
-      "51dea98d-ebef-41ea-a226-7341f187799a",
-      "Backup_Camera"
+      "5d94ebc1-f0ec-418e-9678-9399c27a1606",
+      "PeripheralSOM4"
     ],
     [
-      "7dfdd185-eecf-4710-a3fd-bebcad6339de",
-      "Right_Side_Camera"
+      "9a127703-df00-45e3-852e-7daed3fa749b",
+      "PeripheralSOM5"
     ],
     [
-      "a346b925-4827-4006-9600-275d798ee511",
-      "Lighting_Daughter_Canopy"
+      "825b6d68-f5b6-4c0a-a22f-512f5b85c926",
+      "PeripheralSOM7"
     ],
     [
-      "76f25624-0158-475b-8cfa-469389a7b609",
-      "Display_Screen"
-    ],
-    [
-      "f671fe54-5f08-4289-9d9e-cd1342f38452",
+      "baef4f59-8f8e-4792-90b4-ff9c0fa8b287",
       "PeripheralSOM8"
+    ],
+    [
+      "f39bdc22-645c-4955-b32b-790e1b722807",
+      "Right_Side_Camera"
     ],
     [
       "ee66a488-5bd3-4758-b20a-bbbd61769e90",
@@ -766,44 +766,56 @@
       "PeripheralSOM11"
     ],
     [
-      "1cf2fa1e-ddfe-4b6a-b34e-c17a4700c7a2",
+      "d7602283-dfd5-41f2-a36a-a8a185c80911",
       "Steering_Board"
-    ],
-    [
-      "8a497dca-e110-4cfa-bbca-83b8bbb7227c",
-      "MPPT_B"
     ],
     [
       "e1481987-c679-4dde-b0ae-9b2348ca5d72",
       "MPPT_C"
     ],
     [
-      "7ed6b0f7-dc10-4fce-80f0-ab0297a049bc",
-      "MPPT_A"
-    ],
-    [
-      "e4e67a0a-9cea-4be3-b804-c43241168d97",
-      "Telemetry Daughter (Wireless Transceiver)"
-    ],
-    [
-      "487b1168-7f7c-499f-97f1-bc71c82a9c28",
-      "LeaderSOM4"
-    ],
-    [
-      "27b7ddd9-bce0-4b48-ac89-8a110568d6ab",
-      "PeripheralSOM12"
-    ],
-    [
-      "d0960c84-edfe-4d02-823d-14d83351ab34",
+      "c826ace9-b0f7-492f-b882-9a3cb6c44868",
       "Environment_Board (6x)"
     ],
     [
-      "46fed046-a968-4f00-9bda-68fbc86b7c03",
+      "bd04e6c9-2792-46dc-bb00-1a8eed475b85",
+      "LeaderSOM4"
+    ],
+    [
+      "5a721d11-e386-4775-8355-110e518de743",
+      "Telemetry"
+    ],
+    [
+      "47f56fba-9f77-4a41-9653-b967668152d4",
+      "PeripheralSOM12"
+    ],
+    [
+      "2dd715f1-9d2b-40a6-9a34-0b400d1e0ed5",
       "PeripheralSOM13"
     ],
     [
-      "e7e65e35-23e1-4246-8983-39cf2b92ae9c",
+      "60a0ffa3-6fdf-4757-83c6-92b626c008df",
       "TPMS_Sensor (3x)"
+    ],
+    [
+      "1963dda8-3167-4880-a118-e42a73e5d981",
+      "Telemetry Daughter (Wireless Transceiver)"
+    ],
+    [
+      "6a58b33f-a3a0-48ed-831f-2b53ac995e30",
+      "MPPT_B"
+    ],
+    [
+      "03930dbf-9371-435b-be3e-8b1aa896dbdc",
+      "Driver Controls"
+    ],
+    [
+      "a7b6fdec-9375-46d4-be99-e484f13d345a",
+      "MPPT_A"
+    ],
+    [
+      "e094edde-623e-4790-8114-bc89a5278135",
+      "Array"
     ]
   ],
   "text_variables": {}
