@@ -3127,6 +3127,17 @@
 	)
 	(wire
 		(pts
+			(xy 497.84 135.89) (xy 509.27 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 72 72 72 1)
+		)
+		(uuid "010a6450-6421-4560-b66c-ee041b54898e")
+	)
+	(wire
+		(pts
 			(xy 259.08 114.3) (xy 265.43 114.3)
 		)
 		(stroke
@@ -5018,6 +5029,17 @@
 		)
 		(uuid "888c3d8f-781e-427f-86c9-9a6cb9612646")
 	)
+	(wire
+		(pts
+			(xy 497.84 133.35) (xy 509.27 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 254 0 0 1)
+		)
+		(uuid "8933633a-f663-4476-b0d5-bc8a01d80878")
+	)
 	(bus
 		(pts
 			(xy 604.52 76.2) (xy 604.52 80.01)
@@ -5806,6 +5828,17 @@
 	)
 	(wire
 		(pts
+			(xy 497.84 125.73) (xy 509.27 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 254 0 0 1)
+		)
+		(uuid "c0356a96-d0ae-4704-895e-6a7e3b4904d1")
+	)
+	(wire
+		(pts
 			(xy 152.4 88.9) (xy 152.4 99.06)
 		)
 		(stroke
@@ -6074,6 +6107,17 @@
 			(type default)
 		)
 		(uuid "d8b9c8fb-d05c-4114-beb0-4437ec75b691")
+	)
+	(wire
+		(pts
+			(xy 497.84 153.67) (xy 509.27 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 254 0 0 1)
+		)
+		(uuid "d914e97b-3c37-45a7-b6a8-0334e910a1c8")
 	)
 	(wire
 		(pts
@@ -6352,6 +6396,17 @@
 			(type default)
 		)
 		(uuid "e7d028ac-938c-4a93-b222-ce6b9b25fd13")
+	)
+	(wire
+		(pts
+			(xy 497.84 128.27) (xy 509.27 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 72 72 72 1)
+		)
+		(uuid "e8206f8b-68e8-4f1c-9a81-f4cd327cdbc1")
 	)
 	(wire
 		(pts
@@ -6705,6 +6760,17 @@
 			(color 0 0 0 1)
 		)
 		(uuid "fca750a3-5be5-498c-a4aa-3ee2eebf67da")
+	)
+	(wire
+		(pts
+			(xy 497.84 156.21) (xy 509.27 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 72 72 72 1)
+		)
+		(uuid "fcf6369b-15ff-4b1d-b85e-4a18d968e9bd")
 	)
 	(wire
 		(pts
@@ -7308,6 +7374,16 @@
 		)
 		(uuid "4df1f68c-24a7-4ed3-93ec-15cfd136b1ed")
 	)
+	(label "12V_Out4"
+		(at 509.27 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4f42400d-f421-434b-98a0-dd38a3ffd9f5")
+	)
 	(label "12V_Out7"
 		(at 374.65 89.535 0)
 		(effects
@@ -7357,6 +7433,16 @@
 			(justify right bottom)
 		)
 		(uuid "55c48758-c92b-4dae-a54f-deaf9be73531")
+	)
+	(label "12V_Out2"
+		(at 509.27 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "561b2691-d1d6-44d8-bc2c-2cbbfa66e48c")
 	)
 	(label "+Shunt"
 		(at 68.58 213.995 180)
@@ -7457,6 +7543,16 @@
 			(justify right bottom)
 		)
 		(uuid "6cbf4452-3383-44ce-b895-689b27144963")
+	)
+	(label "12V_Out5"
+		(at 509.27 153.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "70c165fa-dc70-4a36-b5e0-f7513a24bc45")
 	)
 	(label "GND_Out1"
 		(at 85.725 185.42 0)
@@ -7828,6 +7924,16 @@
 		)
 		(uuid "a5605ee3-072e-4070-b513-d401319a761e")
 	)
+	(label "GND_Out2"
+		(at 509.27 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "af55ba79-3880-4ff4-b8d0-44c3835b07aa")
+	)
 	(label "Volt[1..5]"
 		(at 35.56 287.655 0)
 		(effects
@@ -8027,6 +8133,16 @@
 			(justify right bottom)
 		)
 		(uuid "cd4b4ad3-9e56-4c8b-8977-756e1b5d489d")
+	)
+	(label "GND_Out4"
+		(at 509.27 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cebc4fc2-48e7-48df-8e8d-e038fe2dd453")
 	)
 	(label "Temp2"
 		(at 48.895 297.815 180)
@@ -8277,6 +8393,16 @@
 			(justify left bottom)
 		)
 		(uuid "fa8788c7-bf15-4268-8d24-094088df70ac")
+	)
+	(label "GND_Out5"
+		(at 509.27 156.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fae7734b-af47-4338-acd4-0384c3c690bc")
 	)
 	(label "ARR_HV+"
 		(at 233.68 91.44 180)
@@ -9639,7 +9765,7 @@
 	)
 	(sheet
 		(at 467.36 121.92)
-		(size 52.07 20.32)
+		(size 30.48 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -9663,12 +9789,52 @@
 			)
 		)
 		(property "Sheetfile" "DriverControls.kicad_sch"
-			(at 467.36 142.8246 0)
+			(at 467.36 140.2846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "12V_In1" input
+			(at 497.84 125.73 0)
+			(uuid "db6dad5d-c360-4ba4-ab35-057ef089d2be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "12V_In2" input
+			(at 497.84 133.35 0)
+			(uuid "d74c4db6-5118-44a5-970f-256b5e8e674a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND_In2" input
+			(at 497.84 135.89 0)
+			(uuid "eb7c9217-c29c-42e4-9140-741972a63fa2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND_In1" input
+			(at 497.84 128.27 0)
+			(uuid "7201f723-f340-4dd1-947a-b7c2cedfc00e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -10724,7 +10890,7 @@
 	)
 	(sheet
 		(at 467.36 149.86)
-		(size 52.07 20.32)
+		(size 30.48 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -10748,12 +10914,32 @@
 			)
 		)
 		(property "Sheetfile" "Telemetry.kicad_sch"
-			(at 467.36 170.7646 0)
+			(at 467.36 160.6046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "12V_In" input
+			(at 497.84 153.67 0)
+			(uuid "3ec68756-d281-4f77-abf8-46b05807af84")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND_In" input
+			(at 497.84 156.21 0)
+			(uuid "f5e81f27-2534-4d9b-a6e7-faca535d4b43")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -11671,8 +11857,8 @@
 		)
 	)
 	(sheet
-		(at 467.36 177.8)
-		(size 52.07 20.32)
+		(at 467.36 168.91)
+		(size 30.48 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -11687,7 +11873,7 @@
 		)
 		(uuid "e094edde-623e-4790-8114-bc89a5278135")
 		(property "Sheetname" "Array"
-			(at 467.36 177.0884 0)
+			(at 467.36 168.1984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11696,7 +11882,7 @@
 			)
 		)
 		(property "Sheetfile" "Array.kicad_sch"
-			(at 467.36 198.7046 0)
+			(at 467.36 179.6546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
