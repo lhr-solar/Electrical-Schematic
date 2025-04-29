@@ -147,6 +147,143 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Fuse_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse_Small"
+				(at 0 1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fuse_Small_0_1"
+				(rectangle
+					(start -1.27 0.508)
+					(end 1.27 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -1642,7 +1779,7 @@
 		(uuid 10295073-3779-47d7-8c30-fc91739d3849)
 	)
 	(rectangle
-		(start 356.87 15.24)
+		(start 354.33 15.24)
 		(end 613.41 113.03)
 		(stroke
 			(width 0.508)
@@ -1682,7 +1819,7 @@
 	)
 	(rectangle
 		(start 356.87 166.116)
-		(end 452.12 228.6)
+		(end 455.93 228.6)
 		(stroke
 			(width 0.508)
 			(type default)
@@ -1730,7 +1867,7 @@
 		)
 		(uuid "010f6374-c181-482c-b406-d6d8610a432e")
 	)
-	(text "Telemetry_Leader -> Env_1 -> Env_2 -> Env_3 -> Dyn_1 -> Dyn_2 -> Env_4\n-> Env_5 -> Env_6 -> Dyn_3 -> Dyn_4"
+	(text "Telemetry_Leader -> Env_1 -> Env_2 -> Env_3 -> Dyn_1 -> Dyn_2 -> Env_4\n-> Env_5 -> Env_6 -> Dyn_3"
 		(exclude_from_sim no)
 		(at 358.902 217.932 0)
 		(effects
@@ -1779,19 +1916,6 @@
 			(justify left)
 		)
 		(uuid "0b133d9c-3f1c-4f2a-a9d2-2792e7a49355")
-	)
-	(text "value?"
-		(exclude_from_sim no)
-		(at 94.234 149.098 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "284ba712-f5e7-4b18-a7d3-0f21c8a61eb8")
 	)
 	(text "Low-Voltage Low-Current (20 AWG)"
 		(exclude_from_sim no)
@@ -1851,19 +1975,6 @@
 			)
 		)
 		(uuid "3b5175be-f299-4fb8-a2d2-c59fec934ee6")
-	)
-	(text "motor fuse?"
-		(exclude_from_sim no)
-		(at 241.3 141.478 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "3d6f18a9-f104-4067-a7f3-9b7bfdb74e67")
 	)
 	(text "HV Power Distribution"
 		(exclude_from_sim no)
@@ -2085,19 +2196,6 @@
 		)
 		(uuid "9714477d-bad0-4af5-92d1-18727e972a40")
 	)
-	(text "how does this connect to amperes?"
-		(exclude_from_sim no)
-		(at 94.996 150.876 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "99115049-4eb6-41de-94ca-eaf0449af83b")
-	)
 	(text "PCAN_BPS"
 		(exclude_from_sim no)
 		(at 366.522 198.374 0)
@@ -2198,7 +2296,7 @@
 		)
 		(uuid "d30e6b91-32e8-40ae-9a4b-b9bf866314cd")
 	)
-	(text "Controls_Leader (Dash) -> Driver_Display -> Steering -> Lighting_Front\n-> Lighting_Canopy -> Lighting_Back"
+	(text "Controls_Leader (Dash) -> Driver_Display -> Steering (stub) -> Lighting_Front\n-> Lighting_Canopy -> Lighting_Back"
 		(exclude_from_sim no)
 		(at 358.902 208.788 0)
 		(effects
@@ -2270,19 +2368,6 @@
 		)
 		(uuid "f4c16883-469e-44d0-8870-9d6329d66e8c")
 	)
-	(text "add physical fuses here?\nrating?"
-		(exclude_from_sim no)
-		(at 386.334 62.738 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "f51182a7-267c-458c-98f6-7c6b7a3be306")
-	)
 	(text "Custom Bus Bar (cross-section?)"
 		(exclude_from_sim no)
 		(at 431.292 127.254 0)
@@ -2294,7 +2379,7 @@
 		)
 		(uuid "f560f2c5-1b32-4430-b882-1c1043a8e68b")
 	)
-	(text "Controls_Leader (Dash) -> Pedals -> Supplemental_Monitoring -> Telemetry_Leader\n-> VCU -> PDU -> Pump_Control -> MPPT_A -> MPPT_B -> MPPT_C -> BPS_Leader"
+	(text "BPS_Leader -> Controls_Leader (Dash) -> Pedals -> Supplemental_Monitoring\n-> Telemetry_Leader -> VCU -> PDU -> Pump_Control -> MPPT_A -> MPPT_B -> MPPT_C"
 		(exclude_from_sim no)
 		(at 358.902 193.548 0)
 		(effects
@@ -2306,9 +2391,9 @@
 		)
 		(uuid "f90d88ab-cd51-4430-93f8-4f2d63cfe232")
 	)
-	(text "this strobe is over CAN now?"
+	(text "really over CAN"
 		(exclude_from_sim no)
-		(at 84.328 225.298 0)
+		(at 81.534 220.726 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2392,7 +2477,7 @@
 		(uuid "0511e20e-3b7c-48ab-bd00-9dcaac1827d6")
 	)
 	(bus_entry
-		(at 379.73 86.995)
+		(at 379.73 86.36)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -2482,7 +2567,7 @@
 		(uuid "23eac0a2-4965-4f14-bf66-4a791b756c8b")
 	)
 	(bus_entry
-		(at 379.73 99.695)
+		(at 379.73 99.06)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -2500,7 +2585,7 @@
 		(uuid "27ad95da-6d56-49f3-b070-608411c9d2eb")
 	)
 	(bus_entry
-		(at 379.73 94.615)
+		(at 379.73 93.98)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -2563,7 +2648,7 @@
 		(uuid "3cf76da9-54ea-4988-bee3-355e7488910c")
 	)
 	(bus_entry
-		(at 379.73 92.075)
+		(at 379.73 91.44)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -2599,7 +2684,7 @@
 		(uuid "4abb9b7c-ab26-4e0e-8ee9-221ed88cc96d")
 	)
 	(bus_entry
-		(at 379.73 79.375)
+		(at 379.73 78.74)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -2635,7 +2720,7 @@
 		(uuid "56c6fa6c-9986-4078-af8e-59ac5738714d")
 	)
 	(bus_entry
-		(at 379.73 89.535)
+		(at 379.73 88.9)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -2725,7 +2810,7 @@
 		(uuid "703c6a8f-f5cf-445f-b823-418cfa9dce14")
 	)
 	(bus_entry
-		(at 379.73 84.455)
+		(at 379.73 83.82)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -2806,7 +2891,7 @@
 		(uuid "872d8d74-317d-4dd6-b761-7785189e2b8a")
 	)
 	(bus_entry
-		(at 379.73 76.835)
+		(at 379.73 76.2)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -2923,7 +3008,7 @@
 		(uuid "b9d0ea29-c0d5-424f-8f77-fdef37985668")
 	)
 	(bus_entry
-		(at 379.73 74.295)
+		(at 379.73 73.66)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -2941,7 +3026,7 @@
 		(uuid "c8288eaf-a66c-4943-b9d4-ff749bebc648")
 	)
 	(bus_entry
-		(at 379.73 97.155)
+		(at 379.73 96.52)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -2968,7 +3053,7 @@
 		(uuid "d9be1ab5-07b9-435f-896a-545a000eb8cc")
 	)
 	(bus_entry
-		(at 379.73 71.755)
+		(at 379.73 71.12)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -3058,7 +3143,7 @@
 		(uuid "f2774608-5cbe-4550-8007-e530b935218e")
 	)
 	(bus_entry
-		(at 379.73 81.915)
+		(at 379.73 81.28)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -3104,7 +3189,7 @@
 	)
 	(wire
 		(pts
-			(xy 491.49 135.89) (xy 502.92 135.89)
+			(xy 447.04 101.6) (xy 458.47 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3301,17 +3386,6 @@
 		)
 		(uuid "17c420bf-d483-474e-a2e7-2e1a4f49d170")
 	)
-	(bus
-		(pts
-			(xy 379.73 71.755) (xy 379.73 74.295)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 194 0 0 1)
-		)
-		(uuid "18886a8d-0b75-45c9-8e43-681e1aad30b8")
-	)
 	(wire
 		(pts
 			(xy 139.7 252.73) (xy 153.67 252.73)
@@ -3321,6 +3395,16 @@
 			(type default)
 		)
 		(uuid "18b19099-1697-4600-a83b-37354f94c929")
+	)
+	(wire
+		(pts
+			(xy 375.92 78.74) (xy 377.19 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19f7d211-b362-40a2-91b1-5c4ed27353be")
 	)
 	(wire
 		(pts
@@ -3428,7 +3512,7 @@
 	)
 	(bus
 		(pts
-			(xy 379.73 92.075) (xy 379.73 94.615)
+			(xy 379.73 91.44) (xy 379.73 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3522,7 +3606,7 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 94.615) (xy 377.19 94.615)
+			(xy 359.41 93.98) (xy 370.84 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3585,7 +3669,7 @@
 	)
 	(bus
 		(pts
-			(xy 379.73 67.31) (xy 379.73 71.755)
+			(xy 379.73 67.31) (xy 379.73 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3613,6 +3697,16 @@
 			(type default)
 		)
 		(uuid "2dafe1d3-7d7e-4f18-8025-8629e6a9dd21")
+	)
+	(wire
+		(pts
+			(xy 375.92 96.52) (xy 377.19 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e83cdb2-f253-483a-bb37-32fcdb8a6e48")
 	)
 	(wire
 		(pts
@@ -3881,7 +3975,7 @@
 	)
 	(bus
 		(pts
-			(xy 379.73 86.995) (xy 379.73 89.535)
+			(xy 379.73 86.36) (xy 379.73 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3932,7 +4026,7 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 99.695) (xy 377.19 99.695)
+			(xy 358.14 99.06) (xy 370.84 99.06)
 		)
 		(stroke
 			(width 0)
@@ -4024,6 +4118,16 @@
 	)
 	(wire
 		(pts
+			(xy 375.92 88.9) (xy 377.19 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43fd73b4-996b-411c-8e77-d7d0eaea3a66")
+	)
+	(wire
+		(pts
 			(xy 513.08 67.31) (xy 516.89 67.31)
 		)
 		(stroke
@@ -4067,7 +4171,7 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 89.535) (xy 377.19 89.535)
+			(xy 359.41 88.9) (xy 370.84 88.9)
 		)
 		(stroke
 			(width 0)
@@ -4263,7 +4367,7 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 81.915) (xy 377.19 81.915)
+			(xy 359.41 81.28) (xy 370.84 81.28)
 		)
 		(stroke
 			(width 0)
@@ -4362,6 +4466,16 @@
 			(color 194 0 0 1)
 		)
 		(uuid "57af98fa-8503-49c1-b5bb-024218f83fca")
+	)
+	(wire
+		(pts
+			(xy 375.92 93.98) (xy 377.19 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58bd66d9-251a-46b3-ac56-cef723cbb26f")
 	)
 	(wire
 		(pts
@@ -4465,6 +4579,17 @@
 		)
 		(uuid "5f87dc1d-7539-4528-b990-e9e40d4ee9e5")
 	)
+	(bus
+		(pts
+			(xy 379.73 71.12) (xy 379.73 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 0 1)
+		)
+		(uuid "5fedb129-9119-4107-8b2a-30428d8fb92e")
+	)
 	(wire
 		(pts
 			(xy 125.73 92.71) (xy 128.27 92.71)
@@ -4514,6 +4639,16 @@
 			(type default)
 		)
 		(uuid "644c2b71-a161-40c6-891f-e58963452693")
+	)
+	(wire
+		(pts
+			(xy 375.92 86.36) (xy 377.19 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6566204a-f0e4-48ca-b75e-461ffefa7fac")
 	)
 	(wire
 		(pts
@@ -4729,7 +4864,7 @@
 	)
 	(bus
 		(pts
-			(xy 379.73 84.455) (xy 379.73 86.995)
+			(xy 379.73 83.82) (xy 379.73 86.36)
 		)
 		(stroke
 			(width 0)
@@ -4740,7 +4875,7 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 86.995) (xy 377.19 86.995)
+			(xy 359.41 86.36) (xy 370.84 86.36)
 		)
 		(stroke
 			(width 0)
@@ -4789,6 +4924,16 @@
 			(type default)
 		)
 		(uuid "7a1dd316-b5e8-45d7-8607-6a2b572e4398")
+	)
+	(wire
+		(pts
+			(xy 375.92 99.06) (xy 377.19 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b51b56a-28ed-4857-8e2b-3c163dff4cac")
 	)
 	(wire
 		(pts
@@ -4949,6 +5094,17 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 142.24) (xy 261.62 142.24)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 254 137 0 1)
+		)
+		(uuid "87f2a5b0-edf2-49ad-9a9b-473b893be135")
+	)
+	(wire
+		(pts
 			(xy 210.82 212.09) (xy 219.71 212.09)
 		)
 		(stroke
@@ -4967,6 +5123,16 @@
 		)
 		(uuid "8834c4c8-ec02-4541-8739-efff7db622d9")
 	)
+	(wire
+		(pts
+			(xy 375.92 101.6) (xy 377.19 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "885e124f-86bc-4869-aa7f-b198bb9eec59")
+	)
 	(bus
 		(pts
 			(xy 95.25 196.85) (xy 95.25 200.66)
@@ -4979,7 +5145,7 @@
 	)
 	(wire
 		(pts
-			(xy 491.49 133.35) (xy 502.92 133.35)
+			(xy 447.04 99.06) (xy 458.47 99.06)
 		)
 		(stroke
 			(width 0)
@@ -5103,7 +5269,7 @@
 	)
 	(bus
 		(pts
-			(xy 379.73 99.695) (xy 379.73 107.315)
+			(xy 379.73 99.06) (xy 379.73 107.315)
 		)
 		(stroke
 			(width 0)
@@ -5111,17 +5277,6 @@
 			(color 194 0 0 1)
 		)
 		(uuid "92e2a6b2-90a1-4590-b7ac-d566a14f5fdf")
-	)
-	(bus
-		(pts
-			(xy 379.73 74.295) (xy 379.73 76.835)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 194 0 0 1)
-		)
-		(uuid "938947e8-8c55-4a98-85a1-af95a6edc183")
 	)
 	(bus
 		(pts
@@ -5210,7 +5365,7 @@
 	)
 	(bus
 		(pts
-			(xy 379.73 79.375) (xy 379.73 81.915)
+			(xy 379.73 78.74) (xy 379.73 81.28)
 		)
 		(stroke
 			(width 0)
@@ -5231,7 +5386,7 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 97.155) (xy 377.19 97.155)
+			(xy 358.14 96.52) (xy 370.84 96.52)
 		)
 		(stroke
 			(width 0)
@@ -5273,7 +5428,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 142.24) (xy 261.62 142.24)
+			(xy 220.98 142.24) (xy 238.76 142.24)
 		)
 		(stroke
 			(width 0.381)
@@ -5305,7 +5460,7 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 74.295) (xy 377.19 74.295)
+			(xy 359.41 73.66) (xy 370.84 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5477,7 +5632,7 @@
 	)
 	(bus
 		(pts
-			(xy 379.73 81.915) (xy 379.73 84.455)
+			(xy 379.73 81.28) (xy 379.73 83.82)
 		)
 		(stroke
 			(width 0)
@@ -5552,7 +5707,7 @@
 	)
 	(bus
 		(pts
-			(xy 379.73 89.535) (xy 379.73 92.075)
+			(xy 379.73 88.9) (xy 379.73 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5604,18 +5759,7 @@
 	)
 	(bus
 		(pts
-			(xy 379.73 76.835) (xy 379.73 79.375)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 194 0 0 1)
-		)
-		(uuid "b6bc1e96-4b21-44d9-8bef-bab4dc3e5224")
-	)
-	(bus
-		(pts
-			(xy 379.73 94.615) (xy 379.73 97.155)
+			(xy 379.73 93.98) (xy 379.73 96.52)
 		)
 		(stroke
 			(width 0)
@@ -5716,6 +5860,17 @@
 		)
 		(uuid "bd3ba2f4-f680-4986-b958-f1881f634a05")
 	)
+	(bus
+		(pts
+			(xy 379.73 76.2) (xy 379.73 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 0 1)
+		)
+		(uuid "be52deff-2225-4196-91e5-d7d43f6c077f")
+	)
 	(wire
 		(pts
 			(xy 194.31 78.74) (xy 205.74 78.74)
@@ -5768,7 +5923,7 @@
 	)
 	(wire
 		(pts
-			(xy 491.49 125.73) (xy 502.92 125.73)
+			(xy 447.04 91.44) (xy 458.47 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5861,6 +6016,16 @@
 			(type default)
 		)
 		(uuid "c610d6cf-3c30-4c4a-a42f-205dd0fd1ec9")
+	)
+	(wire
+		(pts
+			(xy 375.92 91.44) (xy 377.19 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c720587e-9ed1-44e2-a362-dcb7fffe6496")
 	)
 	(wire
 		(pts
@@ -6020,7 +6185,7 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 102.235) (xy 377.19 102.235)
+			(xy 358.14 101.6) (xy 370.84 101.6)
 		)
 		(stroke
 			(width 0)
@@ -6040,7 +6205,7 @@
 	)
 	(wire
 		(pts
-			(xy 491.49 153.67) (xy 502.92 153.67)
+			(xy 485.14 95.25) (xy 496.57 95.25)
 		)
 		(stroke
 			(width 0)
@@ -6078,6 +6243,26 @@
 			(type default)
 		)
 		(uuid "dad63a15-4d58-4ecd-8a02-db2a065afbf5")
+	)
+	(wire
+		(pts
+			(xy 375.92 76.2) (xy 377.19 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd1603a8-79c4-45cd-b656-fa44bbbccf5a")
+	)
+	(wire
+		(pts
+			(xy 375.92 73.66) (xy 377.19 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd6ddf41-839b-4224-b8e7-ef9e0958833d")
 	)
 	(wire
 		(pts
@@ -6171,6 +6356,16 @@
 			(color 0 0 0 1)
 		)
 		(uuid "e1ca1e4f-a7e6-481a-8795-5d1158be8e7a")
+	)
+	(wire
+		(pts
+			(xy 375.92 81.28) (xy 377.19 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2430aea-b206-4d77-add2-143753c205fa")
 	)
 	(bus
 		(pts
@@ -6319,7 +6514,7 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 84.455) (xy 377.19 84.455)
+			(xy 359.41 83.82) (xy 370.84 83.82)
 		)
 		(stroke
 			(width 0)
@@ -6329,7 +6524,7 @@
 	)
 	(wire
 		(pts
-			(xy 491.49 128.27) (xy 502.92 128.27)
+			(xy 447.04 93.98) (xy 458.47 93.98)
 		)
 		(stroke
 			(width 0)
@@ -6505,7 +6700,7 @@
 	)
 	(bus
 		(pts
-			(xy 379.73 97.155) (xy 379.73 99.695)
+			(xy 379.73 96.52) (xy 379.73 99.06)
 		)
 		(stroke
 			(width 0)
@@ -6536,7 +6731,7 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 79.375) (xy 377.19 79.375)
+			(xy 359.41 78.74) (xy 370.84 78.74)
 		)
 		(stroke
 			(width 0)
@@ -6586,6 +6781,16 @@
 			(color 254 0 0 1)
 		)
 		(uuid "f4563c8f-12bc-4479-b166-220860a49739")
+	)
+	(wire
+		(pts
+			(xy 375.92 83.82) (xy 377.19 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f463e695-8a83-4e55-9ee4-651c35db02b1")
 	)
 	(wire
 		(pts
@@ -6653,7 +6858,7 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 76.835) (xy 377.19 76.835)
+			(xy 359.41 76.2) (xy 370.84 76.2)
 		)
 		(stroke
 			(width 0)
@@ -6663,7 +6868,7 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 92.075) (xy 377.19 92.075)
+			(xy 359.41 91.44) (xy 370.84 91.44)
 		)
 		(stroke
 			(width 0)
@@ -6704,7 +6909,7 @@
 	)
 	(wire
 		(pts
-			(xy 491.49 156.21) (xy 502.92 156.21)
+			(xy 485.14 97.79) (xy 496.57 97.79)
 		)
 		(stroke
 			(width 0)
@@ -6753,6 +6958,17 @@
 			(type default)
 		)
 		(uuid "ffa2759c-1f96-412f-a1d9-3c7103c7ca78")
+	)
+	(bus
+		(pts
+			(xy 379.73 73.66) (xy 379.73 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 0 1)
+		)
+		(uuid "ffa6edae-35a4-4cd1-84b7-9005a51856f0")
 	)
 	(wire
 		(pts
@@ -7076,7 +7292,7 @@
 		(uuid "28a26273-fc55-4b61-9c3e-90cfd31a52c7")
 	)
 	(label "12V_Out1"
-		(at 368.3 74.295 0)
+		(at 359.41 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7186,7 +7402,7 @@
 		(uuid "3c3fc450-2cab-41ce-ad88-2733ded6fb48")
 	)
 	(label "12V_Out5"
-		(at 368.3 84.455 0)
+		(at 359.41 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7326,7 +7542,7 @@
 		(uuid "4df1f68c-24a7-4ed3-93ec-15cfd136b1ed")
 	)
 	(label "12V_Out4"
-		(at 502.92 133.35 180)
+		(at 458.47 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7336,7 +7552,7 @@
 		(uuid "4f42400d-f421-434b-98a0-dd38a3ffd9f5")
 	)
 	(label "12V_Out7"
-		(at 368.3 89.535 0)
+		(at 359.41 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7386,7 +7602,7 @@
 		(uuid "55c48758-c92b-4dae-a54f-deaf9be73531")
 	)
 	(label "12V_Out2"
-		(at 502.92 125.73 180)
+		(at 458.47 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7476,7 +7692,7 @@
 		(uuid "6884beec-2542-4d32-b5cc-eca500175be0")
 	)
 	(label "12V_Out3"
-		(at 368.3 79.375 0)
+		(at 359.41 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7496,7 +7712,7 @@
 		(uuid "6cbf4452-3383-44ce-b895-689b27144963")
 	)
 	(label "12V_Out5"
-		(at 502.92 153.67 180)
+		(at 496.57 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7636,7 +7852,7 @@
 		(uuid "7ff634dc-4c08-41e8-a550-dcd870d3f646")
 	)
 	(label "12V_Out8"
-		(at 368.3 92.075 0)
+		(at 359.41 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7646,7 +7862,7 @@
 		(uuid "80898fa6-5f9c-45af-a3d7-b8658d215a99")
 	)
 	(label "12V_Out2"
-		(at 368.3 76.835 0)
+		(at 359.41 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7696,7 +7912,7 @@
 		(uuid "869ce294-36e5-4559-a348-379a66c8178f")
 	)
 	(label "12V_Out6"
-		(at 368.3 86.995 0)
+		(at 359.41 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7706,7 +7922,7 @@
 		(uuid "869d5f5c-8112-4597-a0c6-8322c7de9974")
 	)
 	(label "12V_Out10"
-		(at 367.03 97.155 0)
+		(at 358.14 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7746,7 +7962,7 @@
 		(uuid "8b351a49-a92a-4761-a52b-ef39c5966c48")
 	)
 	(label "12V_Out12"
-		(at 367.03 102.235 0)
+		(at 358.14 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7786,7 +8002,7 @@
 		(uuid "8ea81a2d-fca6-4b8d-b59c-b182739552e4")
 	)
 	(label "12V_Out11"
-		(at 367.03 99.695 0)
+		(at 358.14 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7886,7 +8102,7 @@
 		(uuid "a5605ee3-072e-4070-b513-d401319a761e")
 	)
 	(label "GND_Out2"
-		(at 502.92 128.27 180)
+		(at 458.47 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7976,7 +8192,7 @@
 		(uuid "b7e5b935-442d-4f53-8ed0-1d9729c9e1e2")
 	)
 	(label "12V_Out9"
-		(at 368.3 94.615 0)
+		(at 359.41 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8096,7 +8312,7 @@
 		(uuid "cd4b4ad3-9e56-4c8b-8977-756e1b5d489d")
 	)
 	(label "GND_Out4"
-		(at 502.92 135.89 180)
+		(at 458.47 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8186,7 +8402,7 @@
 		(uuid "dbb6de45-6719-4630-97df-0743f1cdfd32")
 	)
 	(label "12V_Out4"
-		(at 368.3 81.915 0)
+		(at 359.41 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8376,7 +8592,7 @@
 		(uuid "fa8788c7-bf15-4268-8d24-094088df70ac")
 	)
 	(label "GND_Out5"
-		(at 502.92 156.21 180)
+		(at 496.57 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8414,6 +8630,75 @@
 			(justify right bottom)
 		)
 		(uuid "ffe499d5-3557-48c4-8d77-c87a8e02a111")
+	)
+	(symbol
+		(lib_id "Device:Fuse_Small")
+		(at 373.38 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "01d50ea2-63e9-4618-8426-5823303bcf73")
+		(property "Reference" "F9"
+			(at 373.38 83.058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "10A?"
+			(at 373.38 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 373.38 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 373.38 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse, small symbol"
+			(at 373.38 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "486171ed-7a52-4f51-af72-287795f68177")
+		)
+		(pin "2"
+			(uuid "a87ef7b0-0d43-4511-acf2-9b56149182eb")
+		)
+		(instances
+			(project "ElectricalSystem"
+				(path "/7dc721ab-4b7a-42e7-8fa4-f406a2ddcd46"
+					(reference "F9")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Relay:Relay_SPST-NO")
@@ -8492,6 +8777,75 @@
 			(project "ElectricalSystem"
 				(path "/7dc721ab-4b7a-42e7-8fa4-f406a2ddcd46"
 					(reference "K5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse_Small")
+		(at 373.38 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2236b132-ac5c-48d7-bd19-fabef2f4a019")
+		(property "Reference" "F14"
+			(at 373.38 95.758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "10A?"
+			(at 373.38 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 373.38 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 373.38 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse, small symbol"
+			(at 373.38 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22b09ca9-3749-4cca-b30c-7a5160df1cf9")
+		)
+		(pin "2"
+			(uuid "ed863ef7-6eaa-40c6-9e1f-ebbb5055d9d7")
+		)
+		(instances
+			(project "ElectricalSystem"
+				(path "/7dc721ab-4b7a-42e7-8fa4-f406a2ddcd46"
+					(reference "F14")
 					(unit 1)
 				)
 			)
@@ -8581,7 +8935,7 @@
 				)
 			)
 		)
-		(property "Value" "60A?"
+		(property "Value" "70A?"
 			(at 93.98 106.68 90)
 			(effects
 				(font
@@ -8933,6 +9287,144 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Fuse_Small")
+		(at 373.38 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5eabf170-6af4-4930-b06e-74d98c0de929")
+		(property "Reference" "F7"
+			(at 373.38 77.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "10A?"
+			(at 373.38 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 373.38 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 373.38 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse, small symbol"
+			(at 373.38 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "781f1cbf-c64d-4fa9-b106-7b2d873d3823")
+		)
+		(pin "2"
+			(uuid "0b3064d5-871c-48ea-9da6-4d441de6595a")
+		)
+		(instances
+			(project "ElectricalSystem"
+				(path "/7dc721ab-4b7a-42e7-8fa4-f406a2ddcd46"
+					(reference "F7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse_Small")
+		(at 373.38 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b9d3c47-c05a-4021-809a-daf6c33b4e8e")
+		(property "Reference" "F6"
+			(at 373.38 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "10A?"
+			(at 373.38 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 373.38 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 373.38 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse, small symbol"
+			(at 373.38 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "308cf294-cabe-4f7a-92c9-1efce49d2d31")
+		)
+		(pin "2"
+			(uuid "660b176a-6ae5-4929-9977-f26eb012641e")
+		)
+		(instances
+			(project "ElectricalSystem"
+				(path "/7dc721ab-4b7a-42e7-8fa4-f406a2ddcd46"
+					(reference "F6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 90.17 217.17 90)
 		(unit 1)
@@ -8997,6 +9489,211 @@
 			(project "ElectricalSystem"
 				(path "/7dc721ab-4b7a-42e7-8fa4-f406a2ddcd46"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse_Small")
+		(at 373.38 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7dc8570d-6d8f-4470-9f9f-d3fb08c6e317")
+		(property "Reference" "F12"
+			(at 373.38 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "10A?"
+			(at 373.38 92.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 373.38 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 373.38 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse, small symbol"
+			(at 373.38 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09bc99f3-fe35-4811-ac7e-13d00e237bdc")
+		)
+		(pin "2"
+			(uuid "9ef46bb5-ec47-4083-b0c5-0f56c1cea180")
+		)
+		(instances
+			(project "ElectricalSystem"
+				(path "/7dc721ab-4b7a-42e7-8fa4-f406a2ddcd46"
+					(reference "F12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 242.57 142.24 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "80d52897-4732-4413-9a7d-3af3df070dea")
+		(property "Reference" "F3"
+			(at 242.57 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "60A?"
+			(at 242.57 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 144.018 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 242.57 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77108897-6c08-485a-81ab-7138346e4bcc")
+		)
+		(pin "2"
+			(uuid "9d675bf2-bc18-424f-ad71-bf1fa58613de")
+		)
+		(instances
+			(project "ElectricalSystem"
+				(path "/7dc721ab-4b7a-42e7-8fa4-f406a2ddcd46"
+					(reference "F3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse_Small")
+		(at 373.38 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "88b0f82d-fe14-4c28-a78f-4a9dc3cd6454")
+		(property "Reference" "F11"
+			(at 373.38 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "10A?"
+			(at 373.38 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 373.38 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 373.38 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse, small symbol"
+			(at 373.38 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69c1307c-4626-47b9-a7db-b15c91b73a76")
+		)
+		(pin "2"
+			(uuid "660035f8-714a-4ffe-bf6b-08f00a295b06")
+		)
+		(instances
+			(project "ElectricalSystem"
+				(path "/7dc721ab-4b7a-42e7-8fa4-f406a2ddcd46"
+					(reference "F11")
 					(unit 1)
 				)
 			)
@@ -9140,6 +9837,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Fuse_Small")
+		(at 373.38 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa1b8ac4-4f14-4b08-9c8e-7282150ee397")
+		(property "Reference" "F13"
+			(at 373.38 93.218 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "10A?"
+			(at 373.38 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 373.38 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 373.38 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse, small symbol"
+			(at 373.38 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa035d49-8372-492c-9482-3780473cbd10")
+		)
+		(pin "2"
+			(uuid "91ebc89b-536a-4223-be54-f9701526239d")
+		)
+		(instances
+			(project "ElectricalSystem"
+				(path "/7dc721ab-4b7a-42e7-8fa4-f406a2ddcd46"
+					(reference "F13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_SPST")
 		(at 552.45 48.26 0)
 		(mirror y)
@@ -9204,6 +9970,73 @@
 			(project "ElectricalSystem"
 				(path "/7dc721ab-4b7a-42e7-8fa4-f406a2ddcd46"
 					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse_Small")
+		(at 373.38 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b81897b2-a168-4a42-81d2-b92638154925")
+		(property "Reference" "F4"
+			(at 373.38 70.358 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10A?"
+			(at 373.38 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 373.38 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 373.38 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse, small symbol"
+			(at 373.38 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9714331-33bf-4754-940c-97981cdf3597")
+		)
+		(pin "2"
+			(uuid "847b2bd2-f530-4c15-90f7-b29020a766ef")
+		)
+		(instances
+			(project ""
+				(path "/7dc721ab-4b7a-42e7-8fa4-f406a2ddcd46"
+					(reference "F4")
 					(unit 1)
 				)
 			)
@@ -9368,6 +10201,144 @@
 			(project "ElectricalSystem"
 				(path "/7dc721ab-4b7a-42e7-8fa4-f406a2ddcd46"
 					(reference "K6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse_Small")
+		(at 373.38 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d4facb6c-0d32-4fdd-a4a7-e914a3dc0abc")
+		(property "Reference" "F8"
+			(at 373.38 80.518 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "10A?"
+			(at 373.38 82.296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 373.38 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 373.38 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse, small symbol"
+			(at 373.38 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fae34720-d2a0-4a06-ba6d-801e949ad803")
+		)
+		(pin "2"
+			(uuid "f1cac722-85b1-4615-81d5-510231be5272")
+		)
+		(instances
+			(project "ElectricalSystem"
+				(path "/7dc721ab-4b7a-42e7-8fa4-f406a2ddcd46"
+					(reference "F8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse_Small")
+		(at 373.38 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e20c4e20-8ed7-41d6-be99-57e8fa19402e")
+		(property "Reference" "F5"
+			(at 373.38 72.898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "10A?"
+			(at 373.38 74.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 373.38 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 373.38 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse, small symbol"
+			(at 373.38 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a6a3d25-ac0e-4be8-a88a-eaaab849bf21")
+		)
+		(pin "2"
+			(uuid "c19fbb7f-f1be-4259-a682-4711d5eb6342")
+		)
+		(instances
+			(project "ElectricalSystem"
+				(path "/7dc721ab-4b7a-42e7-8fa4-f406a2ddcd46"
+					(reference "F5")
 					(unit 1)
 				)
 			)
@@ -9545,7 +10516,7 @@
 				)
 			)
 		)
-		(property "Value" "???"
+		(property "Value" "250u"
 			(at 93.98 154.94 90)
 			(effects
 				(font
@@ -9596,6 +10567,144 @@
 			(project ""
 				(path "/7dc721ab-4b7a-42e7-8fa4-f406a2ddcd46"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse_Small")
+		(at 373.38 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fba9f6ae-b85d-464e-aa1f-4a5f491b4e12")
+		(property "Reference" "F15"
+			(at 373.38 98.298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "10A?"
+			(at 373.38 100.076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 373.38 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 373.38 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse, small symbol"
+			(at 373.38 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99152255-31ec-40e3-a05a-8dcea8f0268c")
+		)
+		(pin "2"
+			(uuid "8ea6d83f-e937-4f42-9935-d9cf4512242d")
+		)
+		(instances
+			(project "ElectricalSystem"
+				(path "/7dc721ab-4b7a-42e7-8fa4-f406a2ddcd46"
+					(reference "F15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse_Small")
+		(at 373.38 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fbc470d4-1150-4673-a533-2d56048c2c1e")
+		(property "Reference" "F10"
+			(at 373.38 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "10A?"
+			(at 373.38 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 373.38 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 373.38 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse, small symbol"
+			(at 373.38 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f6d97fd-b2cf-4292-8f54-cba37b35eab7")
+		)
+		(pin "2"
+			(uuid "800d892f-7c35-4b1d-b92f-600df53f8013")
+		)
+		(instances
+			(project "ElectricalSystem"
+				(path "/7dc721ab-4b7a-42e7-8fa4-f406a2ddcd46"
+					(reference "F10")
 					(unit 1)
 				)
 			)
@@ -9745,8 +10854,8 @@
 		)
 	)
 	(sheet
-		(at 461.01 121.92)
-		(size 30.48 17.78)
+		(at 417.83 87.63)
+		(size 29.21 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -9761,7 +10870,7 @@
 		)
 		(uuid "03930dbf-9371-435b-be3e-8b1aa896dbdc")
 		(property "Sheetname" "Driver Controls"
-			(at 461.01 121.2084 0)
+			(at 417.83 86.9184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9770,7 +10879,7 @@
 			)
 		)
 		(property "Sheetfile" "DriverControls.kicad_sch"
-			(at 461.01 140.2846 0)
+			(at 417.83 105.9946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9779,7 +10888,7 @@
 			)
 		)
 		(pin "12V_In1" input
-			(at 491.49 125.73 0)
+			(at 447.04 91.44 0)
 			(uuid "db6dad5d-c360-4ba4-ab35-057ef089d2be")
 			(effects
 				(font
@@ -9789,7 +10898,7 @@
 			)
 		)
 		(pin "12V_In2" input
-			(at 491.49 133.35 0)
+			(at 447.04 99.06 0)
 			(uuid "d74c4db6-5118-44a5-970f-256b5e8e674a")
 			(effects
 				(font
@@ -9799,7 +10908,7 @@
 			)
 		)
 		(pin "GND_In2" input
-			(at 491.49 135.89 0)
+			(at 447.04 101.6 0)
 			(uuid "eb7c9217-c29c-42e4-9140-741972a63fa2")
 			(effects
 				(font
@@ -9809,7 +10918,7 @@
 			)
 		)
 		(pin "GND_In1" input
-			(at 491.49 128.27 0)
+			(at 447.04 93.98 0)
 			(uuid "7201f723-f340-4dd1-947a-b7c2cedfc00e")
 			(effects
 				(font
@@ -10768,8 +11877,8 @@
 		)
 	)
 	(sheet
-		(at 449.58 39.37)
-		(size 25.4 35.56)
+		(at 449.58 45.72)
+		(size 25.4 29.21)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -10783,7 +11892,7 @@
 		)
 		(uuid "52ff5ac4-c7a7-4e9e-87e8-acc4b0d1233f")
 		(property "Sheetname" "PowerBoard"
-			(at 449.199 38.608 0)
+			(at 449.199 44.958 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10792,7 +11901,7 @@
 			)
 		)
 		(property "Sheetfile" "PowerBoard.kicad_sch"
-			(at 449.834 72.644 0)
+			(at 449.834 78.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10870,8 +11979,8 @@
 		)
 	)
 	(sheet
-		(at 461.01 149.86)
-		(size 30.48 10.16)
+		(at 461.01 91.44)
+		(size 24.13 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -10886,7 +11995,7 @@
 		)
 		(uuid "5a721d11-e386-4775-8355-110e518de743")
 		(property "Sheetname" "Telemetry"
-			(at 461.01 149.1484 0)
+			(at 461.01 90.7284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10895,7 +12004,7 @@
 			)
 		)
 		(property "Sheetfile" "Telemetry.kicad_sch"
-			(at 461.01 160.6046 0)
+			(at 461.01 102.1846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10904,7 +12013,7 @@
 			)
 		)
 		(pin "12V_In" input
-			(at 491.49 153.67 0)
+			(at 485.14 95.25 0)
 			(uuid "3ec68756-d281-4f77-abf8-46b05807af84")
 			(effects
 				(font
@@ -10914,7 +12023,7 @@
 			)
 		)
 		(pin "GND_In" input
-			(at 491.49 156.21 0)
+			(at 485.14 97.79 0)
 			(uuid "f5e81f27-2534-4d9b-a6e7-faca535d4b43")
 			(effects
 				(font
@@ -11838,8 +12947,8 @@
 		)
 	)
 	(sheet
-		(at 461.01 168.91)
-		(size 30.48 10.16)
+		(at 499.11 91.44)
+		(size 20.32 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -11854,7 +12963,7 @@
 		)
 		(uuid "e094edde-623e-4790-8114-bc89a5278135")
 		(property "Sheetname" "Array"
-			(at 461.01 168.1984 0)
+			(at 499.11 90.7284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11863,7 +12972,7 @@
 			)
 		)
 		(property "Sheetfile" "Array.kicad_sch"
-			(at 461.01 179.6546 0)
+			(at 499.11 102.1846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
