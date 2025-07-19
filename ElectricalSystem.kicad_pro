@@ -614,7 +614,7 @@
       "Root"
     ],
     [
-      "0975ea08-3c9e-4fba-b8cb-edaae8941701",
+      "cd24749c-4d8c-4513-bddc-9ac0f3c0161d",
       "ActivePrechargeBoard_Array"
     ],
     [
@@ -622,12 +622,12 @@
       "ActivePrechargeBoard_Motor"
     ],
     [
-      "7ac3fc4b-8899-4aa2-9227-179058c1e13b",
-      "PeripheralSOM3"
+      "6ad98034-4a0d-4b1c-acc1-7589502b1d53",
+      "Amperes_Daughter_Shunt"
     ],
     [
-      "f12c6105-001d-40d0-8676-397af73b0be4",
-      "Amperes_Daughter_Shunt"
+      "0b4505b1-e640-4f30-9720-322d15ae4aac",
+      "BPS_Daughter"
     ],
     [
       "7360fd04-f67b-4100-8121-b3061f69d3e5",
@@ -642,16 +642,16 @@
       "Display_Screen"
     ],
     [
-      "2ebde621-0a6b-4f7e-ba8d-6a6dfc042725",
-      "BPS_Daughter"
+      "7cf51b1b-07a1-42bf-b5e3-f4d55e276ba7",
+      "LeaderSOM1"
     ],
     [
-      "4ee41c91-2d2f-46bf-9209-371b3dbf079f",
+      "a7cfede1-6c4b-4f23-b14e-b14b9c08846b",
       "PeripheralSOM1"
     ],
     [
-      "80d99d14-da81-427c-848c-067e9af431f7",
-      "VoltTemp_Daughter (8x)"
+      "05b385b1-bb0a-4d90-9c49-50a825b15287",
+      "PeripheralSOM3"
     ],
     [
       "612fc007-7569-4f3d-a746-64df3bb413ab",
@@ -694,8 +694,8 @@
       "Pedal_Board"
     ],
     [
-      "ba86bad2-6c72-4f94-92c2-0a6e93924cfa",
-      "MainBatteryPack"
+      "40db271e-95ba-4ab2-a4d5-d49054a1f37e",
+      "BatteryProtectionSystem"
     ],
     [
       "eeb4a50e-9258-40ef-9934-de9572fc23b9",
@@ -714,16 +714,12 @@
       "PowerDistributionBoard"
     ],
     [
-      "ff83dcc0-7eec-4fbd-8d7e-f415462b13d7",
-      "Prohelion WaveSculptor 22 Motor Controller"
-    ],
-    [
       "97acd89a-3cdc-4f6e-9155-828013d79ac3",
       "SuppMonitoringBoard"
     ],
     [
-      "10cc469b-c9eb-4932-9565-45c0b062fe4c",
-      "LeaderSOM1"
+      "1ee70c04-467e-46a4-a34e-da10b967fb4c",
+      "VoltTemp_Daughter (8x)"
     ],
     [
       "5d94ebc1-f0ec-418e-9678-9399c27a1606",
@@ -758,10 +754,6 @@
       "LeaderSOM5"
     ],
     [
-      "4c6962b8-687d-4f05-9367-aaf65fd06fba",
-      "MotorControllerInterface"
-    ],
-    [
       "38a94e3d-afbb-4270-befc-f1e39bcd54bc",
       "PeripheralSOM11"
     ],
@@ -770,8 +762,16 @@
       "Steering_Board"
     ],
     [
-      "e1481987-c679-4dde-b0ae-9b2348ca5d72",
-      "MPPT_C"
+      "cf109467-7697-4d01-a5a3-68f92c1314f1",
+      "MainBatteryPack1"
+    ],
+    [
+      "6c9a9132-9cc7-4548-abc9-4cdd5fc1471f",
+      "MPPT_A"
+    ],
+    [
+      "7805d918-15fd-499d-88a0-651285dce6df",
+      "Array1"
     ],
     [
       "c826ace9-b0f7-492f-b882-9a3cb6c44868",
@@ -802,7 +802,7 @@
       "Telemetry Daughter (Wireless Transceiver)"
     ],
     [
-      "6a58b33f-a3a0-48ed-831f-2b53ac995e30",
+      "9ff33d91-2022-482a-b209-2902e75f70ab",
       "MPPT_B"
     ],
     [
@@ -810,12 +810,36 @@
       "Driver Controls"
     ],
     [
-      "a7b6fdec-9375-46d4-be99-e484f13d345a",
-      "MPPT_A"
+      "1b1f8c1f-70f6-41ff-adbb-d0c3c4db4f4c",
+      "MPPT_C"
     ],
     [
       "e094edde-623e-4790-8114-bc89a5278135",
       "Array"
+    ],
+    [
+      "6c9a9132-9cc7-4548-abc9-4cdd5fc1471f",
+      "MPPT_A"
+    ],
+    [
+      "9ff33d91-2022-482a-b209-2902e75f70ab",
+      "MPPT_B"
+    ],
+    [
+      "1b1f8c1f-70f6-41ff-adbb-d0c3c4db4f4c",
+      "MPPT_C"
+    ],
+    [
+      "76b6fc88-05ec-4108-b41d-78e967079ae1",
+      "MotorController"
+    ],
+    [
+      "00679bb1-5f5a-42f6-91c5-096e22c070ca",
+      "MotorControllerInterface"
+    ],
+    [
+      "66f2d6ea-6200-459c-bde3-3bf0abc90298",
+      "Prohelion WaveSculptor 22 Motor Controller"
     ]
   ],
   "text_variables": {}
