@@ -762,8 +762,8 @@
       "Steering_Board"
     ],
     [
-      "cf109467-7697-4d01-a5a3-68f92c1314f1",
-      "MainBatteryPack1"
+      "e706363e-1a72-498a-80b9-68cba960c42a",
+      "One Big Beautiful (LV) Board"
     ],
     [
       "6c9a9132-9cc7-4548-abc9-4cdd5fc1471f",
@@ -840,6 +840,10 @@
     [
       "66f2d6ea-6200-459c-bde3-3bf0abc90298",
       "Prohelion WaveSculptor 22 Motor Controller"
+    ],
+    [
+      "c2a16e9e-ca19-463a-8331-1e458f814095",
+      "HV_Battery_Cells"
     ]
   ],
   "text_variables": {}
