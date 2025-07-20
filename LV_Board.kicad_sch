@@ -1694,6 +1694,144 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SW_SPST_4"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW1"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "SW_SPST"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single Pole Single Throw (SPST) switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch lever"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPST_4_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.254) (xy 1.524 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPST_4_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Things:DCDC"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2212,7 +2350,7 @@
 		)
 	)
 	(rectangle
-		(start 49.53 35.56)
+		(start 38.1 35.56)
 		(end 248.92 151.13)
 		(stroke
 			(width 0)
@@ -2611,7 +2749,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 91.44) (xy 53.34 91.44)
+			(xy 35.56 91.44) (xy 40.64 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2651,7 +2789,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 57.15) (xy 54.61 57.15)
+			(xy 35.56 57.15) (xy 54.61 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2813,6 +2951,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 91.44) (xy 53.34 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80280ba1-1f4b-48c2-ab68-446d3cf39c76")
+	)
+	(wire
+		(pts
 			(xy 82.55 96.52) (xy 83.82 96.52)
 		)
 		(stroke
@@ -2853,7 +3001,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 99.06) (xy 54.61 99.06)
+			(xy 35.56 99.06) (xy 54.61 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3207,7 +3355,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 49.53) (xy 64.77 49.53)
+			(xy 35.56 49.53) (xy 64.77 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3264,6 +3412,135 @@
 			(type default)
 		)
 		(uuid "fa2fda6c-4a4c-4446-9db6-12b12bc708f9")
+	)
+	(table
+		(column_count 2)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 16.51 12.7)
+		(row_heights 2.54 2.54 2.54)
+		(cells
+			(table_cell "SIGNALS FROM"
+				(exclude_from_sim no)
+				(at 106.68 119.38 0)
+				(size 16.51 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "8dfba47a-bc78-4c7d-86cd-5d7bb1cea806")
+			)
+			(table_cell "MEDIUM"
+				(exclude_from_sim no)
+				(at 123.19 119.38 0)
+				(size 12.7 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "7084876b-6296-41dc-8c0a-dc5b042398df")
+			)
+			(table_cell "VSense"
+				(exclude_from_sim no)
+				(at 106.68 121.92 0)
+				(size 16.51 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left top)
+				)
+				(uuid "cfa407e5-4ccd-4174-ade8-5e9a02cc1f53")
+			)
+			(table_cell "SPI ADC"
+				(exclude_from_sim no)
+				(at 123.19 121.92 0)
+				(size 12.7 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left top)
+				)
+				(uuid "52042048-ce43-451b-bdcd-5a859eea2049")
+			)
+			(table_cell "ISense"
+				(exclude_from_sim no)
+				(at 106.68 124.46 0)
+				(size 16.51 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left top)
+				)
+				(uuid "4db0e4ac-b55c-4b70-a44e-18f058dfcbcf")
+			)
+			(table_cell "SPI ADC"
+				(exclude_from_sim no)
+				(at 123.19 124.46 0)
+				(size 12.7 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left top)
+				)
+				(uuid "6a7faa92-2871-4137-9154-43874b8ad2f4")
+			)
+		)
 	)
 	(table
 		(column_count 2)
@@ -3907,138 +4184,9 @@
 			)
 		)
 	)
-	(table
-		(column_count 2)
-		(border
-			(external yes)
-			(header yes)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-		)
-		(separators
-			(rows yes)
-			(cols yes)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-		)
-		(column_widths 16.51 12.7)
-		(row_heights 2.54 2.54 2.54)
-		(cells
-			(table_cell "SIGNALS FROM"
-				(exclude_from_sim no)
-				(at 106.68 119.38 0)
-				(size 16.51 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.254)
-						(bold yes)
-					)
-					(justify left top)
-				)
-				(uuid "8dfba47a-bc78-4c7d-86cd-5d7bb1cea806")
-			)
-			(table_cell "MEDIUM"
-				(exclude_from_sim no)
-				(at 123.19 119.38 0)
-				(size 12.7 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.254)
-						(bold yes)
-					)
-					(justify left top)
-				)
-				(uuid "7084876b-6296-41dc-8c0a-dc5b042398df")
-			)
-			(table_cell "VSense"
-				(exclude_from_sim no)
-				(at 106.68 121.92 0)
-				(size 16.51 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1 1)
-					)
-					(justify left top)
-				)
-				(uuid "cfa407e5-4ccd-4174-ade8-5e9a02cc1f53")
-			)
-			(table_cell "SPI ADC"
-				(exclude_from_sim no)
-				(at 123.19 121.92 0)
-				(size 12.7 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1 1)
-					)
-					(justify left top)
-				)
-				(uuid "52042048-ce43-451b-bdcd-5a859eea2049")
-			)
-			(table_cell "ISense"
-				(exclude_from_sim no)
-				(at 106.68 124.46 0)
-				(size 16.51 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1 1)
-					)
-					(justify left top)
-				)
-				(uuid "4db0e4ac-b55c-4b70-a44e-18f058dfcbcf")
-			)
-			(table_cell "SPI ADC"
-				(exclude_from_sim no)
-				(at 123.19 124.46 0)
-				(size 12.7 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1 1)
-					)
-					(justify left top)
-				)
-				(uuid "6a7faa92-2871-4137-9154-43874b8ad2f4")
-			)
-		)
-	)
 	(hierarchical_label "HV_IN-"
 		(shape input)
-		(at 49.53 57.15 180)
+		(at 35.56 57.15 180)
 		(effects
 			(font
 				(size 2 2)
@@ -4071,7 +4219,7 @@
 	)
 	(hierarchical_label "HV_IN+"
 		(shape input)
-		(at 49.53 49.53 180)
+		(at 35.56 49.53 180)
 		(effects
 			(font
 				(size 2 2)
@@ -4082,7 +4230,7 @@
 	)
 	(hierarchical_label "SUPP_IN-"
 		(shape input)
-		(at 49.53 99.06 180)
+		(at 35.56 99.06 180)
 		(effects
 			(font
 				(size 2 2)
@@ -4093,7 +4241,7 @@
 	)
 	(hierarchical_label "SUPP_IN+"
 		(shape input)
-		(at 49.53 91.44 180)
+		(at 35.56 91.44 180)
 		(effects
 			(font
 				(size 2 2)
@@ -4409,7 +4557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDLV"
+		(property "Value" "GND_LV"
 			(at 100.33 78.994 0)
 			(effects
 				(font
@@ -4691,7 +4839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDHV"
+		(property "Value" "GND_HV"
 			(at 54.61 63.754 0)
 			(effects
 				(font
@@ -4826,7 +4974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDLV"
+		(property "Value" "GND_LV"
 			(at 72.39 129.794 0)
 			(effects
 				(font
@@ -4891,7 +5039,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDLV"
+		(property "Value" "GND_LV"
 			(at 100.33 59.944 0)
 			(effects
 				(font
@@ -4956,7 +5104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDLV"
+		(property "Value" "GND_LV"
 			(at 82.55 101.854 0)
 			(effects
 				(font
@@ -5004,6 +5152,76 @@
 		)
 	)
 	(symbol
+		(lib_name "SW_SPST_4")
+		(lib_id "Switch:SW_SPST")
+		(at 45.72 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c1f76de-95f5-4d0a-b5c9-bb77a12f83a8")
+		(property "Reference" "SW1"
+			(at 45.72 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Supp_SW"
+			(at 45.72 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 45.72 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "c2e0685b-1f89-4715-b7a2-42916ec1b50c")
+		)
+		(pin ""
+			(uuid "fa0f305a-4b35-4178-9fc0-406b5cf07978")
+		)
+		(instances
+			(project "ElectricalSystem"
+				(path "/7dc721ab-4b7a-42e7-8fa4-f406a2ddcd46/e706363e-1a72-498a-80b9-68cba960c42a"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 100.33 97.79 0)
 		(unit 1)
@@ -5021,7 +5239,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDLV"
+		(property "Value" "GND_LV"
 			(at 100.33 101.854 0)
 			(effects
 				(font
@@ -5224,7 +5442,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDLV"
+		(property "Value" "GND_LV"
 			(at 54.61 105.664 0)
 			(effects
 				(font
@@ -5920,7 +6138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDHV"
+		(property "Value" "GND_HV"
 			(at 82.55 78.994 0)
 			(effects
 				(font
@@ -5985,7 +6203,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDHV"
+		(property "Value" "GND_HV"
 			(at 82.55 59.944 0)
 			(effects
 				(font

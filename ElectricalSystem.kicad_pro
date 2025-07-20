@@ -698,24 +698,12 @@
       "BatteryProtectionSystem"
     ],
     [
-      "eeb4a50e-9258-40ef-9934-de9572fc23b9",
-      "DC-DC-Converter"
+      "e8b43e47-ef81-4360-a4df-d26eb435a14c",
+      "PeripheralSOM9"
     ],
     [
-      "8fa22d94-fe54-4e44-8c13-df06095416fd",
-      "SupplementalBattery"
-    ],
-    [
-      "52ff5ac4-c7a7-4e9e-87e8-acc4b0d1233f",
-      "PowerBoard"
-    ],
-    [
-      "9fc42ef9-f613-46f6-8215-dff7d686e1cc",
-      "PowerDistributionBoard"
-    ],
-    [
-      "97acd89a-3cdc-4f6e-9155-828013d79ac3",
-      "SuppMonitoringBoard"
+      "de46694e-80e8-4592-979c-49b3fca9b537",
+      "Pump_Control_Board"
     ],
     [
       "1ee70c04-467e-46a4-a34e-da10b967fb4c",
@@ -742,22 +730,6 @@
       "Right_Side_Camera"
     ],
     [
-      "ee66a488-5bd3-4758-b20a-bbbd61769e90",
-      "Pump_Control_Board"
-    ],
-    [
-      "4f5b7b81-981a-4f69-8cc6-0686ba68f9a4",
-      "PeripheralSOM9"
-    ],
-    [
-      "e491aafb-b661-41d2-907b-1743e82b5fe6",
-      "LeaderSOM5"
-    ],
-    [
-      "38a94e3d-afbb-4270-befc-f1e39bcd54bc",
-      "PeripheralSOM11"
-    ],
-    [
       "d7602283-dfd5-41f2-a36a-a8a185c80911",
       "Steering_Board"
     ],
@@ -771,7 +743,7 @@
     ],
     [
       "7805d918-15fd-499d-88a0-651285dce6df",
-      "Array1"
+      "Array"
     ],
     [
       "c826ace9-b0f7-492f-b882-9a3cb6c44868",
@@ -808,22 +780,6 @@
     [
       "03930dbf-9371-435b-be3e-8b1aa896dbdc",
       "Driver Controls"
-    ],
-    [
-      "1b1f8c1f-70f6-41ff-adbb-d0c3c4db4f4c",
-      "MPPT_C"
-    ],
-    [
-      "e094edde-623e-4790-8114-bc89a5278135",
-      "Array"
-    ],
-    [
-      "6c9a9132-9cc7-4548-abc9-4cdd5fc1471f",
-      "MPPT_A"
-    ],
-    [
-      "9ff33d91-2022-482a-b209-2902e75f70ab",
-      "MPPT_B"
     ],
     [
       "1b1f8c1f-70f6-41ff-adbb-d0c3c4db4f4c",

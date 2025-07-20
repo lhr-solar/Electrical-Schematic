@@ -143,7 +143,7 @@
 		)
 	)
 	(bus_entry
-		(at 55.88 52.07)
+		(at 60.96 52.07)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -152,7 +152,7 @@
 		(uuid "05ffadf8-8046-46c7-bd4e-be8714c30baa")
 	)
 	(bus_entry
-		(at 55.88 74.93)
+		(at 60.96 74.93)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -161,7 +161,7 @@
 		(uuid "40610cb3-cbe0-49f0-97f2-aaaf2103386e")
 	)
 	(bus_entry
-		(at 55.88 44.45)
+		(at 60.96 44.45)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -170,7 +170,7 @@
 		(uuid "5ba10f07-f103-4967-a1fc-f49ba3e8ab70")
 	)
 	(bus_entry
-		(at 55.88 71.12)
+		(at 60.96 71.12)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -179,7 +179,7 @@
 		(uuid "784c5364-2389-464d-93b5-dc8421b39866")
 	)
 	(bus_entry
-		(at 55.88 63.5)
+		(at 60.96 63.5)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -188,7 +188,7 @@
 		(uuid "906c7a41-d933-4e60-a76d-992a63c38adb")
 	)
 	(bus_entry
-		(at 55.88 40.64)
+		(at 60.96 40.64)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -197,7 +197,7 @@
 		(uuid "c09c67a0-e93b-43aa-ac84-d4c7e7a07108")
 	)
 	(bus_entry
-		(at 55.88 48.26)
+		(at 60.96 48.26)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -206,7 +206,7 @@
 		(uuid "dc179657-133e-49e8-aa21-f95a12f82c5f")
 	)
 	(bus_entry
-		(at 55.88 67.31)
+		(at 60.96 67.31)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -216,7 +216,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 48.26) (xy 55.88 48.26)
+			(xy 62.23 48.26) (xy 60.96 48.26)
 		)
 		(stroke
 			(width 0)
@@ -226,7 +226,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 72.39) (xy 111.76 72.39)
+			(xy 104.14 72.39) (xy 116.84 72.39)
 		)
 		(stroke
 			(width 0)
@@ -236,7 +236,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 74.93) (xy 57.15 74.93)
+			(xy 60.96 74.93) (xy 62.23 74.93)
 		)
 		(stroke
 			(width 0)
@@ -246,7 +246,7 @@
 	)
 	(bus
 		(pts
-			(xy 53.34 43.18) (xy 53.34 46.99)
+			(xy 58.42 43.18) (xy 58.42 46.99)
 		)
 		(stroke
 			(width 0)
@@ -256,7 +256,7 @@
 	)
 	(bus
 		(pts
-			(xy 53.34 73.66) (xy 53.34 77.47)
+			(xy 58.42 73.66) (xy 58.42 77.47)
 		)
 		(stroke
 			(width 0)
@@ -266,7 +266,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 33.02) (xy 44.45 33.02)
+			(xy 62.23 33.02) (xy 27.94 33.02)
 		)
 		(stroke
 			(width 0.381)
@@ -277,7 +277,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 67.31) (xy 111.76 67.31)
+			(xy 104.14 67.31) (xy 116.84 67.31)
 		)
 		(stroke
 			(width 0)
@@ -287,7 +287,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 71.12) (xy 57.15 71.12)
+			(xy 60.96 71.12) (xy 62.23 71.12)
 		)
 		(stroke
 			(width 0)
@@ -297,7 +297,7 @@
 	)
 	(bus
 		(pts
-			(xy 53.34 69.85) (xy 53.34 73.66)
+			(xy 58.42 69.85) (xy 58.42 73.66)
 		)
 		(stroke
 			(width 0)
@@ -307,7 +307,7 @@
 	)
 	(bus
 		(pts
-			(xy 53.34 54.61) (xy 53.34 66.04)
+			(xy 58.42 54.61) (xy 58.42 66.04)
 		)
 		(stroke
 			(width 0)
@@ -317,7 +317,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 26.67) (xy 57.15 26.67)
+			(xy 46.99 26.67) (xy 62.23 26.67)
 		)
 		(stroke
 			(width 0.381)
@@ -328,7 +328,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 38.1) (xy 104.14 38.1)
+			(xy 104.14 38.1) (xy 109.22 38.1)
 		)
 		(stroke
 			(width 0.381)
@@ -339,7 +339,7 @@
 	)
 	(bus
 		(pts
-			(xy 53.34 50.8) (xy 53.34 54.61)
+			(xy 58.42 50.8) (xy 58.42 54.61)
 		)
 		(stroke
 			(width 0)
@@ -349,7 +349,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 52.07) (xy 55.88 52.07)
+			(xy 62.23 52.07) (xy 60.96 52.07)
 		)
 		(stroke
 			(width 0)
@@ -359,7 +359,7 @@
 	)
 	(bus
 		(pts
-			(xy 53.34 66.04) (xy 53.34 69.85)
+			(xy 58.42 66.04) (xy 58.42 69.85)
 		)
 		(stroke
 			(width 0)
@@ -369,7 +369,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 41.91) (xy 104.14 41.91)
+			(xy 104.14 41.91) (xy 109.22 41.91)
 		)
 		(stroke
 			(width 0.381)
@@ -380,7 +380,7 @@
 	)
 	(bus
 		(pts
-			(xy 53.34 46.99) (xy 53.34 50.8)
+			(xy 58.42 46.99) (xy 58.42 50.8)
 		)
 		(stroke
 			(width 0)
@@ -390,7 +390,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 34.29) (xy 104.14 34.29)
+			(xy 104.14 34.29) (xy 109.22 34.29)
 		)
 		(stroke
 			(width 0.381)
@@ -401,7 +401,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 67.31) (xy 57.15 67.31)
+			(xy 60.96 67.31) (xy 62.23 67.31)
 		)
 		(stroke
 			(width 0)
@@ -411,7 +411,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 40.64) (xy 55.88 40.64)
+			(xy 62.23 40.64) (xy 60.96 40.64)
 		)
 		(stroke
 			(width 0)
@@ -421,7 +421,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 44.45) (xy 55.88 44.45)
+			(xy 62.23 44.45) (xy 60.96 44.45)
 		)
 		(stroke
 			(width 0)
@@ -431,7 +431,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 63.5) (xy 57.15 63.5)
+			(xy 60.96 63.5) (xy 62.23 63.5)
 		)
 		(stroke
 			(width 0)
@@ -441,7 +441,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 26.67) (xy 34.29 26.67)
+			(xy 27.94 26.67) (xy 39.37 26.67)
 		)
 		(stroke
 			(width 0.381)
@@ -451,7 +451,7 @@
 		(uuid "e526c920-10af-49d7-b1ae-7f3e478c2466")
 	)
 	(label "MTR_HV+"
-		(at 22.86 26.67 0)
+		(at 27.94 26.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -461,7 +461,7 @@
 		(uuid "09407180-8037-4a13-9122-9ff3e3211c62")
 	)
 	(label "HV-"
-		(at 44.45 33.02 0)
+		(at 27.94 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -471,7 +471,7 @@
 		(uuid "72f379be-dbdc-4e4d-8859-5b0e6cc8d67d")
 	)
 	(label "PCAN_Motor"
-		(at 53.34 50.8 180)
+		(at 58.42 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -481,7 +481,7 @@
 		(uuid "81223152-ee37-4c37-960d-9d2d7786d32c")
 	)
 	(label "MocoFan2"
-		(at 111.76 72.39 180)
+		(at 116.84 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -491,7 +491,7 @@
 		(uuid "bff89d23-8967-4526-9837-5d536e8827d7")
 	)
 	(label "MocoFan1"
-		(at 111.76 67.31 180)
+		(at 116.84 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -501,7 +501,7 @@
 		(uuid "daf1eec8-c746-4652-ad5a-818959312c8a")
 	)
 	(label "PCAN_Motor"
-		(at 53.34 73.66 180)
+		(at 58.42 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -510,9 +510,64 @@
 		)
 		(uuid "fa35a67e-6b8d-45d8-a151-5cebe9edcd37")
 	)
+	(hierarchical_label "PhaseC"
+		(shape bidirectional)
+		(at 109.22 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "159bf96e-0d16-422d-9067-d10d1a101bc4")
+	)
+	(hierarchical_label "HV-"
+		(shape bidirectional)
+		(at 27.94 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "20e12ccf-07f1-4f5b-868a-4caa823fe020")
+	)
+	(hierarchical_label "PhaseB"
+		(shape bidirectional)
+		(at 109.22 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "53bf409c-d2ce-434b-acd9-dc62db233bb1")
+	)
+	(hierarchical_label "PhaseA"
+		(shape bidirectional)
+		(at 109.22 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9394ace8-ddc8-4b25-81af-3091475cf2c6")
+	)
+	(hierarchical_label "MTR_HV+"
+		(shape bidirectional)
+		(at 27.94 26.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bb11a46e-b96a-4fa6-b5e9-959b1eb61688")
+	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 38.1 26.67 90)
+		(at 43.18 26.67 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -520,7 +575,7 @@
 		(dnp no)
 		(uuid "80d52897-4732-4413-9a7d-3af3df070dea")
 		(property "Reference" "F3"
-			(at 38.1 21.59 90)
+			(at 43.18 21.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -528,7 +583,7 @@
 			)
 		)
 		(property "Value" "60A?"
-			(at 38.1 24.13 90)
+			(at 43.18 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -536,7 +591,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 28.448 90)
+			(at 43.18 28.448 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -545,7 +600,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 26.67 0)
+			(at 43.18 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -554,7 +609,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 38.1 26.67 0)
+			(at 43.18 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -578,7 +633,7 @@
 		)
 	)
 	(sheet
-		(at 57.15 59.69)
+		(at 62.23 59.69)
 		(size 41.91 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -594,7 +649,7 @@
 		)
 		(uuid "00679bb1-5f5a-42f6-91c5-096e22c070ca")
 		(property "Sheetname" "MotorControllerInterface"
-			(at 57.15 58.9784 0)
+			(at 62.23 58.9784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -603,7 +658,7 @@
 			)
 		)
 		(property "Sheetfile" "MotorControllerInterface.kicad_sch"
-			(at 57.15 79.3246 0)
+			(at 62.23 79.3246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -613,7 +668,7 @@
 			)
 		)
 		(pin "+12V_ICAN" input
-			(at 57.15 63.5 180)
+			(at 62.23 63.5 180)
 			(uuid "68c813d8-ff8e-4b93-b4bb-0c4925783a09")
 			(effects
 				(font
@@ -623,7 +678,7 @@
 			)
 		)
 		(pin "+ICAN" input
-			(at 57.15 67.31 180)
+			(at 62.23 67.31 180)
 			(uuid "00c8eb1e-a486-4cdf-9bc1-c21909d549b4")
 			(effects
 				(font
@@ -633,7 +688,7 @@
 			)
 		)
 		(pin "-ICAN" input
-			(at 57.15 71.12 180)
+			(at 62.23 71.12 180)
 			(uuid "3dd7d08b-0c80-4b97-98b2-1dd74fb4c261")
 			(effects
 				(font
@@ -643,7 +698,7 @@
 			)
 		)
 		(pin "GND_ICAN" input
-			(at 57.15 74.93 180)
+			(at 62.23 74.93 180)
 			(uuid "0a77800a-b4a3-4715-9f04-10cdc5efb082")
 			(effects
 				(font
@@ -653,7 +708,7 @@
 			)
 		)
 		(pin "Fan1" output
-			(at 99.06 67.31 0)
+			(at 104.14 67.31 0)
 			(uuid "77fecee4-192c-450c-b410-0583b522cff9")
 			(effects
 				(font
@@ -663,7 +718,7 @@
 			)
 		)
 		(pin "Fan2" output
-			(at 99.06 72.39 0)
+			(at 104.14 72.39 0)
 			(uuid "56821f5c-9935-4ae0-8421-402e10484a20")
 			(effects
 				(font
@@ -681,7 +736,7 @@
 		)
 	)
 	(sheet
-		(at 57.15 21.59)
+		(at 62.23 21.59)
 		(size 41.91 34.29)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -697,7 +752,7 @@
 		)
 		(uuid "66f2d6ea-6200-459c-bde3-3bf0abc90298")
 		(property "Sheetname" "Prohelion WaveSculptor 22 Motor Controller"
-			(at 57.15 20.8784 0)
+			(at 62.23 20.8784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -706,7 +761,7 @@
 			)
 		)
 		(property "Sheetfile" "WaveSculptor.kicad_sch"
-			(at 57.15 56.4646 0)
+			(at 62.23 56.4646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -716,7 +771,7 @@
 			)
 		)
 		(pin "GND_ICAN" input
-			(at 57.15 52.07 180)
+			(at 62.23 52.07 180)
 			(uuid "91ce508c-b26c-4a91-9649-96b34a7d7834")
 			(effects
 				(font
@@ -726,7 +781,7 @@
 			)
 		)
 		(pin "-ICAN" input
-			(at 57.15 48.26 180)
+			(at 62.23 48.26 180)
 			(uuid "76fed2d5-cb6a-42c2-9d9c-3b0e616e89b7")
 			(effects
 				(font
@@ -736,7 +791,7 @@
 			)
 		)
 		(pin "+ICAN" input
-			(at 57.15 44.45 180)
+			(at 62.23 44.45 180)
 			(uuid "0b3b410e-b2b8-46ea-b096-becffc124f27")
 			(effects
 				(font
@@ -746,7 +801,7 @@
 			)
 		)
 		(pin "+12V_ICAN" input
-			(at 57.15 40.64 180)
+			(at 62.23 40.64 180)
 			(uuid "6ba2336a-c7cc-45d5-8481-72c640c1f0b5")
 			(effects
 				(font
@@ -756,7 +811,7 @@
 			)
 		)
 		(pin "DC+" input
-			(at 57.15 26.67 180)
+			(at 62.23 26.67 180)
 			(uuid "e0f003b9-445c-4e2a-b109-cf2fb79ac444")
 			(effects
 				(font
@@ -766,7 +821,7 @@
 			)
 		)
 		(pin "DC-" input
-			(at 57.15 33.02 180)
+			(at 62.23 33.02 180)
 			(uuid "bad80b72-55bf-42eb-b872-b1d80d34d9e4")
 			(effects
 				(font
@@ -776,7 +831,7 @@
 			)
 		)
 		(pin "PhaseA" output
-			(at 99.06 34.29 0)
+			(at 104.14 34.29 0)
 			(uuid "da3de3c1-d3c9-4cfa-bc5d-580362ee9a12")
 			(effects
 				(font
@@ -786,7 +841,7 @@
 			)
 		)
 		(pin "PhaseB" output
-			(at 99.06 38.1 0)
+			(at 104.14 38.1 0)
 			(uuid "3b8473d2-1183-49cf-8345-69822ace3d56")
 			(effects
 				(font
@@ -796,7 +851,7 @@
 			)
 		)
 		(pin "PhaseC" output
-			(at 99.06 41.91 0)
+			(at 104.14 41.91 0)
 			(uuid "03562af5-3e7b-4f5d-8e22-4a91e9ce2c8d")
 			(effects
 				(font
