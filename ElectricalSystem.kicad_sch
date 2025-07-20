@@ -10321,6 +10321,16 @@
 				(justify left top)
 			)
 		)
+		(pin "ARR_HV+" output
+			(at 360.68 82.55 180)
+			(uuid "f9740c81-c585-418f-a07a-c625bc7132ba")
+			(effects
+				(font
+					(size 2 2)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "ElectricalSystem"
 				(path "/7dc721ab-4b7a-42e7-8fa4-f406a2ddcd46"
