@@ -4416,9 +4416,9 @@
 		)
 		(uuid "b3158728-ff7a-419c-84a0-c0d7b13d899a")
 	)
-	(text "NBPDU"
+	(text "PDUBB"
 		(exclude_from_sim no)
-		(at 121.92 307.34 0)
+		(at 121.92 306.578 0)
 		(effects
 			(font
 				(size 2 2)
