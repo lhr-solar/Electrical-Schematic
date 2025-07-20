@@ -1730,13 +1730,13 @@
 	)
 	(bus
 		(pts
-			(xy 275.59 39.37) (xy 275.59 43.18)
+			(xy 275.59 43.18) (xy 275.59 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b2cd0810-ef8f-4859-9c61-b865b0e6290a")
+		(uuid "b200c02d-3031-45a4-8b2d-405c8b3c5b10")
 	)
 	(wire
 		(pts
@@ -2070,7 +2070,7 @@
 	)
 	(bus
 		(pts
-			(xy 275.59 43.18) (xy 275.59 44.45)
+			(xy 275.59 39.37) (xy 275.59 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2289,7 +2289,7 @@
 		(uuid "f0e5d384-0628-4000-be4a-7a47b05ba60d")
 	)
 	(label "CarCAN"
-		(at 275.59 43.18 0)
+		(at 275.59 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3331,7 +3331,7 @@
 			(color 255 255 194 1.0000)
 		)
 		(uuid "e8b43e47-ef81-4360-a4df-d26eb435a14c")
-		(property "Sheetname" "PeripheralSOM9"
+		(property "Sheetname" "Pump_PSOM"
 			(at 241.3 29.7684 0)
 			(effects
 				(font
@@ -3341,7 +3341,7 @@
 			)
 		)
 		(property "Sheetfile" "PeripheralSOM.kicad_sch"
-			(at 241.3 46.9396 0)
+			(at 241.3 47.5746 0)
 			(effects
 				(font
 					(size 1.27 1.27)

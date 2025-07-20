@@ -5,17 +5,6 @@
 	(uuid "a749afb8-43c1-49ba-84ed-8f65a99599c0")
 	(paper "A4")
 	(lib_symbols)
-	(hierarchical_label "-ICAN"
-		(shape input)
-		(at 147.32 102.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0e37fb61-92e4-43f6-8c98-1b79c3823a1d")
-	)
 	(hierarchical_label "+12V_ICAN"
 		(shape input)
 		(at 147.32 95.25 0)
@@ -29,7 +18,7 @@
 	)
 	(hierarchical_label "Fan1"
 		(shape output)
-		(at 147.32 110.49 0)
+		(at 147.32 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40,7 +29,7 @@
 	)
 	(hierarchical_label "Fan2"
 		(shape output)
-		(at 147.32 114.3 0)
+		(at 147.32 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49,8 +38,8 @@
 		)
 		(uuid "6a7d2e83-07e4-4894-90a7-f1837483f2df")
 	)
-	(hierarchical_label "+ICAN"
-		(shape input)
+	(hierarchical_label "MotorCAN_H"
+		(shape bidirectional)
 		(at 147.32 99.06 0)
 		(effects
 			(font
@@ -58,7 +47,7 @@
 			)
 			(justify left)
 		)
-		(uuid "9017ee56-70aa-4d94-a497-51a74b86cc4b")
+		(uuid "8dd23971-61ce-4f8d-ac69-92d3f96917c7")
 	)
 	(hierarchical_label "GND_ICAN"
 		(shape input)
@@ -70,5 +59,16 @@
 			(justify left)
 		)
 		(uuid "ece58880-3a51-4d6d-a627-f80e500996df")
+	)
+	(hierarchical_label "MotorCAN_L"
+		(shape bidirectional)
+		(at 147.32 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fd8c22b9-c63a-4d21-a186-e418def8a415")
 	)
 )

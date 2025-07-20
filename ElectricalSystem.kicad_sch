@@ -4089,7 +4089,7 @@
 	)
 	(text "Motor Precharge\nContactor"
 		(exclude_from_sim no)
-		(at 53.594 527.05 0)
+		(at 53.34 527.05 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -4126,7 +4126,7 @@
 	)
 	(text "Telemetry_Leader -> Env_1 -> Env_2 -> Env_3 -> Dyn_1 -> Dyn_2 -> Env_4\n-> Env_5 -> Env_6 -> Dyn_3"
 		(exclude_from_sim no)
-		(at 518.16 348.234 0)
+		(at 518.16 347.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4187,7 +4187,7 @@
 	)
 	(text "Low-Voltage Low-Current (20 AWG)"
 		(exclude_from_sim no)
-		(at 548.132 284.734 0)
+		(at 548.64 284.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4198,7 +4198,7 @@
 	)
 	(text "High-Voltage High-Current (6 AWG)"
 		(exclude_from_sim no)
-		(at 548.132 264.414 0)
+		(at 548.64 264.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4234,7 +4234,7 @@
 	)
 	(text "Low-Voltage High-Current (14 AWG)"
 		(exclude_from_sim no)
-		(at 548.386 278.13 0)
+		(at 548.64 278.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4245,7 +4245,7 @@
 	)
 	(text "PCAN_Motor"
 		(exclude_from_sim no)
-		(at 527.05 352.806 0)
+		(at 527.05 353.06 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -4270,7 +4270,7 @@
 	)
 	(text "VCU -> Motor_Controller_Interface -> WaveSculptor22"
 		(exclude_from_sim no)
-		(at 518.414 355.6 0)
+		(at 518.16 355.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4295,7 +4295,7 @@
 	)
 	(text "High-Voltage Low-Current (14 AWG)"
 		(exclude_from_sim no)
-		(at 548.386 270.764 0)
+		(at 548.64 270.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4306,7 +4306,7 @@
 	)
 	(text "Wire Legend:"
 		(exclude_from_sim no)
-		(at 525.526 255.27 0)
+		(at 525.78 255.27 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -4318,7 +4318,7 @@
 	)
 	(text "Notes"
 		(exclude_from_sim no)
-		(at 524.51 300.736 0)
+		(at 524.51 300.99 0)
 		(effects
 			(font
 				(size 3.175 3.175)
@@ -4343,7 +4343,7 @@
 	)
 	(text "PCAN_Controls"
 		(exclude_from_sim no)
-		(at 529.082 335.28 0)
+		(at 529.59 335.28 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -4380,7 +4380,7 @@
 	)
 	(text "PCAN_BPS"
 		(exclude_from_sim no)
-		(at 525.78 328.676 0)
+		(at 525.78 328.93 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -4418,7 +4418,7 @@
 	)
 	(text "NBPDU"
 		(exclude_from_sim no)
-		(at 121.92 306.832 0)
+		(at 121.92 307.34 0)
 		(effects
 			(font
 				(size 2 2)
@@ -4428,7 +4428,7 @@
 	)
 	(text "Motor Contactor"
 		(exclude_from_sim no)
-		(at 78.232 526.288 0)
+		(at 78.74 525.78 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -4440,7 +4440,7 @@
 	)
 	(text "PCAN_Telemetry"
 		(exclude_from_sim no)
-		(at 530.098 344.17 0)
+		(at 529.59 344.17 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -4464,7 +4464,7 @@
 	)
 	(text "Wireless"
 		(exclude_from_sim no)
-		(at 534.67 289.814 0)
+		(at 534.67 289.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4488,7 +4488,7 @@
 	)
 	(text "TODO:\n"
 		(exclude_from_sim no)
-		(at 521.97 211.836 0)
+		(at 521.97 212.09 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -4500,7 +4500,7 @@
 	)
 	(text "CarCAN"
 		(exclude_from_sim no)
-		(at 523.494 320.294 0)
+		(at 523.24 320.04 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -4512,7 +4512,7 @@
 	)
 	(text "Custom Bus Bar (cross-section?)"
 		(exclude_from_sim no)
-		(at 546.862 259.334 0)
+		(at 547.37 259.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8155,16 +8155,6 @@
 		)
 		(uuid "4f17e9b7-9b98-4893-8f16-a161f11ff0c7")
 	)
-	(label "12V_Out4"
-		(at 335.28 344.17 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4f42400d-f421-434b-98a0-dd38a3ffd9f5")
-	)
 	(label "-Sens_RGN"
 		(at 334.01 123.19 180)
 		(effects
@@ -8184,16 +8174,6 @@
 			(justify right bottom)
 		)
 		(uuid "55957504-8323-4369-a907-7254b7e20d86")
-	)
-	(label "12V_Out2"
-		(at 335.28 336.55 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "561b2691-d1d6-44d8-bc2c-2cbbfa66e48c")
 	)
 	(label "+Sens_HV-"
 		(at 99.06 173.99 0)
@@ -8244,16 +8224,6 @@
 			(justify right bottom)
 		)
 		(uuid "6d638c4b-33d7-4efb-a4ae-adfd3c6b84e8")
-	)
-	(label "12V_Out5"
-		(at 469.9 339.09 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "70c165fa-dc70-4a36-b5e0-f7513a24bc45")
 	)
 	(label "+Sens_MPCHG"
 		(at 273.05 129.54 180)
@@ -8375,16 +8345,6 @@
 		)
 		(uuid "af20f51b-7f6b-4139-94cd-d6ae3a2faf37")
 	)
-	(label "GND_Out2"
-		(at 335.28 339.09 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "af55ba79-3880-4ff4-b8d0-44c3835b07aa")
-	)
 	(label "Drive_ARR"
 		(at 298.45 68.58 0)
 		(effects
@@ -8485,16 +8445,6 @@
 		)
 		(uuid "cd2d6ac6-049c-4896-a474-5e1d2ff7f136")
 	)
-	(label "GND_Out4"
-		(at 335.28 346.71 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cebc4fc2-48e7-48df-8e8d-e038fe2dd453")
-	)
 	(label "-Sens_MTR"
 		(at 334.01 151.13 180)
 		(effects
@@ -8594,16 +8544,6 @@
 			(justify right bottom)
 		)
 		(uuid "f642d8d5-0c06-47ec-9d3e-8fce1d13726c")
-	)
-	(label "GND_Out5"
-		(at 469.9 341.63 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fae7734b-af47-4338-acd4-0384c3c690bc")
 	)
 	(symbol
 		(lib_id "Device:Fuse")
@@ -10103,7 +10043,7 @@
 			)
 		)
 		(pin "+12V_PCAN" output
-			(at 86.36 503.555 0)
+			(at 86.36 504.19 0)
 			(uuid "da3c71c9-f769-4760-91a6-7e1cfb953bed")
 			(effects
 				(font
@@ -10113,7 +10053,7 @@
 			)
 		)
 		(pin "+PCAN" output
-			(at 86.36 507.365 0)
+			(at 86.36 508 0)
 			(uuid "d55b161c-d9ff-4a87-b7b5-abaa03622860")
 			(effects
 				(font
@@ -10123,7 +10063,7 @@
 			)
 		)
 		(pin "GND_PCAN" output
-			(at 86.36 514.985 0)
+			(at 86.36 515.62 0)
 			(uuid "81c426da-8fe5-4b05-9544-f7d010e7a4fb")
 			(effects
 				(font
@@ -10133,7 +10073,7 @@
 			)
 		)
 		(pin "-PCAN" output
-			(at 86.36 511.175 0)
+			(at 86.36 511.81 0)
 			(uuid "f7bfb5ca-49cf-480b-bab8-b8af15b40f12")
 			(effects
 				(font

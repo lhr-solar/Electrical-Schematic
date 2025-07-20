@@ -5,9 +5,9 @@
 	(uuid "a75b9d60-efe3-42a6-8800-d99f3a66afe7")
 	(paper "A4")
 	(lib_symbols)
-	(hierarchical_label "IMU"
-		(shape input)
-		(at 138.43 95.25 0)
+	(hierarchical_label "Humidity_Sensor"
+		(shape output)
+		(at 139.7 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15,11 +15,11 @@
 			)
 			(justify left)
 		)
-		(uuid "4f48ae1c-fca5-4927-864e-492f2d86f350")
+		(uuid "2ebfc2a1-6370-43f1-8d9f-804fd79fdba6")
 	)
-	(hierarchical_label "Potentiometer"
-		(shape input)
-		(at 138.43 105.41 0)
+	(hierarchical_label "Temperature_Sensor"
+		(shape output)
+		(at 139.7 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27,11 +27,11 @@
 			)
 			(justify left)
 		)
-		(uuid "d39bcf64-25d5-494b-b27b-ef91d3cbbf33")
+		(uuid "65cf3660-2c31-442e-9b35-2c3d28346b57")
 	)
-	(hierarchical_label "Hall_Effect"
-		(shape input)
-		(at 138.43 100.33 0)
+	(hierarchical_label "Airflow_Sensor"
+		(shape output)
+		(at 139.7 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39,6 +39,6 @@
 			)
 			(justify left)
 		)
-		(uuid "f74817e6-ba77-4094-bd87-15ada906cd49")
+		(uuid "986bb80f-6c6f-417e-b943-a15fbf0a8fdd")
 	)
 )

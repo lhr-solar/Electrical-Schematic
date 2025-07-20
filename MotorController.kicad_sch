@@ -152,7 +152,7 @@
 		(uuid "05ffadf8-8046-46c7-bd4e-be8714c30baa")
 	)
 	(bus_entry
-		(at 60.96 74.93)
+		(at 60.96 100.33)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -170,7 +170,7 @@
 		(uuid "5ba10f07-f103-4967-a1fc-f49ba3e8ab70")
 	)
 	(bus_entry
-		(at 60.96 71.12)
+		(at 60.96 96.52)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -179,7 +179,7 @@
 		(uuid "784c5364-2389-464d-93b5-dc8421b39866")
 	)
 	(bus_entry
-		(at 60.96 63.5)
+		(at 60.96 88.9)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -206,7 +206,7 @@
 		(uuid "dc179657-133e-49e8-aa21-f95a12f82c5f")
 	)
 	(bus_entry
-		(at 60.96 67.31)
+		(at 60.96 92.71)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -226,7 +226,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 72.39) (xy 116.84 72.39)
+			(xy 104.14 97.79) (xy 116.84 97.79)
 		)
 		(stroke
 			(width 0)
@@ -236,7 +236,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 74.93) (xy 62.23 74.93)
+			(xy 60.96 100.33) (xy 62.23 100.33)
 		)
 		(stroke
 			(width 0)
@@ -246,17 +246,7 @@
 	)
 	(bus
 		(pts
-			(xy 58.42 43.18) (xy 58.42 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1eab09a7-7290-44f0-822d-44c46230d634")
-	)
-	(bus
-		(pts
-			(xy 58.42 73.66) (xy 58.42 77.47)
+			(xy 58.42 99.06) (xy 58.42 102.87)
 		)
 		(stroke
 			(width 0)
@@ -277,7 +267,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 67.31) (xy 116.84 67.31)
+			(xy 104.14 92.71) (xy 116.84 92.71)
 		)
 		(stroke
 			(width 0)
@@ -287,7 +277,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 71.12) (xy 62.23 71.12)
+			(xy 60.96 96.52) (xy 62.23 96.52)
 		)
 		(stroke
 			(width 0)
@@ -297,7 +287,17 @@
 	)
 	(bus
 		(pts
-			(xy 58.42 69.85) (xy 58.42 73.66)
+			(xy 58.42 46.99) (xy 58.42 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38eba97a-29c2-4e05-a5ed-f0fdb888d678")
+	)
+	(bus
+		(pts
+			(xy 58.42 95.25) (xy 58.42 99.06)
 		)
 		(stroke
 			(width 0)
@@ -307,7 +307,7 @@
 	)
 	(bus
 		(pts
-			(xy 58.42 54.61) (xy 58.42 66.04)
+			(xy 58.42 54.61) (xy 58.42 91.44)
 		)
 		(stroke
 			(width 0)
@@ -345,6 +345,16 @@
 			(width 0)
 			(type default)
 		)
+		(uuid "54b5ca0c-7b2f-4a4e-a9d5-ec62b7a902d2")
+	)
+	(bus
+		(pts
+			(xy 58.42 43.18) (xy 58.42 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
 		(uuid "6cc455ce-53d4-4f31-9068-652b27510fd8")
 	)
 	(wire
@@ -359,7 +369,7 @@
 	)
 	(bus
 		(pts
-			(xy 58.42 66.04) (xy 58.42 69.85)
+			(xy 58.42 91.44) (xy 58.42 95.25)
 		)
 		(stroke
 			(width 0)
@@ -378,16 +388,6 @@
 		)
 		(uuid "a5d16897-69fb-4de3-a748-45de55263553")
 	)
-	(bus
-		(pts
-			(xy 58.42 46.99) (xy 58.42 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac170c01-f9ab-440b-af47-06e24ecbefae")
-	)
 	(wire
 		(pts
 			(xy 104.14 34.29) (xy 109.22 34.29)
@@ -401,7 +401,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 67.31) (xy 62.23 67.31)
+			(xy 60.96 92.71) (xy 62.23 92.71)
 		)
 		(stroke
 			(width 0)
@@ -431,7 +431,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 63.5) (xy 62.23 63.5)
+			(xy 60.96 88.9) (xy 62.23 88.9)
 		)
 		(stroke
 			(width 0)
@@ -471,7 +471,7 @@
 		(uuid "72f379be-dbdc-4e4d-8859-5b0e6cc8d67d")
 	)
 	(label "PCAN_Motor"
-		(at 58.42 50.8 180)
+		(at 58.42 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -481,7 +481,7 @@
 		(uuid "81223152-ee37-4c37-960d-9d2d7786d32c")
 	)
 	(label "MocoFan2"
-		(at 116.84 72.39 180)
+		(at 116.84 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -491,7 +491,7 @@
 		(uuid "bff89d23-8967-4526-9837-5d536e8827d7")
 	)
 	(label "MocoFan1"
-		(at 116.84 67.31 180)
+		(at 116.84 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -499,16 +499,6 @@
 			(justify right bottom)
 		)
 		(uuid "daf1eec8-c746-4652-ad5a-818959312c8a")
-	)
-	(label "PCAN_Motor"
-		(at 58.42 73.66 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fa35a67e-6b8d-45d8-a151-5cebe9edcd37")
 	)
 	(hierarchical_label "PhaseC"
 		(shape bidirectional)
@@ -633,13 +623,12 @@
 		)
 	)
 	(sheet
-		(at 62.23 59.69)
-		(size 41.91 19.05)
+		(at 62.23 85.09)
+		(size 41.91 34.29)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -649,7 +638,7 @@
 		)
 		(uuid "00679bb1-5f5a-42f6-91c5-096e22c070ca")
 		(property "Sheetname" "MotorControllerInterface"
-			(at 62.23 58.9784 0)
+			(at 62.23 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -658,7 +647,7 @@
 			)
 		)
 		(property "Sheetfile" "MotorControllerInterface.kicad_sch"
-			(at 62.23 79.3246 0)
+			(at 62.23 119.9646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -668,7 +657,7 @@
 			)
 		)
 		(pin "+12V_ICAN" input
-			(at 62.23 63.5 180)
+			(at 62.23 88.9 180)
 			(uuid "68c813d8-ff8e-4b93-b4bb-0c4925783a09")
 			(effects
 				(font
@@ -677,28 +666,8 @@
 				(justify left)
 			)
 		)
-		(pin "+ICAN" input
-			(at 62.23 67.31 180)
-			(uuid "00c8eb1e-a486-4cdf-9bc1-c21909d549b4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "-ICAN" input
-			(at 62.23 71.12 180)
-			(uuid "3dd7d08b-0c80-4b97-98b2-1dd74fb4c261")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "GND_ICAN" input
-			(at 62.23 74.93 180)
+			(at 62.23 100.33 180)
 			(uuid "0a77800a-b4a3-4715-9f04-10cdc5efb082")
 			(effects
 				(font
@@ -708,7 +677,7 @@
 			)
 		)
 		(pin "Fan1" output
-			(at 104.14 67.31 0)
+			(at 104.14 92.71 0)
 			(uuid "77fecee4-192c-450c-b410-0583b522cff9")
 			(effects
 				(font
@@ -718,13 +687,33 @@
 			)
 		)
 		(pin "Fan2" output
-			(at 104.14 72.39 0)
+			(at 104.14 97.79 0)
 			(uuid "56821f5c-9935-4ae0-8421-402e10484a20")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "MotorCAN_L" bidirectional
+			(at 62.23 96.52 180)
+			(uuid "41175e95-454b-405e-b8af-92fed7f0abd4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MotorCAN_H" bidirectional
+			(at 62.23 92.71 180)
+			(uuid "965b2247-ca29-44ed-9409-c9ae0ca8416c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -773,26 +762,6 @@
 		(pin "GND_ICAN" input
 			(at 62.23 52.07 180)
 			(uuid "91ce508c-b26c-4a91-9649-96b34a7d7834")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "-ICAN" input
-			(at 62.23 48.26 180)
-			(uuid "76fed2d5-cb6a-42c2-9d9c-3b0e616e89b7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "+ICAN" input
-			(at 62.23 44.45 180)
-			(uuid "0b3b410e-b2b8-46ea-b096-becffc124f27")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -858,6 +827,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "MotorCAN_L" bidirectional
+			(at 62.23 48.26 180)
+			(uuid "7dafe81e-fe0b-4927-96db-0521ecd75af3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MotorCAN_H" bidirectional
+			(at 62.23 44.45 180)
+			(uuid "6c74f6e2-1c6f-4680-9ec3-c1d405902ac1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

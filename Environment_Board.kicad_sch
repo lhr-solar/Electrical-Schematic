@@ -5,4 +5,40 @@
 	(uuid "a75b9d60-efe3-42a6-8800-d99f3a66afe7")
 	(paper "A4")
 	(lib_symbols)
+	(hierarchical_label "Temperature_Sensor"
+		(shape input)
+		(at 138.43 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "7f4d25a1-ccc1-4f5a-84a3-e842cd6adaa2")
+	)
+	(hierarchical_label "Airflow_Sensor"
+		(shape input)
+		(at 138.43 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "dc6f0684-1f60-4356-87ad-bd12ce9a9f10")
+	)
+	(hierarchical_label "Humidity_Sensor"
+		(shape input)
+		(at 138.43 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "f7d1981a-eafd-48ce-8dbb-af7c3f04511e")
+	)
 )

@@ -16,18 +16,7 @@
 		)
 		(uuid "33070d12-d6f6-4208-abef-cf7559f92b6c")
 	)
-	(hierarchical_label "GND_PCAN"
-		(shape output)
-		(at 53.34 95.885 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "441325d0-e1b2-4ecd-b70a-069cd8ca34cb")
-	)
-	(hierarchical_label "+CarCAN"
+	(hierarchical_label "CarCAN_H"
 		(shape input)
 		(at 53.34 81.28 0)
 		(effects
@@ -38,7 +27,7 @@
 		)
 		(uuid "7bdead4e-8647-4d93-b4ed-0a1e36038619")
 	)
-	(hierarchical_label "-PCAN"
+	(hierarchical_label "PCAN_L"
 		(shape output)
 		(at 53.34 105.41 0)
 		(effects
@@ -49,7 +38,7 @@
 		)
 		(uuid "88b5e9b1-4e9e-42f3-8482-112c4b0c7ee8")
 	)
-	(hierarchical_label "+12V"
+	(hierarchical_label "+24V"
 		(shape input)
 		(at 53.34 58.42 0)
 		(effects
@@ -60,7 +49,7 @@
 		)
 		(uuid "9eba99f4-4f14-4da4-a09b-8a51594c9e3e")
 	)
-	(hierarchical_label "-CarCAN"
+	(hierarchical_label "CarCAN_L"
 		(shape input)
 		(at 53.34 85.09 0)
 		(effects
@@ -71,7 +60,7 @@
 		)
 		(uuid "c1425338-0cc9-40db-9230-adf3d73256e2")
 	)
-	(hierarchical_label "+PCAN"
+	(hierarchical_label "PCAN_H"
 		(shape output)
 		(at 53.34 101.6 0)
 		(effects
@@ -81,16 +70,5 @@
 			(justify left)
 		)
 		(uuid "c5ee5451-fbea-406f-9e6b-a99b4f27074c")
-	)
-	(hierarchical_label "+12V_PCAN"
-		(shape output)
-		(at 53.34 92.075 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f039e502-de64-433c-9d2e-1937be837d8c")
 	)
 )

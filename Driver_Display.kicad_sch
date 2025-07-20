@@ -5,18 +5,7 @@
 	(uuid "a969dc67-4f4e-4342-91e8-dc6fdef44822")
 	(paper "A4")
 	(lib_symbols)
-	(hierarchical_label "USB3"
-		(shape input)
-		(at 143.51 114.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0ab0c5f1-93ec-4d46-a6c5-6a641e529f88")
-	)
-	(hierarchical_label "-PCAN"
+	(hierarchical_label "CarCAN_L"
 		(shape input)
 		(at 143.51 100.965 0)
 		(effects
@@ -27,29 +16,18 @@
 		)
 		(uuid "2a70ffe7-d665-44b8-ae80-92eda242cc4f")
 	)
-	(hierarchical_label "GND_PCAN"
+	(hierarchical_label "USB_Debug"
 		(shape input)
-		(at 143.51 91.44 0)
+		(at 143.51 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "58ce9a44-1a3c-4c0b-b030-9d69006bfc20")
+		(uuid "503eb786-b733-4d7b-a945-b56045270eda")
 	)
-	(hierarchical_label "USB4"
-		(shape input)
-		(at 143.51 118.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "71b5dbe9-e31c-432b-8e98-1a32be2381cf")
-	)
-	(hierarchical_label "+PCAN"
+	(hierarchical_label "CarCAN_H"
 		(shape input)
 		(at 143.51 97.155 0)
 		(effects
@@ -60,7 +38,7 @@
 		)
 		(uuid "7984da90-4ed2-403f-b72f-dc04a2373bf6")
 	)
-	(hierarchical_label "USB1"
+	(hierarchical_label "USB_HUB"
 		(shape input)
 		(at 143.51 106.68 0)
 		(effects
@@ -70,17 +48,6 @@
 			(justify left)
 		)
 		(uuid "7a8ae4da-50ae-4f51-b660-0d4f213829b2")
-	)
-	(hierarchical_label "+12V_PCAN"
-		(shape input)
-		(at 143.51 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9f647162-1253-4658-9aba-128b0b223b5e")
 	)
 	(hierarchical_label "HDMI"
 		(shape output)
@@ -92,16 +59,5 @@
 			(justify left)
 		)
 		(uuid "b0e13ef0-d1ec-4a78-936d-0604b29d6132")
-	)
-	(hierarchical_label "USB2"
-		(shape input)
-		(at 143.51 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b837c46a-70a0-4130-9635-0db252fc9bd1")
 	)
 )

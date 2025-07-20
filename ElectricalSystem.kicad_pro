@@ -631,11 +631,11 @@
     ],
     [
       "7360fd04-f67b-4100-8121-b3061f69d3e5",
-      "Backup_Camera"
+      "Camera_Backup"
     ],
     [
       "fdd238b3-0743-48c5-8c21-1b6e421b50d1",
-      "Controls_Daughter (Dashboard)"
+      "Controls_Leader (Dashboard Interface)"
     ],
     [
       "38bfecff-6970-4d39-ad8e-2cf7b7addf33",
@@ -655,27 +655,27 @@
     ],
     [
       "612fc007-7569-4f3d-a746-64df3bb413ab",
-      "Driver_Display"
+      "Pi_Board"
     ],
     [
-      "95b070eb-af65-4a4d-95f4-dc3e9d8a2c79",
-      "LeaderSOM2"
+      "3e168e1a-b98a-440d-96fd-2e07d56acbe2",
+      "Telemetry_LSOM1"
     ],
     [
-      "673e7d3f-6462-42f6-9374-0fd082b7d7ec",
-      "Left_Side_Camera"
+      "0fc3801b-b20e-4d97-88ad-5edf61d53127",
+      "Camera_Side1"
     ],
     [
-      "5c0835e7-99da-4229-b7fa-94d33da2fd02",
-      "Lighting_Daughter_Back"
+      "139637f1-31cc-4f5f-b24a-ad581cfab449",
+      "Lights_PSOM_1"
     ],
     [
-      "89a03baf-a9b8-4ed0-8c4c-98d3b8a010cf",
-      "Dynamics_Board (3x)"
+      "dd65d86b-26ec-4b2d-a5b7-572028702137",
+      "Environment_Board (100x)"
     ],
     [
-      "5b87ca21-8d94-4232-8b15-56827d035ff1",
-      "Lighting_Daughter_Canopy"
+      "94bfc901-475d-40e9-afad-dd94b81758bc",
+      "Lighting_Daughter_#"
     ],
     [
       "cb410cb7-3c99-464a-a4d3-9e42402a3364",
@@ -687,10 +687,10 @@
     ],
     [
       "9abbd496-e24c-4284-bab7-8a72793b5b5e",
-      "Lighting_Daughter_Front"
+      "Lighting_Daughter_#"
     ],
     [
-      "5fb8f929-522f-4d90-bb6a-75a333b6ce81",
+      "26ee18eb-083a-4956-a042-331873bd4eaa",
       "Pedal_Board"
     ],
     [
@@ -699,39 +699,55 @@
     ],
     [
       "e8b43e47-ef81-4360-a4df-d26eb435a14c",
-      "PeripheralSOM9"
+      "Pump_PSOM"
     ],
     [
       "de46694e-80e8-4592-979c-49b3fca9b537",
       "Pump_Control_Board"
     ],
     [
+      "9835a37d-1a55-4a8b-bf3c-03582f54a6e9",
+      "Pedal_Board (Rear Brake Only)"
+    ],
+    [
+      "56fafd8b-4a58-409d-ac29-4db89ba9f44b",
+      "Lights_PSOM_2"
+    ],
+    [
+      "271cc69b-882b-4df3-921d-b735743b9aab",
+      "Pedal_PSOM_2"
+    ],
+    [
       "1ee70c04-467e-46a4-a34e-da10b967fb4c",
       "VoltTemp_Daughter (8x)"
     ],
     [
-      "5d94ebc1-f0ec-418e-9678-9399c27a1606",
-      "PeripheralSOM4"
-    ],
-    [
-      "9a127703-df00-45e3-852e-7daed3fa749b",
-      "PeripheralSOM5"
-    ],
-    [
       "825b6d68-f5b6-4c0a-a22f-512f5b85c926",
-      "PeripheralSOM7"
+      "Pedal_PSOM_1"
     ],
     [
-      "baef4f59-8f8e-4792-90b4-ff9c0fa8b287",
-      "PeripheralSOM8"
+      "05257b6d-5315-4ab7-a022-c56b6033bab5",
+      "Telemetry_LSOM"
     ],
     [
-      "f39bdc22-645c-4955-b32b-790e1b722807",
-      "Right_Side_Camera"
+      "f63337b9-6e35-4493-bf29-1661b567c6b9",
+      "Camera_Side2"
     ],
     [
-      "d7602283-dfd5-41f2-a36a-a8a185c80911",
-      "Steering_Board"
+      "eb2e6717-89ba-42df-a316-ea1eae347c68",
+      "Telemetry_Leader"
+    ],
+    [
+      "6e5dbb11-9ecf-43bd-85b3-87c6eb285c61",
+      "Environment_PSOM"
+    ],
+    [
+      "fb3c8407-0c8e-46ef-b27a-ac92b562257d",
+      "Environment_Sensor_Hub (100x)"
+    ],
+    [
+      "18f17e2c-3264-43f1-9518-1f8f33e14d81",
+      "TPMS_Board"
     ],
     [
       "e706363e-1a72-498a-80b9-68cba960c42a",
@@ -746,32 +762,20 @@
       "Array"
     ],
     [
-      "c826ace9-b0f7-492f-b882-9a3cb6c44868",
-      "Environment_Board (6x)"
+      "49faace9-17b1-4350-99d9-07aaead91f66",
+      "Steering_Column_Board"
     ],
     [
-      "bd04e6c9-2792-46dc-bb00-1a8eed475b85",
-      "LeaderSOM4"
+      "2f0c81c2-a211-4c68-aa4f-926f180bcbe2",
+      "Steering_Column_PSOM"
     ],
     [
       "5a721d11-e386-4775-8355-110e518de743",
       "Telemetry"
     ],
     [
-      "47f56fba-9f77-4a41-9653-b967668152d4",
-      "PeripheralSOM12"
-    ],
-    [
-      "2dd715f1-9d2b-40a6-9a34-0b400d1e0ed5",
-      "PeripheralSOM13"
-    ],
-    [
-      "60a0ffa3-6fdf-4757-83c6-92b626c008df",
-      "TPMS_Sensor (3x)"
-    ],
-    [
-      "1963dda8-3167-4880-a118-e42a73e5d981",
-      "Telemetry Daughter (Wireless Transceiver)"
+      "430358ec-c52a-43dc-abd7-fc81a395c6bd",
+      "Dynamics_Board (3x)"
     ],
     [
       "9ff33d91-2022-482a-b209-2902e75f70ab",
@@ -784,6 +788,10 @@
     [
       "1b1f8c1f-70f6-41ff-adbb-d0c3c4db4f4c",
       "MPPT_C"
+    ],
+    [
+      "3be008ac-ede2-4f7d-836e-5ecc0cd8d9f6",
+      "Dynamics_PSOM"
     ],
     [
       "76b6fc88-05ec-4108-b41d-78e967079ae1",

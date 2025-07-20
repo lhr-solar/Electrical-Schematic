@@ -16,8 +16,8 @@
 		)
 		(uuid "03939a40-fd35-4054-a9f2-d9e93bb5bfa1")
 	)
-	(hierarchical_label "+ICAN"
-		(shape input)
+	(hierarchical_label "MotorCAN_H"
+		(shape bidirectional)
 		(at 102.87 80.645 0)
 		(effects
 			(font
@@ -71,8 +71,8 @@
 		)
 		(uuid "ac9ce4d9-670e-4781-a9e2-e46e615212a0")
 	)
-	(hierarchical_label "-ICAN"
-		(shape input)
+	(hierarchical_label "MotorCAN_L"
+		(shape bidirectional)
 		(at 102.87 84.455 0)
 		(effects
 			(font

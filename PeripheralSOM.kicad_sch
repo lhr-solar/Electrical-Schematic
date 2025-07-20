@@ -5,20 +5,20 @@
 	(uuid "39af5c6b-cfa2-430d-b863-1faefcda7c76")
 	(paper "A4")
 	(lib_symbols)
-	(hierarchical_label "GND_PCAN"
+	(hierarchical_label "GND"
 		(shape input)
-		(at 136.525 82.55 0)
+		(at 137.16 83.185 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "37ce90fc-dc6c-4882-adc3-8acc94a42306")
+		(uuid "3cd61519-dccf-4c8a-b3b8-96a63f1eb5d3")
 	)
-	(hierarchical_label "+PCAN"
+	(hierarchical_label "PCAN_H"
 		(shape input)
-		(at 136.525 88.265 0)
+		(at 137.16 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27,20 +27,9 @@
 		)
 		(uuid "3ffb737d-471e-4604-8f5f-7ac4b2606c04")
 	)
-	(hierarchical_label "+12V_PCAN"
+	(hierarchical_label "PCAN_L"
 		(shape input)
-		(at 136.525 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "46b8f66f-ebbc-4529-9532-e5434ac26d30")
-	)
-	(hierarchical_label "-PCAN"
-		(shape input)
-		(at 136.525 92.075 0)
+		(at 137.16 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48,5 +37,16 @@
 			(justify left)
 		)
 		(uuid "b391c109-0c4e-415a-8dc0-bfa16021556e")
+	)
+	(hierarchical_label "+24V"
+		(shape input)
+		(at 137.16 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b8e66a2e-03ef-4ca2-bfe0-974816192148")
 	)
 )

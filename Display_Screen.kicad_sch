@@ -5,7 +5,7 @@
 	(uuid "b7cd426c-3948-4873-8fe9-54a8da35ef1c")
 	(paper "A4")
 	(lib_symbols)
-	(hierarchical_label "+12V"
+	(hierarchical_label "+24V"
 		(shape input)
 		(at 158.75 110.49 0)
 		(effects
