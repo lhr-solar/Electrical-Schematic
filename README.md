@@ -1,3 +1,5 @@
+TODO: README IS OUTDATED NEED TO UPDATE
+
 # Electrical-Schematic (WIP)
 Electrical System Architecture for the 2024-2026 LHR Solar Vehicle
 
