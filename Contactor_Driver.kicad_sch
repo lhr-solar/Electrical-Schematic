@@ -1,0 +1,96 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a75b9d60-efe3-42a6-8800-d99f3a66afe7")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "+Sens_Arr"
+		(shape output)
+		(at 133.35 98.425 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "11f16dcc-df0d-4cbd-9bd5-6b6c02dd9a48")
+	)
+	(hierarchical_label "-Sens_Motor"
+		(shape output)
+		(at 133.35 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "19602497-434d-4fbe-a665-e38f858e760b")
+	)
+	(hierarchical_label "GND_Arr"
+		(shape output)
+		(at 133.35 111.125 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5d8fb419-a357-4ade-b0f7-ae6b9bff7e59")
+	)
+	(hierarchical_label "-Sens_Arr"
+		(shape output)
+		(at 133.35 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6367f323-1283-48b3-b21d-383a4ae11cdb")
+	)
+	(hierarchical_label "Drive_Arr"
+		(shape output)
+		(at 133.35 102.235 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "69342352-159e-4c7f-ad06-6c7ee2a2268b")
+	)
+	(hierarchical_label "Drive_Motor"
+		(shape output)
+		(at 133.35 79.375 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7c5cb879-a067-48ed-a8ae-c61884a9145c")
+	)
+	(hierarchical_label "GND_Motor"
+		(shape output)
+		(at 133.35 88.265 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "950efbab-6f71-499f-83f3-f2389456ed34")
+	)
+	(hierarchical_label "+Sens_Motor"
+		(shape output)
+		(at 133.35 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bc9ddbd1-9eec-48bf-9a19-6edc571d4af9")
+	)
+)

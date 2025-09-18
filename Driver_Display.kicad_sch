@@ -1,0 +1,63 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a969dc67-4f4e-4342-91e8-dc6fdef44822")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "CarCAN_L"
+		(shape input)
+		(at 143.51 100.965 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2a70ffe7-d665-44b8-ae80-92eda242cc4f")
+	)
+	(hierarchical_label "USB_Debug"
+		(shape input)
+		(at 143.51 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "503eb786-b733-4d7b-a945-b56045270eda")
+	)
+	(hierarchical_label "CarCAN_H"
+		(shape input)
+		(at 143.51 97.155 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7984da90-4ed2-403f-b72f-dc04a2373bf6")
+	)
+	(hierarchical_label "USB_HUB"
+		(shape input)
+		(at 143.51 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7a8ae4da-50ae-4f51-b660-0d4f213829b2")
+	)
+	(hierarchical_label "HDMI"
+		(shape output)
+		(at 143.51 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b0e13ef0-d1ec-4a78-936d-0604b29d6132")
+	)
+)

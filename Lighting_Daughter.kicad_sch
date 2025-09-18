@@ -1,0 +1,74 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a75b9d60-efe3-42a6-8800-d99f3a66afe7")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "FTRT_Headlight"
+		(shape output)
+		(at 127 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1b641d29-d547-4841-a0d6-1082aa5fb3e3")
+	)
+	(hierarchical_label "SDRT_Turn"
+		(shape output)
+		(at 127 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "226a41ca-fea6-4fac-a575-d25bb3466a58")
+	)
+	(hierarchical_label "FTRT_Turn"
+		(shape output)
+		(at 127 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3de3ffcd-1b53-4362-93e9-5146f5adce98")
+	)
+	(hierarchical_label "SDLT_Turn"
+		(shape output)
+		(at 127 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "681789c5-7419-4096-99d0-977efb34e697")
+	)
+	(hierarchical_label "FTLT_Headlight"
+		(shape output)
+		(at 127 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7f743b4a-84ad-4b38-9c8d-4d00e30e69e0")
+	)
+	(hierarchical_label "FTLT_Turn"
+		(shape output)
+		(at 127 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a4fca87c-77bc-4ada-a8a5-ec7e4c89e13a")
+	)
+)

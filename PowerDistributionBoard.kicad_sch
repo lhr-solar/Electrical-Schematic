@@ -1,0 +1,52 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a7ffcdb5-11e3-44dd-8e79-9d6f396a13d9")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "+12V_OutBus"
+		(shape output)
+		(at 127.635 79.375 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0eab09ba-decf-4555-a68d-55700b5c825c")
+	)
+	(hierarchical_label "GND_OutBus"
+		(shape output)
+		(at 127.635 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1aa82ee4-da7c-4406-9d65-84fa2a2ab3e9")
+	)
+	(hierarchical_label "+12V_In"
+		(shape input)
+		(at 106.68 79.375 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1cb431d6-385a-4093-aba6-ce0d2bb9b4f4")
+	)
+	(hierarchical_label "GND_In"
+		(shape input)
+		(at 107.315 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "81daa5ae-7b10-4193-ae51-38211a1cbaa9")
+	)
+)

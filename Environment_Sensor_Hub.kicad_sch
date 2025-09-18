@@ -1,0 +1,44 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a75b9d60-efe3-42a6-8800-d99f3a66afe7")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "Humidity_Sensor"
+		(shape output)
+		(at 139.7 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "2ebfc2a1-6370-43f1-8d9f-804fd79fdba6")
+	)
+	(hierarchical_label "Temperature_Sensor"
+		(shape output)
+		(at 139.7 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "65cf3660-2c31-442e-9b35-2c3d28346b57")
+	)
+	(hierarchical_label "Airflow_Sensor"
+		(shape output)
+		(at 139.7 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "986bb80f-6c6f-417e-b943-a15fbf0a8fdd")
+	)
+)

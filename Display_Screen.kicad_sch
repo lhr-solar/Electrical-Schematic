@@ -1,0 +1,41 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b7cd426c-3948-4873-8fe9-54a8da35ef1c")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "+24V"
+		(shape input)
+		(at 158.75 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "20894035-63c0-4533-8899-f70eff28d04f")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 158.75 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e15a71b6-605e-4741-a2c0-4657aba45641")
+	)
+	(hierarchical_label "HDMI"
+		(shape input)
+		(at 158.75 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e509b740-cc1d-4ca8-8a70-9155b5cbd0e8")
+	)
+)

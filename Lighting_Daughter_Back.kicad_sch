@@ -1,0 +1,30 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a75b9d60-efe3-42a6-8800-d99f3a66afe7")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "RRRT_BRK_Turn"
+		(shape output)
+		(at 127 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3de3ffcd-1b53-4362-93e9-5146f5adce98")
+	)
+	(hierarchical_label "RRLT_BRK_Turn"
+		(shape output)
+		(at 127 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a4fca87c-77bc-4ada-a8a5-ec7e4c89e13a")
+	)
+)

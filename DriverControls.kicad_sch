@@ -1,0 +1,1933 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "8da2375c-de77-4385-91e6-a5876af76d17")
+	(paper "A4")
+	(lib_symbols)
+	(rectangle
+		(start 16.51 16.51)
+		(end 281.94 163.83)
+		(stroke
+			(width 0.508)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 17bb2690-2eba-4159-a025-8cd7618a441d)
+	)
+	(rectangle
+		(start 96.52 19.05)
+		(end 172.72 106.68)
+		(stroke
+			(width 0.508)
+			(type dash)
+			(color 183 178 33 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 585c0936-9bc3-4fa4-81c2-d900b7558be4)
+	)
+	(rectangle
+		(start 175.26 19.05)
+		(end 278.13 106.68)
+		(stroke
+			(width 0.508)
+			(type dash)
+			(color 183 178 33 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ab47a0b1-fbc6-457b-b109-95a2a476a350)
+	)
+	(rectangle
+		(start 96.52 109.22)
+		(end 278.13 161.29)
+		(stroke
+			(width 0.508)
+			(type dash)
+			(color 183 178 33 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d1baab2b-aed7-42ae-a809-e566207ea724)
+	)
+	(text "TODO: Update Power"
+		(exclude_from_sim no)
+		(at 215.9 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 254 0 0 1)
+			)
+		)
+		(uuid "2b864bb0-5110-4f44-9f20-92dbb9feedb5")
+	)
+	(text "Lighting"
+		(exclude_from_sim no)
+		(at 193.04 25.4 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 0.508)
+				(bold yes)
+				(color 183 178 33 1)
+			)
+		)
+		(uuid "32da03be-3dbd-4d4e-aced-7953eeba6f1b")
+	)
+	(text "TODO: Update I/O for Controls Leader"
+		(exclude_from_sim no)
+		(at 54.61 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 254 0 0 1)
+			)
+		)
+		(uuid "361e6f24-7c47-4b87-a996-bd9bfce7d354")
+	)
+	(text "A bunch more"
+		(exclude_from_sim no)
+		(at 247.65 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 254 0 0 1)
+			)
+		)
+		(uuid "476f58e3-7614-42de-a9be-7acf37757b09")
+	)
+	(text "Driver Controls"
+		(exclude_from_sim no)
+		(at 47.752 23.114 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "4dc37d12-56db-4c8e-ba20-1a7c405c48cc")
+	)
+	(text "TODO: Add USB Hub"
+		(exclude_from_sim no)
+		(at 154.94 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 254 0 0 1)
+			)
+		)
+		(uuid "92320917-ea8f-4108-bc03-eb8cbdddfe0d")
+	)
+	(text "Display"
+		(exclude_from_sim no)
+		(at 115.57 116.84 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 0.508)
+				(bold yes)
+				(color 183 178 33 1)
+			)
+		)
+		(uuid "948d528f-b847-4f07-83fa-a9e351406d19")
+	)
+	(text "Pedal"
+		(exclude_from_sim no)
+		(at 110.49 25.4 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 0.508)
+				(bold yes)
+				(color 183 178 33 1)
+			)
+		)
+		(uuid "f0f07226-911f-447d-abbe-8e7936f66936")
+	)
+	(text "TODO: Update Lighting after diagram is finalized"
+		(exclude_from_sim no)
+		(at 250.19 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 254 0 0 1)
+			)
+		)
+		(uuid "facb876b-1b01-4b01-b620-cd65b516a1d0")
+	)
+	(no_connect
+		(at 105.41 83.82)
+		(uuid "495dffc2-6879-4cf4-84ba-e2013ed5fbb8")
+	)
+	(no_connect
+		(at 105.41 78.74)
+		(uuid "7c6b1b10-bf76-42c8-b3ad-2d5069910219")
+	)
+	(bus_entry
+		(at 31.75 57.15)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e4fedbd-7da9-48c8-8918-617c8f3796cb")
+	)
+	(bus_entry
+		(at 217.17 43.18)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "149d8f04-1b26-452c-9123-96f8a35bd7fa")
+	)
+	(bus_entry
+		(at 217.17 46.99)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f0f6ca7-e45d-40a6-994c-5cbc8a4988bb")
+	)
+	(bus_entry
+		(at 217.17 73.66)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aa55a41-e26c-4053-bb00-6db358f54fc8")
+	)
+	(bus_entry
+		(at 152.4 69.85)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66bd1d75-9d6b-4e36-bc8e-0a58f095d0c9")
+	)
+	(bus_entry
+		(at 31.75 60.96)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87d002d8-9d92-461e-8e5c-85844e7c11a9")
+	)
+	(bus_entry
+		(at 217.17 69.85)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7e1b4b8-4f19-40de-9465-032d86185ccc")
+	)
+	(bus_entry
+		(at 152.4 73.66)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9480328-034b-43d7-a1f7-ebbd1e5fef8f")
+	)
+	(bus_entry
+		(at 152.4 43.18)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b639aebe-22f7-4a70-b6d6-5543377ee3d6")
+	)
+	(bus_entry
+		(at 152.4 46.99)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4e206fe-9f6e-4691-9285-bf9b251c6efe")
+	)
+	(bus_entry
+		(at 214.63 135.89)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cad519a7-a00b-4298-98e5-67a0685720c8")
+	)
+	(bus_entry
+		(at 214.63 139.7)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8c21395-7d3e-41e4-9243-38e5ecd002b6")
+	)
+	(bus_entry
+		(at 77.47 50.8)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc3b7438-10eb-4e81-b49c-e5ccb0f18858")
+	)
+	(bus_entry
+		(at 77.47 46.99)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdb7002c-5631-4a1c-858a-a2a41c0905d2")
+	)
+	(wire
+		(pts
+			(xy 213.36 135.89) (xy 214.63 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03233e9c-d0f3-4bd5-ad40-d56248b6bd7b")
+	)
+	(bus
+		(pts
+			(xy 154.94 49.53) (xy 154.94 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "149e8ef1-aff8-4433-afcd-2ecc4f598119")
+	)
+	(wire
+		(pts
+			(xy 151.13 43.18) (xy 152.4 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a0ad2a8-60d8-490b-8447-e8c17325fd1a")
+	)
+	(wire
+		(pts
+			(xy 34.29 54.61) (xy 35.56 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bac1ea1-a0a5-4f20-b53f-6cc93081d125")
+	)
+	(wire
+		(pts
+			(xy 151.13 69.85) (xy 152.4 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21f16b51-4202-4077-b550-fe5117072381")
+	)
+	(wire
+		(pts
+			(xy 102.87 52.07) (xy 120.65 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2232b283-159a-4d11-a08c-931dacea205e")
+	)
+	(wire
+		(pts
+			(xy 33.02 45.72) (xy 35.56 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 72 72 72 1)
+		)
+		(uuid "28a43c97-a109-44c1-abe9-d5ebd7c88ea2")
+	)
+	(bus
+		(pts
+			(xy 80.01 49.53) (xy 80.01 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b643977-4540-46e8-9b63-c4c915ba0c57")
+	)
+	(wire
+		(pts
+			(xy 213.36 139.7) (xy 214.63 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3039f92f-d86d-4a6c-acbb-4995166e5b5a")
+	)
+	(wire
+		(pts
+			(xy 237.49 139.7) (xy 234.95 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 72 72 72 1)
+		)
+		(uuid "32f396b8-c125-4df6-85a4-4f17b165913f")
+	)
+	(wire
+		(pts
+			(xy 213.36 129.54) (xy 218.44 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34a22736-df1f-48b9-bec4-dcf0055bb843")
+	)
+	(wire
+		(pts
+			(xy 34.29 58.42) (xy 35.56 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3590991a-9ac3-4f4d-937b-cb7cd9d8040c")
+	)
+	(wire
+		(pts
+			(xy 76.2 46.99) (xy 77.47 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36b9abed-0a5c-4677-9fd5-acb6a8d3222c")
+	)
+	(wire
+		(pts
+			(xy 102.87 57.15) (xy 120.65 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "554e7790-a3ba-40b5-80f1-73c5e4157c01")
+	)
+	(wire
+		(pts
+			(xy 215.9 73.66) (xy 217.17 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "573d8db2-287e-41bb-a9c2-eb0cdd2e2300")
+	)
+	(wire
+		(pts
+			(xy 104.14 81.28) (xy 120.65 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "577c5332-5e49-48f6-a9be-c2041a50a5c4")
+	)
+	(bus
+		(pts
+			(xy 219.71 72.39) (xy 219.71 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59c5d55e-1c39-4504-ad50-f87db20ceb7a")
+	)
+	(wire
+		(pts
+			(xy 33.02 43.18) (xy 35.56 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 254 0 0 1)
+		)
+		(uuid "5fd95a35-d720-488f-bef6-33834dc1249e")
+	)
+	(bus
+		(pts
+			(xy 217.17 142.24) (xy 217.17 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c233b82-d158-4d56-b22f-0d024ea290fc")
+	)
+	(bus
+		(pts
+			(xy 154.94 72.39) (xy 154.94 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e68a035-3851-4300-891d-a57bbfae0903")
+	)
+	(bus
+		(pts
+			(xy 31.75 60.96) (xy 31.75 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84f7c107-7842-460f-8105-06c8e47b7f8d")
+	)
+	(bus
+		(pts
+			(xy 219.71 49.53) (xy 219.71 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "912da6e1-6459-4e81-a9ce-e1faee1507a4")
+	)
+	(bus
+		(pts
+			(xy 219.71 45.72) (xy 219.71 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9148416f-2476-4999-b1f7-45cd9dbe4dba")
+	)
+	(wire
+		(pts
+			(xy 215.9 46.99) (xy 217.17 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9413f868-9dd0-4fa7-a436-6915e0d4fe98")
+	)
+	(bus
+		(pts
+			(xy 80.01 53.34) (xy 80.01 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ea61c8c-da4f-4a78-a01c-7ec0f9a941ea")
+	)
+	(wire
+		(pts
+			(xy 215.9 69.85) (xy 217.17 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aacfc6f0-61a8-4c01-b994-a1886662f3c4")
+	)
+	(wire
+		(pts
+			(xy 215.9 43.18) (xy 217.17 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acae07c9-4af4-4744-b8d5-b8a56acd4381")
+	)
+	(wire
+		(pts
+			(xy 151.13 73.66) (xy 152.4 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b340e47b-31c9-4534-9167-5f0dce7bdc29")
+	)
+	(wire
+		(pts
+			(xy 76.2 50.8) (xy 77.47 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4ac9629-3fec-4742-96c8-68aea2d6967e")
+	)
+	(bus
+		(pts
+			(xy 217.17 138.43) (xy 217.17 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b50395b1-3aa2-4065-a65a-97baece85484")
+	)
+	(bus
+		(pts
+			(xy 31.75 57.15) (xy 31.75 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd055b7f-05da-4918-88b0-530de2360d2d")
+	)
+	(wire
+		(pts
+			(xy 102.87 54.61) (xy 120.65 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1c6756c-fc80-4304-ab64-f880aec502c2")
+	)
+	(wire
+		(pts
+			(xy 237.49 137.16) (xy 234.95 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 254 0 0 1)
+		)
+		(uuid "d3dc7020-4388-4d19-ae13-fad74b26aa57")
+	)
+	(bus
+		(pts
+			(xy 154.94 76.2) (xy 154.94 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1e2e1af-6f26-4033-84c7-cb08ef084fb1")
+	)
+	(wire
+		(pts
+			(xy 105.41 83.82) (xy 120.65 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3124454-fd93-44b8-81ec-a1b3f0857297")
+	)
+	(bus
+		(pts
+			(xy 219.71 76.2) (xy 219.71 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e83901f4-0225-4821-b1f5-4365a819e3d7")
+	)
+	(bus
+		(pts
+			(xy 154.94 45.72) (xy 154.94 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb480a22-c45e-465c-a207-e8bcdec77ea5")
+	)
+	(wire
+		(pts
+			(xy 151.13 46.99) (xy 152.4 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3f3b7e9-033c-4f70-8e4f-b2d2a7be877e")
+	)
+	(wire
+		(pts
+			(xy 105.41 78.74) (xy 120.65 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f743c5b2-40ab-4a2c-8512-ebb0ca34cc77")
+	)
+	(label "CarCAN"
+		(at 154.94 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "16e2c406-1cd9-453d-8be8-e029c92a06e9")
+	)
+	(label "Rear_Brake_Fluid"
+		(at 104.14 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "438ecb33-f57d-4ddf-8ea9-4fa65acdbe62")
+	)
+	(label "Brake_Pot"
+		(at 102.87 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "456d3658-509b-43fc-ac8c-6ea3fca987c4")
+	)
+	(label "CarCAN"
+		(at 31.75 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "482e143c-3a7a-479c-8f5b-233d34d06ff5")
+	)
+	(label "PCAN_Controls"
+		(at 219.71 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4bb5b4ce-0486-42bf-9982-44d160b5ed4c")
+	)
+	(label "Front_Brake_Fluid"
+		(at 102.87 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a3c16ef-908a-465d-ab68-864fe1c5ba70")
+	)
+	(label "CarCAN"
+		(at 217.17 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "87952527-e4bd-4790-bda2-653bebdd2d1b")
+	)
+	(label "PCAN_Controls"
+		(at 219.71 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9fdd5e08-e1ab-496e-8436-c2e32f13a7fd")
+	)
+	(label "Accel_Pot"
+		(at 102.87 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c94155a3-cc25-45fd-822d-942ab55d33de")
+	)
+	(label "CarCAN"
+		(at 154.94 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cae79ae3-3eac-40df-8ae9-0650fd0240d4")
+	)
+	(label "PCAN_Controls"
+		(at 80.01 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dbbbfff8-3d84-4c1f-94be-a2bf8c068119")
+	)
+	(hierarchical_label "GND_In2"
+		(shape input)
+		(at 237.49 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "224ffbcc-e1ba-4819-b6bf-9f2f6451a1f4")
+	)
+	(hierarchical_label "12V_In2"
+		(shape input)
+		(at 237.49 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "73d41946-846c-4f21-9820-672138770744")
+	)
+	(hierarchical_label "12V_In1"
+		(shape input)
+		(at 33.02 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d8ebbe80-01b6-4261-ac9a-200b79172b20")
+	)
+	(hierarchical_label "GND_In1"
+		(shape input)
+		(at 33.02 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fec1f28e-0bcd-44b4-ab1a-f072af8c04e9")
+	)
+	(sheet
+		(at 130.81 133.35)
+		(size 16.51 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0fc3801b-b20e-4d97-88ad-5edf61d53127")
+		(property "Sheetname" "Camera_Side1"
+			(at 130.81 132.6384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Camera.kicad_sch"
+			(at 130.81 137.7446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "USB" output
+			(at 147.32 135.255 0)
+			(uuid "991836ab-0972-46cb-bd9a-9878fc891d68")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ElectricalSystem"
+				(path "/7dc721ab-4b7a-42e7-8fa4-f406a2ddcd46/03930dbf-9371-435b-be3e-8b1aa896dbdc"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 185.42 40.64)
+		(size 30.48 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "139637f1-31cc-4f5f-b24a-ad581cfab449")
+		(property "Sheetname" "Lights_PSOM_1"
+			(at 185.42 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PeripheralSOM.kicad_sch"
+			(at 185.42 50.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "PCAN_H" input
+			(at 215.9 43.18 0)
+			(uuid "3477f141-6280-498d-ba1c-f4ba98a594e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCAN_L" input
+			(at 215.9 46.99 0)
+			(uuid "8f024e5f-cc9e-483c-a0b5-c33226e723f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 185.42 46.99 180)
+			(uuid "8f40e6a6-0947-4aeb-9041-0cba1096edd9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+24V" input
+			(at 185.42 43.18 180)
+			(uuid "a5177c7f-f21c-474e-a5ac-26eb33a6c6bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ElectricalSystem"
+				(path "/7dc721ab-4b7a-42e7-8fa4-f406a2ddcd46/03930dbf-9371-435b-be3e-8b1aa896dbdc"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.65 49.53)
+		(size 30.48 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "26ee18eb-083a-4956-a042-331873bd4eaa")
+		(property "Sheetname" "Pedal_Board"
+			(at 120.65 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Pedal_Board.kicad_sch"
+			(at 120.65 71.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "Accel_Pot" input
+			(at 120.65 52.07 180)
+			(uuid "92dc870b-36d8-4ae1-8fe8-1338807e7cc1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Brake_Fluid" input
+			(at 120.65 54.61 180)
+			(uuid "100c1c05-736d-4904-8349-d6a571b2ee6a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Brake_Pot" input
+			(at 120.65 57.15 180)
+			(uuid "b911033d-9bb0-4b0f-b48f-fe266ac61dd0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ElectricalSystem"
+				(path "/7dc721ab-4b7a-42e7-8fa4-f406a2ddcd46/03930dbf-9371-435b-be3e-8b1aa896dbdc"
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.65 67.31)
+		(size 30.48 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "271cc69b-882b-4df3-921d-b735743b9aab")
+		(property "Sheetname" "Pedal_PSOM_2"
+			(at 120.65 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PeripheralSOM.kicad_sch"
+			(at 120.65 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "PCAN_H" input
+			(at 151.13 69.85 0)
+			(uuid "003151d2-762c-45c8-a641-019afc2bde5c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCAN_L" input
+			(at 151.13 73.66 0)
+			(uuid "a8cbafa5-84f7-460a-9eab-c44a079f131c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 120.65 73.66 180)
+			(uuid "7b9fd4ea-e432-4114-aff5-2a27e64e4141")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+24V" input
+			(at 120.65 69.85 180)
+			(uuid "7c18821b-c441-4da7-b616-abadc14e6431")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ElectricalSystem"
+				(path "/7dc721ab-4b7a-42e7-8fa4-f406a2ddcd46/03930dbf-9371-435b-be3e-8b1aa896dbdc"
+					(page "27")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 218.44 121.285)
+		(size 22.86 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "38bfecff-6970-4d39-ad8e-2cf7b7addf33")
+		(property "Sheetname" "Display_Screen"
+			(at 218.44 120.5734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Display_Screen.kicad_sch"
+			(at 218.44 132.0296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "HDMI" input
+			(at 218.44 129.54 180)
+			(uuid "7d107acb-5ef1-4b44-bf20-9d7afa894ab5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 218.44 125.73 180)
+			(uuid "05fbcb48-f86a-4c8a-ae35-064830f70aac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+24V" input
+			(at 218.44 123.19 180)
+			(uuid "7351a5d7-fdfd-46cb-b71b-fa7174fee519")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ElectricalSystem"
+				(path "/7dc721ab-4b7a-42e7-8fa4-f406a2ddcd46/03930dbf-9371-435b-be3e-8b1aa896dbdc"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 40.64)
+		(size 40.64 23.495)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 229 191 1.0000)
+		)
+		(uuid "3e168e1a-b98a-440d-96fd-2e07d56acbe2")
+		(property "Sheetname" "Telemetry_LSOM1"
+			(at 35.56 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LeaderSOM.kicad_sch"
+			(at 35.433 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "GND" input
+			(at 35.56 45.72 180)
+			(uuid "6c9499e1-fa4c-4092-8d3f-e2370c454023")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PCAN_L" output
+			(at 76.2 50.8 0)
+			(uuid "fdc98a77-87eb-4713-bdb2-3d7011f1a252")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CarCAN_L" input
+			(at 35.56 58.42 180)
+			(uuid "2fdc9d53-8ed0-45bb-adb5-86bbbc4fb384")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CarCAN_H" input
+			(at 35.56 54.61 180)
+			(uuid "92603c3c-db37-4dab-a187-d3c802efe6b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PCAN_H" output
+			(at 76.2 46.99 0)
+			(uuid "2ce2d97d-6c89-4918-8c31-60f795436576")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+24V" input
+			(at 35.56 43.18 180)
+			(uuid "b45eab07-e71a-4d2f-8190-e234a964825a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ElectricalSystem"
+				(path "/7dc721ab-4b7a-42e7-8fa4-f406a2ddcd46/03930dbf-9371-435b-be3e-8b1aa896dbdc"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 185.42 67.31)
+		(size 30.48 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "56fafd8b-4a58-409d-ac29-4db89ba9f44b")
+		(property "Sheetname" "Lights_PSOM_2"
+			(at 185.42 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PeripheralSOM.kicad_sch"
+			(at 185.42 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "PCAN_H" input
+			(at 215.9 69.85 0)
+			(uuid "0eba4a41-f823-4393-9768-d4b55b7188c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCAN_L" input
+			(at 215.9 73.66 0)
+			(uuid "c66456d4-b8f9-48a1-a9d4-6fe66f292608")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 185.42 73.66 180)
+			(uuid "3702a531-7442-4f6e-8eae-29910fc6c9e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+24V" input
+			(at 185.42 69.85 180)
+			(uuid "17fd856c-27c4-47ab-921d-3791ba16e97d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ElectricalSystem"
+				(path "/7dc721ab-4b7a-42e7-8fa4-f406a2ddcd46/03930dbf-9371-435b-be3e-8b1aa896dbdc"
+					(page "26")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 172.72 121.285)
+		(size 40.64 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "612fc007-7569-4f3d-a746-64df3bb413ab")
+		(property "Sheetname" "Pi_Board"
+			(at 172.72 151.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Driver_Display.kicad_sch"
+			(at 172.72 152.3496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Field2" ""
+			(at 172.72 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "HDMI" output
+			(at 213.36 129.54 0)
+			(uuid "2956ab0d-850f-413f-8ff2-a4bd49327509")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CarCAN_L" input
+			(at 213.36 139.7 0)
+			(uuid "b04f86f2-5efb-442a-8cb2-74827605b776")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CarCAN_H" input
+			(at 213.36 135.89 0)
+			(uuid "8ea270ec-1157-44de-bbaa-631bbba44486")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_HUB" input
+			(at 172.72 134.62 180)
+			(uuid "5097821b-a215-4b28-8b84-db5f6cac8793")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_Debug" input
+			(at 172.72 139.7 180)
+			(uuid "067b851e-191d-4641-8c90-ec07da6fbdcf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ElectricalSystem"
+				(path "/7dc721ab-4b7a-42e7-8fa4-f406a2ddcd46/03930dbf-9371-435b-be3e-8b1aa896dbdc"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 130.81 125.095)
+		(size 16.51 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7360fd04-f67b-4100-8121-b3061f69d3e5")
+		(property "Sheetname" "Camera_Backup"
+			(at 130.81 124.3834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Camera.kicad_sch"
+			(at 130.81 129.4896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "USB" output
+			(at 147.32 127 0)
+			(uuid "1266d562-f1e0-4b01-9098-c8c9a47f4cc9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ElectricalSystem"
+				(path "/7dc721ab-4b7a-42e7-8fa4-f406a2ddcd46/03930dbf-9371-435b-be3e-8b1aa896dbdc"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.65 40.64)
+		(size 30.48 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "825b6d68-f5b6-4c0a-a22f-512f5b85c926")
+		(property "Sheetname" "Pedal_PSOM_1"
+			(at 120.65 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PeripheralSOM.kicad_sch"
+			(at 120.65 50.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "PCAN_H" input
+			(at 151.13 43.18 0)
+			(uuid "627e1b12-8c3b-42e6-91b1-a3b78605240d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCAN_L" input
+			(at 151.13 46.99 0)
+			(uuid "f733df1f-f1e2-4c3f-9a76-aad3f1601ad0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 120.65 46.99 180)
+			(uuid "ddfa9d52-7571-456e-911e-2e4cc417e21b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+24V" input
+			(at 120.65 43.18 180)
+			(uuid "c4c03b04-a456-4c3c-8f9c-237cbb83e673")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ElectricalSystem"
+				(path "/7dc721ab-4b7a-42e7-8fa4-f406a2ddcd46/03930dbf-9371-435b-be3e-8b1aa896dbdc"
+					(page "31")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 185.42 76.2)
+		(size 30.48 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "94bfc901-475d-40e9-afad-dd94b81758bc")
+		(property "Sheetname" "Lighting_Daughter_#"
+			(at 185.42 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Lighting_Daughter_Front.kicad_sch"
+			(at 185.42 98.3746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "Nonaddressable_Light" output
+			(at 215.9 82.55 0)
+			(uuid "238dd6f8-b6c3-4dde-96a5-0fd3c29e6c4c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Addressable_Light" output
+			(at 215.9 85.09 0)
+			(uuid "eabb4847-9470-4753-9401-728360f33d4c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ElectricalSystem"
+				(path "/7dc721ab-4b7a-42e7-8fa4-f406a2ddcd46/03930dbf-9371-435b-be3e-8b1aa896dbdc"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.65 76.2)
+		(size 30.48 12.065)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9835a37d-1a55-4a8b-bf3c-03582f54a6e9")
+		(property "Sheetname" "Pedal_Board (Rear Brake Only)"
+			(at 120.65 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Pedal_Board.kicad_sch"
+			(at 120.65 98.3746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "Accel_Pot" input
+			(at 120.65 78.74 180)
+			(uuid "6be0b2c3-07b6-466e-9fe1-e8133c50b9ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Brake_Fluid" input
+			(at 120.65 81.28 180)
+			(uuid "1b8a1806-f9ae-40ce-9db4-ffd847c9b11c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Brake_Pot" input
+			(at 120.65 83.82 180)
+			(uuid "cb1b7aed-8c93-4756-bccc-4bc00843a208")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ElectricalSystem"
+				(path "/7dc721ab-4b7a-42e7-8fa4-f406a2ddcd46/03930dbf-9371-435b-be3e-8b1aa896dbdc"
+					(page "25")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 185.42 49.53)
+		(size 30.48 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9abbd496-e24c-4284-bab7-8a72793b5b5e")
+		(property "Sheetname" "Lighting_Daughter_#"
+			(at 185.42 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Lighting_Daughter_Front.kicad_sch"
+			(at 185.42 71.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "Nonaddressable_Light" output
+			(at 215.9 55.88 0)
+			(uuid "132dd854-4240-41d8-8d96-e4511371fb44")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Addressable_Light" output
+			(at 215.9 58.42 0)
+			(uuid "ea8c2c4a-cbbd-493f-a798-acf810570ff1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ElectricalSystem"
+				(path "/7dc721ab-4b7a-42e7-8fa4-f406a2ddcd46/03930dbf-9371-435b-be3e-8b1aa896dbdc"
+					(page "20")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 130.81 142.24)
+		(size 16.51 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f63337b9-6e35-4493-bf29-1661b567c6b9")
+		(property "Sheetname" "Camera_Side2"
+			(at 130.81 141.5284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Camera.kicad_sch"
+			(at 130.81 146.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "USB" output
+			(at 147.32 144.145 0)
+			(uuid "458e19a9-f8cf-4a1d-9d89-c6da2d36d005")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ElectricalSystem"
+				(path "/7dc721ab-4b7a-42e7-8fa4-f406a2ddcd46/03930dbf-9371-435b-be3e-8b1aa896dbdc"
+					(page "33")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 64.135)
+		(size 40.64 13.335)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fdd238b3-0743-48c5-8c21-1b6e421b50d1")
+		(property "Sheetname" "Controls_Leader (Dashboard Interface)"
+			(at 35.56 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Controls_Daugther.kicad_sch"
+			(at 35.56 95.1996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ElectricalSystem"
+				(path "/7dc721ab-4b7a-42e7-8fa4-f406a2ddcd46/03930dbf-9371-435b-be3e-8b1aa896dbdc"
+					(page "7")
+				)
+			)
+		)
+	)
+)

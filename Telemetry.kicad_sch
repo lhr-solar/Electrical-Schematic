@@ -1,27 +1,1265 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 99718652-5b10-4cd4-951e-87449c9ecde2)
-
-  (paper "A4")
-
-  (lib_symbols
-  )
-
-
-  (hierarchical_label "CAN_H" (shape bidirectional) (at 88.9 63.5 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 6a20b6ee-edfb-45f8-a2bd-10709cc1737d)
-  )
-  (hierarchical_label "+12V" (shape input) (at 88.9 69.85 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 8fde0ceb-a897-4ed1-a01d-e14a771c8b44)
-  )
-  (hierarchical_label "GND" (shape input) (at 88.9 72.39 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid ae55e309-d806-4138-946f-abbf40cfe427)
-  )
-  (hierarchical_label "CAN_L" (shape bidirectional) (at 88.9 66.04 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid b1c84da3-6bf7-4b59-a66c-4842959b8c25)
-  )
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "1cdbdb89-72f5-4b87-88cb-1a1d26e02a37")
+	(paper "A4")
+	(lib_symbols)
+	(rectangle
+		(start 160.02 19.05)
+		(end 279.4 66.04)
+		(stroke
+			(width 0.508)
+			(type dash)
+			(color 183 178 33 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 028a478c-ec6a-4312-b3e7-266eb6ea3825)
+	)
+	(rectangle
+		(start 105.41 19.05)
+		(end 157.48 66.04)
+		(stroke
+			(width 0.508)
+			(type dash)
+			(color 183 178 33 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1bcc66a6-2a70-4dae-97c9-bfba415e37ec)
+	)
+	(rectangle
+		(start 15.875 15.875)
+		(end 281.94 163.83)
+		(stroke
+			(width 0.508)
+			(type dash)
+			(color 3 143 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5a10ff8c-16bd-4720-98ef-343208b262f5)
+	)
+	(rectangle
+		(start 105.41 68.58)
+		(end 157.48 115.57)
+		(stroke
+			(width 0.508)
+			(type dash)
+			(color 183 178 33 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 682e5204-739a-400b-ba7a-ff38ef6ea211)
+	)
+	(rectangle
+		(start 160.02 68.58)
+		(end 224.79 115.57)
+		(stroke
+			(width 0.508)
+			(type dash)
+			(color 183 178 33 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c9f7cd1e-5840-46b3-b424-75f49506a6cf)
+	)
+	(text "Steering Column Board"
+		(exclude_from_sim no)
+		(at 190.5 74.93 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.508)
+				(bold yes)
+				(color 183 178 33 1)
+			)
+		)
+		(uuid "3be26210-346f-4980-b960-bf69b7fef024")
+	)
+	(text "Environment Board"
+		(exclude_from_sim no)
+		(at 186.69 25.4 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.508)
+				(bold yes)
+				(color 183 178 33 1)
+			)
+		)
+		(uuid "59c5e81a-f891-43e9-95d7-9ad317031146")
+	)
+	(text "Dynamics Board"
+		(exclude_from_sim no)
+		(at 128.27 25.4 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.508)
+				(bold yes)
+				(color 183 178 33 1)
+			)
+		)
+		(uuid "d87fffad-1115-4b57-b2ee-2100db00a335")
+	)
+	(text "TPMS Board"
+		(exclude_from_sim no)
+		(at 123.19 74.93 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.508)
+				(bold yes)
+				(color 183 178 33 1)
+			)
+		)
+		(uuid "eadf4df5-21b6-4fd2-8c16-f88b72e2f460")
+	)
+	(text "Telemetry"
+		(exclude_from_sim no)
+		(at 36.957 22.987 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 0.508)
+				(bold yes)
+				(color 3 143 0 1)
+			)
+		)
+		(uuid "eb376dc1-e288-4849-b41f-c9bf86cc1255")
+	)
+	(bus_entry
+		(at 199.39 35.56)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1156eab6-094c-446c-9b24-b1218ea400af")
+	)
+	(bus_entry
+		(at 81.28 54.61)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19f69b41-9603-46e3-8102-8d27f44ccd23")
+	)
+	(bus_entry
+		(at 81.28 50.8)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a263788-e3d7-424a-8f7b-9b52f24e89df")
+	)
+	(bus_entry
+		(at 199.39 88.9)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22cdc757-29ad-42dc-8d57-b0ebb3317729")
+	)
+	(bus_entry
+		(at 199.39 39.37)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aa42369-0026-48a3-8750-9ec33fa57133")
+	)
+	(bus_entry
+		(at 144.78 43.18)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e0c2219-b9b6-43db-b159-6359d21b7a69")
+	)
+	(bus_entry
+		(at 35.56 64.77)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54b76f8f-1357-4d55-9e2d-bf5c4d6d27d5")
+	)
+	(bus_entry
+		(at 144.78 39.37)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f1a8a52-70e4-4c3b-88aa-ba5110f20859")
+	)
+	(bus_entry
+		(at 199.39 92.71)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad1c8165-3f3e-4749-a49d-b15cb50f0247")
+	)
+	(bus_entry
+		(at 35.56 60.96)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2b1a685-1a5a-4ffa-a894-629a72fea4b1")
+	)
+	(wire
+		(pts
+			(xy 143.51 43.18) (xy 144.78 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fa20bfc-725d-438f-9e18-cbf0f0809c94")
+	)
+	(wire
+		(pts
+			(xy 36.83 49.53) (xy 39.37 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 72 72 72 1)
+		)
+		(uuid "12000ea7-86d4-4527-b7e8-66fe535a4971")
+	)
+	(wire
+		(pts
+			(xy 36.83 46.99) (xy 39.37 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 254 0 0 1)
+		)
+		(uuid "4455ff49-4d5a-4308-a8d3-d8b683d7fbf1")
+	)
+	(wire
+		(pts
+			(xy 80.01 54.61) (xy 81.28 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4573c01e-53a2-4df6-8f2e-a40984c20f4a")
+	)
+	(bus
+		(pts
+			(xy 35.56 64.77) (xy 35.56 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "477cc177-ec7c-401a-95b8-2e96649f1b88")
+	)
+	(bus
+		(pts
+			(xy 201.93 41.91) (xy 201.93 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ca1880f-b8de-45e9-a93e-43152c9df54a")
+	)
+	(wire
+		(pts
+			(xy 198.12 55.88) (xy 226.06 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "694912af-4013-4efd-8aad-a5ad86433099")
+	)
+	(wire
+		(pts
+			(xy 198.12 53.34) (xy 226.06 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "765a4593-6322-4b20-83f3-7a2e75c1e108")
+	)
+	(wire
+		(pts
+			(xy 198.12 92.71) (xy 199.39 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76beb0fc-516c-41db-809a-8b1fe6820b5d")
+	)
+	(wire
+		(pts
+			(xy 38.1 62.23) (xy 39.37 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a6e4756-2bfb-40a6-b38e-c0272ba491aa")
+	)
+	(bus
+		(pts
+			(xy 201.93 91.44) (xy 201.93 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b017b08-34e5-4dc3-a8e0-09d06fad935f")
+	)
+	(bus
+		(pts
+			(xy 201.93 95.25) (xy 201.93 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8067c450-8982-4aa9-a7bf-fcf1d8aab3fc")
+	)
+	(bus
+		(pts
+			(xy 201.93 38.1) (xy 201.93 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "894fe02d-2ed8-44d1-93b1-0d6d2a7eb3af")
+	)
+	(wire
+		(pts
+			(xy 143.51 39.37) (xy 144.78 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95837cf1-d1cd-41ae-ac7f-368a7313f049")
+	)
+	(bus
+		(pts
+			(xy 35.56 60.96) (xy 35.56 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a624fd46-0569-4d13-9b78-8fdc502ba10a")
+	)
+	(wire
+		(pts
+			(xy 38.1 58.42) (xy 39.37 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b126911d-33ca-46c9-9981-81c619c770cf")
+	)
+	(bus
+		(pts
+			(xy 83.82 53.34) (xy 83.82 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b58b0d54-841c-4fed-8d16-baa94545f4e5")
+	)
+	(wire
+		(pts
+			(xy 80.01 50.8) (xy 81.28 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6d65274-9bf0-43c6-a648-6cdcbaddd675")
+	)
+	(wire
+		(pts
+			(xy 198.12 39.37) (xy 199.39 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb5919d6-0acb-4939-b092-84bf1d9547f9")
+	)
+	(bus
+		(pts
+			(xy 83.82 57.15) (xy 83.82 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccbfc615-2898-4636-bc34-9265ed193a6d")
+	)
+	(wire
+		(pts
+			(xy 198.12 88.9) (xy 199.39 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d94c948d-1ca5-46a1-b1a2-82b6a34fec18")
+	)
+	(bus
+		(pts
+			(xy 147.32 41.91) (xy 147.32 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de0cd2eb-9eca-4f4b-a703-973ca20f1dec")
+	)
+	(wire
+		(pts
+			(xy 198.12 58.42) (xy 226.06 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7eb3240-45ea-4a11-aa83-12270ffcdf64")
+	)
+	(bus
+		(pts
+			(xy 147.32 45.72) (xy 147.32 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea95bc6c-c6a7-4abe-83a3-8e222dc43024")
+	)
+	(wire
+		(pts
+			(xy 198.12 35.56) (xy 199.39 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0d7e06b-39bb-4a37-87dd-832f58044bad")
+	)
+	(label "CarCAN"
+		(at 201.93 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "260e2172-3fa0-49f4-8787-8f8874da981b")
+	)
+	(label "CarCAN"
+		(at 35.56 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "336021aa-633d-43e5-96e2-04003e44d973")
+	)
+	(label "PCAN_Controls"
+		(at 83.82 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d114f95-2ac1-4a46-8d2b-027776b404af")
+	)
+	(label "CarCAN"
+		(at 147.32 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a59e7f20-1fac-497c-b424-3f3b3c7e4ba5")
+	)
+	(label "CarCAN"
+		(at 201.93 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ee8485d0-c958-4307-9993-a00da15d96c4")
+	)
+	(hierarchical_label "12V_In1"
+		(shape input)
+		(at 36.83 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e27b3281-353f-433f-afac-4c33be763a9a")
+	)
+	(hierarchical_label "GND_In1"
+		(shape input)
+		(at 36.83 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fe0d3411-686e-455c-b801-113041d36973")
+	)
+	(sheet
+		(at 39.37 44.45)
+		(size 40.64 23.495)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 229 191 1.0000)
+		)
+		(uuid "05257b6d-5315-4ab7-a022-c56b6033bab5")
+		(property "Sheetname" "Telemetry_LSOM"
+			(at 39.37 43.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LeaderSOM.kicad_sch"
+			(at 39.243 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "GND" input
+			(at 39.37 49.53 180)
+			(uuid "beeafe7c-ccbe-4aca-bc5e-0134f2390315")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PCAN_L" output
+			(at 80.01 54.61 0)
+			(uuid "aebad57c-e897-4637-9340-a486265ca546")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CarCAN_L" input
+			(at 39.37 62.23 180)
+			(uuid "61a82202-ceeb-4fab-b39e-3364ab3b866b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CarCAN_H" input
+			(at 39.37 58.42 180)
+			(uuid "c1035546-89d5-4668-9fe5-ab503ba3e0ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PCAN_H" output
+			(at 80.01 50.8 0)
+			(uuid "67040b2d-1468-4864-a517-96f7ad92bbfe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+24V" input
+			(at 39.37 46.99 180)
+			(uuid "76883618-c968-4f46-bfb2-4f182e0b8e02")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ElectricalSystem"
+				(path "/7dc721ab-4b7a-42e7-8fa4-f406a2ddcd46/5a721d11-e386-4775-8355-110e518de743"
+					(page "32")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 86.36)
+		(size 30.48 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "18f17e2c-3264-43f1-9518-1f8f33e14d81")
+		(property "Sheetname" "TPMS_Board"
+			(at 114.3 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TPMS_Board.kicad_sch"
+			(at 114.3 108.5346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ElectricalSystem"
+				(path "/7dc721ab-4b7a-42e7-8fa4-f406a2ddcd46/5a721d11-e386-4775-8355-110e518de743"
+					(page "37")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 167.64 86.36)
+		(size 30.48 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "2f0c81c2-a211-4c68-aa4f-926f180bcbe2")
+		(property "Sheetname" "Steering_Column_PSOM"
+			(at 167.64 85.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PeripheralSOM.kicad_sch"
+			(at 167.64 95.8346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "PCAN_H" input
+			(at 198.12 88.9 0)
+			(uuid "a6dc9c97-7034-4870-a609-e09c1c19fde3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCAN_L" input
+			(at 198.12 92.71 0)
+			(uuid "bbf0a757-b0ab-4190-ba35-2a8342c3ceeb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 167.64 92.71 180)
+			(uuid "ef4b6f44-22be-4ec9-910e-f922568c2337")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+24V" input
+			(at 167.64 88.9 180)
+			(uuid "8912c0fa-18a0-4031-886c-29027a9b4b5e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ElectricalSystem"
+				(path "/7dc721ab-4b7a-42e7-8fa4-f406a2ddcd46/5a721d11-e386-4775-8355-110e518de743"
+					(page "43")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 113.03 36.83)
+		(size 30.48 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "3be008ac-ede2-4f7d-836e-5ecc0cd8d9f6")
+		(property "Sheetname" "Dynamics_PSOM"
+			(at 113.03 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PeripheralSOM.kicad_sch"
+			(at 113.03 46.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "PCAN_H" input
+			(at 143.51 39.37 0)
+			(uuid "69d2635a-9e34-4c94-9dfa-09ba0b943296")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCAN_L" input
+			(at 143.51 43.18 0)
+			(uuid "0a2eccc8-f134-41ab-8f36-6f98e2b8b293")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 113.03 43.18 180)
+			(uuid "72577b3d-84e4-4e5d-81a2-32dde7e18ebf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+24V" input
+			(at 113.03 39.37 180)
+			(uuid "128766ad-4761-4dd4-aa9a-9f0387787145")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ElectricalSystem"
+				(path "/7dc721ab-4b7a-42e7-8fa4-f406a2ddcd46/5a721d11-e386-4775-8355-110e518de743"
+					(page "52")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 113.03 45.72)
+		(size 30.48 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "430358ec-c52a-43dc-abd7-fc81a395c6bd")
+		(property "Sheetname" "Dynamics_Board (3x)"
+			(at 113.03 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Dynamics_Board.kicad_sch"
+			(at 113.03 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "IMU" input
+			(at 113.03 48.26 180)
+			(uuid "bab182be-3891-47da-8432-4641a027a522")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Hall_Effect" input
+			(at 113.03 50.8 180)
+			(uuid "6a77e5c6-9a90-4d1c-90aa-3f23c90391d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Potentiometer" input
+			(at 113.03 53.34 180)
+			(uuid "701d3c07-f651-4ca7-9cf1-358b335647a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ElectricalSystem"
+				(path "/7dc721ab-4b7a-42e7-8fa4-f406a2ddcd46/5a721d11-e386-4775-8355-110e518de743"
+					(page "47")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 167.64 95.25)
+		(size 30.48 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "49faace9-17b1-4350-99d9-07aaead91f66")
+		(property "Sheetname" "Steering_Column_Board"
+			(at 167.64 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Steering_Column_Board.kicad_sch"
+			(at 167.64 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ElectricalSystem"
+				(path "/7dc721ab-4b7a-42e7-8fa4-f406a2ddcd46/5a721d11-e386-4775-8355-110e518de743"
+					(page "42")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 167.64 33.02)
+		(size 30.48 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "6e5dbb11-9ecf-43bd-85b3-87c6eb285c61")
+		(property "Sheetname" "Environment_PSOM"
+			(at 167.64 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PeripheralSOM.kicad_sch"
+			(at 167.64 42.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "PCAN_H" input
+			(at 198.12 35.56 0)
+			(uuid "04f05b35-98ae-40f8-90bc-3da2b9a1eba3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCAN_L" input
+			(at 198.12 39.37 0)
+			(uuid "9371b2cb-8c31-4201-ad39-489484bf3df7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 167.64 39.37 180)
+			(uuid "7538d038-4185-4e06-8b0d-b1ea2a386475")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+24V" input
+			(at 167.64 35.56 180)
+			(uuid "0243c533-0217-4179-9a0d-bc6e84350be4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ElectricalSystem"
+				(path "/7dc721ab-4b7a-42e7-8fa4-f406a2ddcd46/5a721d11-e386-4775-8355-110e518de743"
+					(page "35")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 167.64 41.91)
+		(size 30.48 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dd65d86b-26ec-4b2d-a5b7-572028702137")
+		(property "Sheetname" "Environment_Board (100x)"
+			(at 167.64 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Environment_Board.kicad_sch"
+			(at 167.64 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "Humidity_Sensor" input
+			(at 198.12 53.34 0)
+			(uuid "1af04162-0f8e-45ed-aa0b-7911c9641934")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Temperature_Sensor" input
+			(at 198.12 55.88 0)
+			(uuid "2b2d838a-6c3f-453c-bf54-5bd7ea358bd7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Airflow_Sensor" input
+			(at 198.12 58.42 0)
+			(uuid "f71ce93c-e717-4e39-9ff2-85285b6c9c59")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ElectricalSystem"
+				(path "/7dc721ab-4b7a-42e7-8fa4-f406a2ddcd46/5a721d11-e386-4775-8355-110e518de743"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 39.37 67.945)
+		(size 40.64 13.335)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "eb2e6717-89ba-42df-a316-ea1eae347c68")
+		(property "Sheetname" "Telemetry_Leader"
+			(at 39.37 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Controls_Daugther.kicad_sch"
+			(at 39.37 99.0096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "XBee_LTE" bidirectional
+			(at 80.01 72.39 0)
+			(uuid "75836924-eb95-4d59-9fd2-e26eda9ea9e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "XBee_Radio" bidirectional
+			(at 80.01 76.2 0)
+			(uuid "2dca607e-c1fe-4a65-8d50-e27aafd3b8c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ElectricalSystem"
+				(path "/7dc721ab-4b7a-42e7-8fa4-f406a2ddcd46/5a721d11-e386-4775-8355-110e518de743"
+					(page "34")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 226.06 50.8)
+		(size 30.48 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fb3c8407-0c8e-46ef-b27a-ac92b562257d")
+		(property "Sheetname" "Environment_Sensor_Hub (100x)"
+			(at 226.06 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Environment_Sensor_Hub.kicad_sch"
+			(at 226.06 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "Humidity_Sensor" output
+			(at 226.06 53.34 180)
+			(uuid "eb1738f5-952b-46c3-ba0b-8964e088fdfa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Temperature_Sensor" output
+			(at 226.06 55.88 180)
+			(uuid "38997593-6e46-4401-bf78-e8e12bca9bc7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Airflow_Sensor" output
+			(at 226.06 58.42 180)
+			(uuid "89ef9fbc-487e-4327-878c-ed1592c01c49")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ElectricalSystem"
+				(path "/7dc721ab-4b7a-42e7-8fa4-f406a2ddcd46/5a721d11-e386-4775-8355-110e518de743"
+					(page "36")
+				)
+			)
+		)
+	)
 )

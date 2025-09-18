@@ -1,0 +1,107 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "e9c1d480-93fc-44af-973c-955af5a4e421")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "GND_PCAN"
+		(shape input)
+		(at 148.59 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "04ac43a6-8e35-4bf5-b3d0-eed03c82b9c7")
+	)
+	(hierarchical_label "+PCAN"
+		(shape input)
+		(at 148.59 79.375 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "08002938-46b5-40f9-ae5c-31b1f8fa11f2")
+	)
+	(hierarchical_label "Regen"
+		(shape input)
+		(at 148.59 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "088c9d09-55d1-4bae-ae18-317e867e407d")
+	)
+	(hierarchical_label "Horn"
+		(shape input)
+		(at 148.59 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0f7ea8f2-5d82-4f16-84e9-76e899d71caf")
+	)
+	(hierarchical_label "-PCAN"
+		(shape input)
+		(at 148.59 83.185 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "579076eb-9f7f-4b37-8027-a965b77355ce")
+	)
+	(hierarchical_label "+12V_PCAN"
+		(shape input)
+		(at 148.59 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7bee470b-b1de-42eb-9a30-e3d64b4b517f")
+	)
+	(hierarchical_label "Cruise_Set"
+		(shape input)
+		(at 148.59 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a3aa848c-f31c-4d51-ba07-2e1826c57af0")
+	)
+	(hierarchical_label "Regen_EN"
+		(shape input)
+		(at 148.59 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a88024f5-7efc-4a91-b2b2-0c3393c54f2c")
+	)
+	(hierarchical_label "Turn_Signal"
+		(shape input)
+		(at 148.59 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d0d37948-8478-4a1d-a1b6-3aa1a81a29d6")
+	)
+)

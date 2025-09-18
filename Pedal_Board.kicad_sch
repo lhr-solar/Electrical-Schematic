@@ -1,0 +1,44 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a75b9d60-efe3-42a6-8800-d99f3a66afe7")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "Brake_Fluid"
+		(shape input)
+		(at 109.22 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "493a0541-c74d-468c-92c0-7c7d7ea4a77f")
+	)
+	(hierarchical_label "Accel_Pot"
+		(shape input)
+		(at 109.22 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "4f48ae1c-fca5-4927-864e-492f2d86f350")
+	)
+	(hierarchical_label "Brake_Pot"
+		(shape input)
+		(at 109.22 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "f9f0f647-db80-4116-b5b1-8de2ec1bbe16")
+	)
+)

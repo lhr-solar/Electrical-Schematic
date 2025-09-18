@@ -3,25 +3,202 @@
     "3dviewports": [],
     "design_settings": {
       "defaults": {
-        "board_outline_line_width": 0.1,
+        "apply_defaults_to_fp_fields": false,
+        "apply_defaults_to_fp_shapes": false,
+        "apply_defaults_to_fp_text": false,
+        "board_outline_line_width": 0.05,
         "copper_line_width": 0.2,
+        "copper_text_italic": false,
         "copper_text_size_h": 1.5,
         "copper_text_size_v": 1.5,
         "copper_text_thickness": 0.3,
-        "other_line_width": 0.15,
-        "silk_line_width": 0.15,
+        "copper_text_upright": false,
+        "courtyard_line_width": 0.05,
+        "dimension_precision": 4,
+        "dimension_units": 3,
+        "dimensions": {
+          "arrow_length": 1270000,
+          "extension_offset": 500000,
+          "keep_text_aligned": true,
+          "suppress_zeroes": false,
+          "text_position": 0,
+          "units_format": 1
+        },
+        "fab_line_width": 0.1,
+        "fab_text_italic": false,
+        "fab_text_size_h": 1.0,
+        "fab_text_size_v": 1.0,
+        "fab_text_thickness": 0.15,
+        "fab_text_upright": false,
+        "other_line_width": 0.1,
+        "other_text_italic": false,
+        "other_text_size_h": 1.0,
+        "other_text_size_v": 1.0,
+        "other_text_thickness": 0.15,
+        "other_text_upright": false,
+        "pads": {
+          "drill": 0.762,
+          "height": 1.524,
+          "width": 1.524
+        },
+        "silk_line_width": 0.1,
+        "silk_text_italic": false,
         "silk_text_size_h": 1.0,
         "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.15
+        "silk_text_thickness": 0.1,
+        "silk_text_upright": false,
+        "zones": {
+          "min_clearance": 0.5
+        }
       },
       "diff_pair_dimensions": [],
       "drc_exclusions": [],
-      "rules": {
-        "solder_mask_clearance": 0.0,
-        "solder_mask_min_width": 0.0
+      "meta": {
+        "version": 2
       },
+      "rule_severities": {
+        "annular_width": "error",
+        "clearance": "error",
+        "connection_width": "warning",
+        "copper_edge_clearance": "error",
+        "copper_sliver": "warning",
+        "courtyards_overlap": "error",
+        "diff_pair_gap_out_of_range": "error",
+        "diff_pair_uncoupled_length_too_long": "error",
+        "drill_out_of_range": "error",
+        "duplicate_footprints": "warning",
+        "extra_footprint": "warning",
+        "footprint": "error",
+        "footprint_symbol_mismatch": "warning",
+        "footprint_type_mismatch": "ignore",
+        "hole_clearance": "error",
+        "hole_near_hole": "error",
+        "invalid_outline": "error",
+        "isolated_copper": "warning",
+        "item_on_disabled_layer": "error",
+        "items_not_allowed": "error",
+        "length_out_of_range": "error",
+        "lib_footprint_issues": "warning",
+        "lib_footprint_mismatch": "warning",
+        "malformed_courtyard": "error",
+        "microvia_drill_out_of_range": "error",
+        "missing_courtyard": "ignore",
+        "missing_footprint": "warning",
+        "net_conflict": "warning",
+        "npth_inside_courtyard": "ignore",
+        "padstack": "warning",
+        "pth_inside_courtyard": "ignore",
+        "shorting_items": "error",
+        "silk_edge_clearance": "warning",
+        "silk_over_copper": "warning",
+        "silk_overlap": "warning",
+        "skew_out_of_range": "error",
+        "solder_mask_bridge": "error",
+        "starved_thermal": "error",
+        "text_height": "warning",
+        "text_thickness": "warning",
+        "through_hole_pad_without_hole": "error",
+        "too_many_vias": "error",
+        "track_dangling": "warning",
+        "track_width": "error",
+        "tracks_crossing": "error",
+        "unconnected_items": "error",
+        "unresolved_variable": "error",
+        "via_dangling": "warning",
+        "zones_intersect": "error"
+      },
+      "rules": {
+        "max_error": 0.005,
+        "min_clearance": 0.0,
+        "min_connection": 0.0,
+        "min_copper_edge_clearance": 0.5,
+        "min_hole_clearance": 0.25,
+        "min_hole_to_hole": 0.25,
+        "min_microvia_diameter": 0.2,
+        "min_microvia_drill": 0.1,
+        "min_resolved_spokes": 2,
+        "min_silk_clearance": 0.0,
+        "min_text_height": 0.8,
+        "min_text_thickness": 0.08,
+        "min_through_hole_diameter": 0.3,
+        "min_track_width": 0.0,
+        "min_via_annular_width": 0.1,
+        "min_via_diameter": 0.5,
+        "solder_mask_to_copper_clearance": 0.0,
+        "use_height_for_length_calcs": true
+      },
+      "teardrop_options": [
+        {
+          "td_onpadsmd": true,
+          "td_onroundshapesonly": false,
+          "td_ontrackend": false,
+          "td_onviapad": true
+        }
+      ],
+      "teardrop_parameters": [
+        {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_on_pad_in_zone": false,
+          "td_target_name": "td_round_shape",
+          "td_width_to_size_filter_ratio": 0.9
+        },
+        {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_on_pad_in_zone": false,
+          "td_target_name": "td_rect_shape",
+          "td_width_to_size_filter_ratio": 0.9
+        },
+        {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_on_pad_in_zone": false,
+          "td_target_name": "td_track_end",
+          "td_width_to_size_filter_ratio": 0.9
+        }
+      ],
       "track_widths": [],
-      "via_dimensions": []
+      "tuning_pattern_settings": {
+        "diff_pair_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 1.0
+        },
+        "diff_pair_skew_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 0.6
+        },
+        "single_track_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 0.6
+        }
+      },
+      "via_dimensions": [],
+      "zones_allow_external_fillets": false
     },
     "ipc2581": {
       "dist": "",
@@ -250,7 +427,7 @@
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
-      "simulation_model_issue": "error",
+      "simulation_model_issue": "ignore",
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
@@ -264,7 +441,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ElectricalSystem.kicad_pro",
+    "filename": "High Level Diagrams.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -282,9 +459,9 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6
       }
     ],
@@ -333,39 +510,9 @@
           "show": true
         },
         {
-          "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
-          "show": true
-        },
-        {
           "group_by": true,
           "label": "Value",
           "name": "Value",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "DNP",
-          "name": "${DNP}",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Exclude from BOM",
-          "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Exclude from Board",
-          "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Footprint",
-          "name": "Footprint",
           "show": true
         },
         {
@@ -373,12 +520,30 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "DNP",
+          "name": "${DNP}",
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "include_excluded_from_bom": false,
+      "name": "Grouped By Value",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -395,14 +560,14 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
-      "label_size_ratio": 0.25,
+      "label_size_ratio": 0.375,
       "operating_point_overlay_i_precision": 3,
       "operating_point_overlay_i_range": "~A",
       "operating_point_overlay_v_precision": 3,
       "operating_point_overlay_v_range": "~V",
       "overbar_offset_ratio": 1.23,
-      "pin_symbol_size": 0.0,
-      "text_offset_ratio": 0.08
+      "pin_symbol_size": 25.0,
+      "text_offset_ratio": 0.15
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
@@ -410,19 +575,9 @@
       "version": 1
     },
     "net_format_name": "",
-    "ngspice": {
-      "fix_include_paths": true,
-      "fix_passive_vals": false,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 0,
-      "workbook_filename": ""
-    },
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "./Picture",
     "space_save_all_events": true,
-    "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -434,208 +589,8 @@
   },
   "sheets": [
     [
-      "7dc721ab-4b7a-42e7-8fa4-f406a2ddcd46",
+      "ad43bbae-5721-430a-8636-d06a2bf225a0",
       "Root"
-    ],
-    [
-      "cd24749c-4d8c-4513-bddc-9ac0f3c0161d",
-      "ActivePrechargeBoard_Array"
-    ],
-    [
-      "c3cb5be9-e134-4f5c-a4bc-97a3a2b2e6ce",
-      "ActivePrechargeBoard_Motor"
-    ],
-    [
-      "6ad98034-4a0d-4b1c-acc1-7589502b1d53",
-      "Amperes_Daughter_Shunt"
-    ],
-    [
-      "0b4505b1-e640-4f30-9720-322d15ae4aac",
-      "BPS_Daughter"
-    ],
-    [
-      "7360fd04-f67b-4100-8121-b3061f69d3e5",
-      "Camera_Backup"
-    ],
-    [
-      "fdd238b3-0743-48c5-8c21-1b6e421b50d1",
-      "Controls_Leader (Dashboard Interface)"
-    ],
-    [
-      "38bfecff-6970-4d39-ad8e-2cf7b7addf33",
-      "Display_Screen"
-    ],
-    [
-      "7cf51b1b-07a1-42bf-b5e3-f4d55e276ba7",
-      "LeaderSOM1"
-    ],
-    [
-      "a7cfede1-6c4b-4f23-b14e-b14b9c08846b",
-      "PeripheralSOM1"
-    ],
-    [
-      "05b385b1-bb0a-4d90-9c49-50a825b15287",
-      "PeripheralSOM3"
-    ],
-    [
-      "612fc007-7569-4f3d-a746-64df3bb413ab",
-      "Pi_Board"
-    ],
-    [
-      "3e168e1a-b98a-440d-96fd-2e07d56acbe2",
-      "Telemetry_LSOM1"
-    ],
-    [
-      "0fc3801b-b20e-4d97-88ad-5edf61d53127",
-      "Camera_Side1"
-    ],
-    [
-      "139637f1-31cc-4f5f-b24a-ad581cfab449",
-      "Lights_PSOM_1"
-    ],
-    [
-      "dd65d86b-26ec-4b2d-a5b7-572028702137",
-      "Environment_Board (100x)"
-    ],
-    [
-      "94bfc901-475d-40e9-afad-dd94b81758bc",
-      "Lighting_Daughter_#"
-    ],
-    [
-      "cb410cb7-3c99-464a-a4d3-9e42402a3364",
-      "VehicleControlUnit"
-    ],
-    [
-      "117ff900-6757-4606-89df-8809639c6d77",
-      "LeaderSOM3"
-    ],
-    [
-      "9abbd496-e24c-4284-bab7-8a72793b5b5e",
-      "Lighting_Daughter_#"
-    ],
-    [
-      "26ee18eb-083a-4956-a042-331873bd4eaa",
-      "Pedal_Board"
-    ],
-    [
-      "40db271e-95ba-4ab2-a4d5-d49054a1f37e",
-      "BatteryProtectionSystem"
-    ],
-    [
-      "e8b43e47-ef81-4360-a4df-d26eb435a14c",
-      "Pump_PSOM"
-    ],
-    [
-      "de46694e-80e8-4592-979c-49b3fca9b537",
-      "Pump_Control_Board"
-    ],
-    [
-      "9835a37d-1a55-4a8b-bf3c-03582f54a6e9",
-      "Pedal_Board (Rear Brake Only)"
-    ],
-    [
-      "56fafd8b-4a58-409d-ac29-4db89ba9f44b",
-      "Lights_PSOM_2"
-    ],
-    [
-      "271cc69b-882b-4df3-921d-b735743b9aab",
-      "Pedal_PSOM_2"
-    ],
-    [
-      "1ee70c04-467e-46a4-a34e-da10b967fb4c",
-      "VoltTemp_Daughter (8x)"
-    ],
-    [
-      "825b6d68-f5b6-4c0a-a22f-512f5b85c926",
-      "Pedal_PSOM_1"
-    ],
-    [
-      "05257b6d-5315-4ab7-a022-c56b6033bab5",
-      "Telemetry_LSOM"
-    ],
-    [
-      "f63337b9-6e35-4493-bf29-1661b567c6b9",
-      "Camera_Side2"
-    ],
-    [
-      "eb2e6717-89ba-42df-a316-ea1eae347c68",
-      "Telemetry_Leader"
-    ],
-    [
-      "6e5dbb11-9ecf-43bd-85b3-87c6eb285c61",
-      "Environment_PSOM"
-    ],
-    [
-      "fb3c8407-0c8e-46ef-b27a-ac92b562257d",
-      "Environment_Sensor_Hub (100x)"
-    ],
-    [
-      "18f17e2c-3264-43f1-9518-1f8f33e14d81",
-      "TPMS_Board"
-    ],
-    [
-      "e706363e-1a72-498a-80b9-68cba960c42a",
-      "One Big Beautiful (LV) Board"
-    ],
-    [
-      "6c9a9132-9cc7-4548-abc9-4cdd5fc1471f",
-      "MPPT_A"
-    ],
-    [
-      "7805d918-15fd-499d-88a0-651285dce6df",
-      "Array"
-    ],
-    [
-      "49faace9-17b1-4350-99d9-07aaead91f66",
-      "Steering_Column_Board"
-    ],
-    [
-      "2f0c81c2-a211-4c68-aa4f-926f180bcbe2",
-      "Steering_Column_PSOM"
-    ],
-    [
-      "5a721d11-e386-4775-8355-110e518de743",
-      "Telemetry"
-    ],
-    [
-      "430358ec-c52a-43dc-abd7-fc81a395c6bd",
-      "Dynamics_Board (3x)"
-    ],
-    [
-      "3ebe306a-cc3d-48bb-b1c9-ff39065ddc94",
-      "Array"
-    ],
-    [
-      "9ff33d91-2022-482a-b209-2902e75f70ab",
-      "MPPT_B"
-    ],
-    [
-      "03930dbf-9371-435b-be3e-8b1aa896dbdc",
-      "Driver Controls"
-    ],
-    [
-      "1b1f8c1f-70f6-41ff-adbb-d0c3c4db4f4c",
-      "MPPT_C"
-    ],
-    [
-      "3be008ac-ede2-4f7d-836e-5ecc0cd8d9f6",
-      "Dynamics_PSOM"
-    ],
-    [
-      "76b6fc88-05ec-4108-b41d-78e967079ae1",
-      "MotorController"
-    ],
-    [
-      "00679bb1-5f5a-42f6-91c5-096e22c070ca",
-      "MotorControllerInterface"
-    ],
-    [
-      "66f2d6ea-6200-459c-bde3-3bf0abc90298",
-      "Prohelion WaveSculptor 22 Motor Controller"
-    ],
-    [
-      "c2a16e9e-ca19-463a-8331-1e458f814095",
-      "HV_Battery_Cells"
     ]
   ],
   "text_variables": {}

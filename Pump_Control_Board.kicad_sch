@@ -1,0 +1,92 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a75b9d60-efe3-42a6-8800-d99f3a66afe7")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "Flow1"
+		(shape input)
+		(at 109.22 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "1d81a27d-26a9-463d-94ba-f84ed65f5c18")
+	)
+	(hierarchical_label "Fan2"
+		(shape output)
+		(at 109.22 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "289503e4-efeb-4c0f-8e92-61aafc5da8bc")
+	)
+	(hierarchical_label "Fan1"
+		(shape output)
+		(at 109.22 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "695e5512-3a35-43d9-8396-66a9ff6502d7")
+	)
+	(hierarchical_label "Pump"
+		(shape output)
+		(at 109.22 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "7080090f-2c77-4f09-ae9c-777c79953eca")
+	)
+	(hierarchical_label "Temp1"
+		(shape input)
+		(at 109.22 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "7d069955-43a8-43ad-bd45-79b057ad87fc")
+	)
+	(hierarchical_label "Temp3"
+		(shape input)
+		(at 109.22 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "d2880c3d-22f9-44f5-af9a-e48f98b7da4d")
+	)
+	(hierarchical_label "Temp2"
+		(shape input)
+		(at 109.22 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "e4bcc13e-aca8-418f-a2d3-1e4faf52b15b")
+	)
+)
